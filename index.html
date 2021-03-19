@@ -9,25 +9,26 @@
 </head>
 <body>
 <header>
-    <div>
+    <ul>
     <div style="position: absolute";>
-    <a target="_blank" href="https://innopolis.university/">
-    <img src="images/Логотип.png" alt="logo"></a>
-    <a target="_blank" href="#">+7 (800) 355 12-56</a>
-    <a target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a>
-    <a target="_blank" href="#">ул.Спортивная д.1</a>
-    <a target="_blank" href="#">Заказать звонок</a>
-    <a target="_blank" href="#">RU</a> <br>
-    <a target="_blank" href="#">EVENT DETAILS</a>
-    <a target="_blank" href="#">SPEAKERS</a>
-    <a target="_blank" href="#">SPONSORS</a>
-    <a target="_blank" href="#">PAST EVENTS</a>
-    <a target="_blank" href="#">CONTACT</a>
-    <a target="_blank" href="#">Закажите билет в кино</a> <br>
-    <a target="_blank" href="#">Всем покупателям подарок!</a></div>
+   <li><a target="_blank" href="https://innopolis.university/">
+    <img src="images/Логотип.png" alt="logo"></a></li> 
+    <li><a target="_blank" href="#">+7 (800) 355 12-56</a></li>
+    <li><a target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a></li>
+    <li><a target="_blank" href="#">ул.Спортивная д.1</a></li>
+    <li><a target="_blank" href="#">Заказать звонок</a></li>
+    <li><a target="_blank" href="#">RU</a></li> <br>
+    <li><a target="_blank" href="#">EVENT DETAILS</a></li>
+    <li><a target="_blank" href="#">SPEAKERS</a></li>
+    <li><a target="_blank" href="#">SPONSORS</a></li>
+    <li><a target="_blank" href="#">PAST EVENTS</a></li>
+    <li><a target="_blank" href="#">CONTACT</a></li>
+    <li><a href="#choose films">Закажите билет в кино</a></li> <br>
+    <li><a href="#present">Всем покупателям подарок!</a></div>
+    </ul>
     <img src="images/Главная страница.png" alt="HomePage">
-    </div>
-    </header>
+    </div>    
+</header>
     <section>
     <div>
     <div>
@@ -119,27 +120,37 @@
     </div>
     <nav>
     <nav>
-        <strong>Выберите фильм</strong>
-        <p>
-        <strong>Начало сеанса</strong>
-        <strong>Название фильма</strong>
-        <strong>Жанр</strong><br>
-        <span>10:00</span>
-        <a target="_blank" href="https://www.kinopoisk.ru/film/838/">Человек-паук</a>
-        <span>Фантастика, боевик, приключения</span> <br>
-        <br>
-        <span>12:00</span>
-        <a target="_blank" href="https://www.kinopoisk.ru/film/1122114/">Собачья жизнь 2</a>
-        <span>Фэнтэзи, драма, комедия</span> <br>
-        <br>
-        <span>14:00</span> 
-        <a target="_blank" href="https://www.kinopoisk.ru/film/846824/">История игрушек 4</a>
-        <span>Мультфильм, фэнтэзи, комедия</span><br>
-        <br>
-        <span>16:00</span> 
-        <a target="_blank" href="https://www.kinopoisk.ru/film/693730/">Люди в чёрном: Интэрнэшнл</a>
-        <span>Фантастика, боевик, комедия</span><br>    
-        </p>
+        <table border="2" width=849px cellspacing="0" cellpadding="12px">
+        <tr align="center">
+        <strong id="choose films">Выберите фильм</strong>
+    <thead>
+        <th> Начало сеанса</th>
+       <th>Название</th>
+       <th>Жанр</th>
+       </tr>
+    </thead>
+    <tfoot>
+    <tr align="center">
+        <td>10:00</td>
+        <td><a target="_blank" href="https://www.kinopoisk.ru/film/838/">Человек-паук</a></td>
+        <td>Фантастика, боевик, приключения</td>
+    </tr>
+    <tr align="center">
+        <td>12:00</td>
+        <td><a target="_blank" href="https://www.kinopoisk.ru/film/1122114/">Собачья жизнь 2</a></td>
+        <td>Фэнтэзи, драма, комедия</td>
+    </tr>
+    <tr align="center">
+        <td>14:00</td> 
+        <td><a target="_blank" href="https://www.kinopoisk.ru/film/846824/">История игрушек 4</a></td>
+        <td>Мультфильм, фэнтэзи, комедия</td>
+    </tr>
+    <tr align="center">
+        <td>16:00</td> 
+        <td><a target="_blank" href="https://www.kinopoisk.ru/film/693730/">Люди в чёрном: Интэрнэшнл</a></td>
+        <td>Фантастика, боевик, комедия</td></tr>
+    </tfoot>
+    </table>
         <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
         sed do eiusmod tempor incididunt ut labore et dolore<br>
@@ -149,7 +160,7 @@
         </nav>
         <div>
     <div>
-      <strong>Подарок каждому!</strong>
+      <strong id="present">Подарок каждому!</strong>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
 sed do eiusmod tempor incididunt ut labore et dolore <br> 
@@ -249,5 +260,58 @@ pretium nibh. Eu nisl nunc mi ipsum. Nibh sit amet commodo nulla facilisi nullam
 <footer>
     <strong>Обратная связь</strong>
 </footer>
+<!-- Эксперемент из Шага 11 -->
+<div>Скоро в кино!</div>
+<ol>
+    <li>Вспомнить всё</li>
+    <li>Мортал комбат</li>
+    <li>Властелин колец</li>
+</ol>
+<div>Первая неделя показов</div>
+<ul>
+    <li>Айнбо</li>
+    <li>Никто</li>
+    <li>Идиоты</li>
+</ul>
+<!-- Эксперемент из шага 19 -->
+<form action="#" method="POST" enctype="multipart/form-data"
+    <div>
+    <input placeholder="User" type="text" name="username" value="">
+    </div>
+    <div>
+    <input placeholder="Password" type="password" name="userpass" value="">
+    </div>
+    <br>
+    <div>
+       <p><input checked type="radio" name="frut" value="apple">Гренни смит</p> 
+       <p><input type="radio" name="frut" value="apple">Анис</p>
+    </div>
+    <br>
+    <div>
+        <span>Наличие авто</span>
+        <p><input type="checkbox" name="Yescar" value="yes">Есть</p>
+        <p><input type="checkbox" name="Nocar" value="no">Нет</p>
+    </div>
+    <br>
+    <div>
+        <p><input type="file" name="Logo"</p>
+    </div>
+    <br>
+    <div>
+        <textarea name="text"cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+    <select name="furniture">
+<option value="table">Стол</option>
+<option value="Chair">Cтул</option>
+<option selected value="Armchair">Кресло</option>
+</select>
+    </div>
+    <br>
+    <div>
+        <button type="submit">Отправить</button>
+    </div>
+</form>
 </body>
 </html>
