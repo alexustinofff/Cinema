@@ -1,0 +1,668 @@
+/* Header */
+.menu {}
+
+
+
+/* section */
+.Welcome {
+    position: absolute;
+    width: 426px;
+    height: 221px;
+    left: 563px;
+    top: 525px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
+    border-radius: 10px;
+}
+
+.Why {
+    position: absolute;
+    width: 278px;
+    height: 62px;
+    left: 135px;
+    top: 697px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+
+    color: #A3CC40;
+}
+
+.BigScreen {
+    position: absolute;
+    width: 245px;
+    height: 338px;
+    left: 140px;
+    top: 843px;
+
+}
+
+.Sound {
+    position: absolute;
+    width: 245px;
+    height: 338px;
+    left: 440px;
+    top: 848px;
+}
+
+.ComfortableChairs {
+    position: absolute;
+    width: 245px;
+    height: 338px;
+    left: 739px;
+    top: 843px;
+}
+
+.Atmosphere {
+    position: absolute;
+    width: 245px;
+    height: 338px;
+    left: 140px;
+    top: 1210px;
+}
+
+.FullImmersion {
+    position: absolute;
+    width: 245px;
+    height: 338px;
+    left: 440px;
+    top: 1210px;
+}
+
+.Kissing {
+    position: absolute;
+    width: 245px;
+    height: 338px;
+    left: 739px;
+    top: 1210px;
+}
+
+#ChooseFilms {
+    position: absolute;
+    width: 394px;
+    height: 62px;
+    left: 135px;
+    top: 1692px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+
+    color: #A3CC40;
+}
+
+.Table {
+    position: absolute;
+    width: 849px;
+    height: 225px;
+    left: 138px;
+    top: 1838px;
+
+}
+
+.Session {
+    /* position: absolute;
+    width: 146.56px;
+    height: 26px;
+    left: 214px;
+    top: 1847px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF; */
+}
+
+.Name {
+    /* position: absolute;
+    width: 177px;
+    height: 26px;
+    left: 454px;
+    top: 1847px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF; */
+}
+
+.Genre {
+    /* position: absolute;
+    width: 56.53px;
+    height: 26px;
+    left: 694px;
+    top: 1847px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF; */
+}
+
+.SpiderMan {
+    /* position: absolute;
+    width: 240px;
+    height: 18px;
+    left: 454px;
+    top: 1898px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF; */
+}
+
+.Rectangle23 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 1838px;
+    background: #A3CC40;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Rectangle24 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 1883px;
+    background: #373737;
+}
+
+.Rectangle25 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 1928px;
+    background: #4C4D4F;
+}
+
+.Rectangle26 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 1973px;
+    background: #373737;
+}
+
+.Rectangle27 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 2018px;
+    background: #4C4D4F;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+.TableText {
+    position: absolute;
+    width: 539px;
+    height: 55px;
+    left: 293px;
+    top: 2093px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: #333333;
+}
+
+.PresentImg {
+    position: absolute;
+    width: 276px;
+    height: 276px;
+    left: 139px;
+    top: 2186px;
+}
+
+.PresentHead {
+    position: absolute;
+    width: 548px;
+    height: 62px;
+    left: 441px;
+    top: 2347px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: right;
+
+    /* color: #FFFFFF; */
+}
+
+.PresentText {
+    position: absolute;
+    width: 548px;
+    height: 173px;
+    left: 441px;
+    top: 2447px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: right;
+
+    /* color: #FFFFFF; */
+}
+
+.ReceivePresent {
+    position: absolute;
+    width: 190px;
+    height: 31px;
+    left: 797px;
+    top: 2646px;
+}
+
+.FilmsHead {
+    position: absolute;
+    width: 548px;
+    height: 62px;
+    left: 137px;
+    top: 2876px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+
+    color: #A3CC40;
+}
+
+.FilmsText {
+    position: absolute;
+    width: 548px;
+    height: 28px;
+    left: 139px;
+    top: 2965px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+
+    color: #333333;
+}
+
+.Survivor {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 161px;
+    top: 3074px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.SurvivorText {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 162px;
+    top: 3125px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.SurvivorPoster {
+    position: absolute;
+    background: rgba(144, 210, 61, 0.4);
+}
+
+.SurvivorFilm {
+    position: absolute;
+    width: 284px;
+    height: 284px;
+    left: 139px;
+    top: 3057px;
+}
+
+.IceFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 422.33px;
+    top: 3057px;
+}
+
+.MarsFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 702.87px;
+    top: 3057px;
+}
+
+.SatelliteFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 139px;
+    top: 3340.33px;
+}
+
+.Ak47Film {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 422.33px;
+    top: 3340.33px;
+}
+
+.TerritoryFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 705.67px;
+    top: 3340.33px;
+}
+
+.DreamFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 139px;
+    top: 3623.67px;
+}
+
+.UnknownFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 422.33px;
+    top: 3623.67px;
+}
+
+.AliveFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 705.67px;
+    top: 3623.67px;
+}
+
+.FonesFilm {
+    position: absolute;
+    width: 850px;
+    height: 850px;
+    left: 139px;
+    top: 3057px;
+    background: rgba(22, 22, 22, 0.8);
+}
+
+.FonesSurvivorFilm {
+    position: absolute;
+    width: 283px;
+    height: 283px;
+    left: 139px;
+    top: 3057px;
+    background: rgba(144, 210, 61, 0.4);
+}
+
+.Products {
+    position: absolute;
+    width: 548px;
+    height: 62px;
+    left: 139px;
+    top: 3986px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: #A3CC40;
+}
+
+.ProductsText {
+    position: absolute;
+    width: 548px;
+    height: 28px;
+    left: 139px;
+    top: 4075px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.CocaCola {
+    position: absolute;
+    width: 245px;
+    height: 331px;
+    left: 140px;
+    top: 4160px;
+}
+
+.ColaText {
+    position: absolute;
+    width: 177px;
+    height: 26px;
+    left: 178px;
+    top: 4421px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Trinket {
+    position: absolute;
+    width: 245px;
+    height: 331px;
+    left: 440px;
+    top: 4160px;
+}
+
+.TrinketText {
+    position: absolute;
+    width: 177px;
+    height: 86px;
+    left: 474px;
+    top: 4393px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Poster {
+    position: absolute;
+    width: 245px;
+    height: 331px;
+    left: 739px;
+    top: 4160px;
+}
+
+.PosterText {
+    position: absolute;
+    width: 177px;
+    height: 60px;
+    left: 773px;
+    top: 4403px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Reviews {
+    position: absolute;
+    width: 548px;
+    height: 62px;
+    left: 139px;
+    top: 4665px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: #A3CC40;
+}
+
+.ReviewsText {
+    position: absolute;
+    width: 548px;
+    height: 28px;
+    left: 141px;
+    top: 4753px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.ElenaElenova {
+    position: absolute;
+    width: 186px;
+    height: 20px;
+    left: 150.99px;
+    top: 5050px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* color: #FFFFFF; */
+}
+
+.ElenaFoto {
+    position: absolute;
+    width: 210px;
+    height: 152.71px;
+    left: 142.32px;
+    top: 4880.05px;
+    /* background: url(16f9e09b5b79546cf30d6f73497c82fc.jpg); */
+    border-radius: 8.57901px 8.57901px 0px 0px;
+}
+
+.ElenaText {
+    position: absolute;
+    width: 186px;
+    height: 52px;
+    left: 150.99px;
+    top: 5083.38px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* color: #FFFFFF; */
+}
+
+.BorisFoto {
+    position: absolute;
+    width: 245.56px;
+    height: 178.54px;
+    left: 441.76px;
+    top: 4856px;
+    /* background: url(загружено.jpg); */
+    border-radius: 10.0227px 10.0227px 0px 0px;
+}
+
+.BorisBorisov {
+    position: absolute;
+    width: 220.4px;
+    height: 23.02px;
+    left: 459.03px;
+    top: 5052.15px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* color: #FFFFFF; */
+}
+
+.BorisText {
+    position: absolute;
+    width: 220.4px;
+    height: 42.03px;
+    left: 458.83px;
+    top: 5093.72px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.LeoFoto {
+    position: absolute;
+    width: 210px;
+    height: 152.73px;
+    left: 776.47px;
+    top: 4881.06px;
+    border-radius: 8.55217px 8.55217px 0px 0px;
+}
+
+.LeoDicaprio {
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    left: 793px;
+    top: 5048px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* color: #FFFFFF; */
+}
+
+.LeoText {
+    position: absolute;
+    width: 171px;
+    height: 52px;
+    left: 793px;
+    top: 5080px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+}
