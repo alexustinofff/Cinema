@@ -1,7 +1,236 @@
 /* Header */
-.menu {}
+/* Как правильно сделать наследование, чтоб не писать каждый раз text-decoration например */
+.menu {
+    position: absolute;
+    list-style-type: none;
 
+}
 
+.menu_item_logo {
+    position: absolute;
+    left: 89px;
+    top: 58px
+}
+
+.menu_item_tel {
+    position: absolute;
+    text-decoration: none;
+    width: 111px;
+    height: 16px;
+    left: 297px;
+    top: 50px;
+    font-family: IBM Plex Sans, sans-serif;
+    /*подключить шрифт ibm plex sans*/
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu_item_mail {
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 450px;
+    top: 50px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.menu_item_adress {
+    position: absolute;
+    text-decoration: none;
+    width: 111px;
+    height: 16px;
+    left: 600px;
+    top: 50px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu_item_button {
+    position: absolute;
+    width: 130px;
+    height: 21px;
+    left: 761px;
+    top: 44px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.menu_item_bell {
+    text-decoration: none;
+    position: absolute;
+    left: 20.77%;
+    right: 5.38%;
+    top: 9.52%;
+    bottom: 14.29%;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu_item_button_iconPhone {
+    position: absolute;
+    left: 6.15%;
+    right: 84.62%;
+    top: 23.81%;
+    bottom: 19.05%;
+}
+
+.menu_item_language {
+    position: absolute;
+    text-decoration: none;
+    width: 23px;
+    height: 16px;
+    left: 1010px;
+    top: 50px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu_item_language_icon {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 1029px;
+    top: 54px;
+}
+
+.menu_item_EventDetails {
+    text-decoration: none;
+    position: absolute;
+    width: 92px;
+    height: 16px;
+    left: 302px;
+    top: 81px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.menu_item_speakers {
+    position: absolute;
+    text-decoration: none;
+    width: 58px;
+    height: 9px;
+    left: 450px;
+    top: 81px;
+    font-family: IBM Plex Sans sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu_item_sponsors {
+    position: absolute;
+    text-decoration: none;
+    width: 61px;
+    height: 9px;
+    left: 581px;
+    top: 81px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu_item_pastevents {
+    position: absolute;
+    text-decoration: none;
+    width: 74px;
+    height: 9px;
+    left: 722px;
+    top: 81px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+.menu_item_contact {
+    position: absolute;
+    text-decoration: none;
+    width: 52px;
+    height: 9px;
+    left: 871px;
+    top: 81px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu_item_ChooseFilm {
+    position: absolute;
+    text-decoration: none;
+    width: 728px;
+    height: 88px;
+    left: 209px;
+    top: 253px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 68px;
+    line-height: 88px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.menu_item_present {
+    position: absolute;
+    text-decoration: none;
+    width: 592px;
+    height: 53px;
+    left: 296px;
+    top: 345px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.MainPicture {
+    max-width: 1218px;
+    height: 741px;
+    left: -70px;
+    top: -82px;
+}
 
 /* section */
 .Welcome {
@@ -665,4 +894,80 @@
     font-weight: normal;
     font-size: 10px;
     line-height: 13px;
+}
+
+.FeedBack_Form {
+    position: absolute;
+    width: 252px;
+    height: 33px;
+    left: 633px;
+    top: 5413px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #A3CC40;
+}
+
+.FeedBack_Form_Name {
+    position: absolute;
+    width: 344px;
+    height: 40px;
+    left: 559px;
+    top: 5454px;
+    border-radius: 5px;
+}
+
+.FeedBack_Form_SeatNumber {
+    position: absolute;
+    width: 344px;
+    height: 40px;
+    left: 559px;
+    top: 5527px;
+    border-radius: 5px;
+}
+
+.FeedBack_Form_text {
+    position: absolute;
+    width: 344px;
+    height: 120px;
+    left: 559px;
+    top: 5597px;
+    border-radius: 5px;
+}
+
+.FeddBack_Form_Ok-Rectangle {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    left: 555px;
+    top: 5748px;
+    border: 1px solid #A3CC40;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.FeddBack_Form_Ok-Personal-Data {
+    position: absolute;
+    width: 275px;
+    height: 13px;
+    left: 586px;
+    top: 5749px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #333333;
+}
+
+.FeedBack_Form_Button {
+    position: absolute;
+    width: 344px;
+    height: 57px;
+    left: 559.48px;
+    top: 5807px;
+    background: #A3CC40;
+    border-radius: 6px;
 }
