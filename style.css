@@ -20,7 +20,6 @@
     left: 297px;
     top: 50px;
     font-family: IBM Plex Sans, sans-serif;
-    /*подключить шрифт ibm plex sans*/
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -227,10 +226,30 @@
 
 .MainPicture {
     max-width: 1218px;
-    height: 741px;
+    height: 648px;
     left: -70px;
     top: -82px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 648px;
+    position: relative; */
+
 }
+
+/* .MainPicture::before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background: linear-gradient(to top right, #FFFFFF 50%; rgba(0, 0, 0, 0) 52%);
+} */
 
 /* section */
 .Welcome {
@@ -249,15 +268,13 @@
     position: absolute;
     width: 278px;
     height: 62px;
-    left: 135px;
-    top: 697px;
-
+    left: 139px;
+    top: 712px;
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 62px;
-
     color: #A3CC40;
 }
 
@@ -463,6 +480,7 @@
     height: 276px;
     left: 139px;
     top: 2186px;
+    border-radius: 100%;
 }
 
 .PresentHead {
@@ -505,6 +523,10 @@
     height: 31px;
     left: 797px;
     top: 2646px;
+    border-radius: 6px;
+    background: #A3CC40;
+    color: #FFFFFF;
+
 }
 
 .FilmsHead {
@@ -771,6 +793,25 @@
     color: #A3CC40;
 }
 
+.FeedBackFone {
+    position: absolute;
+    left: 0px;
+    top: 4626px;
+    width: 1124px;
+    height: 709px;
+}
+
+.FeedBackFone::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    display: block;
+    border-left: 100vw solid #fff;
+    border-bottom: 100px solid transparent;
+    overflow: hidden;
+}
+
 .ReviewsText {
     position: absolute;
     width: 548px;
@@ -896,6 +937,14 @@
     line-height: 13px;
 }
 
+.imgCinemaHoll {
+    position: absolute;
+    width: 670px;
+    height: 527px;
+    left: 178px;
+    top: 5370px;
+}
+
 .FeedBack_Form {
     position: absolute;
     width: 252px;
@@ -970,4 +1019,293 @@
     top: 5807px;
     background: #A3CC40;
     border-radius: 6px;
+}
+
+.Map {
+    position: absolute;
+    width: 973px;
+    height: 421px;
+    left: 75px;
+    top: 5962px;
+    border-radius: 20px;
+}
+
+.Map_adress {
+    position: absolute;
+    width: 69px;
+    height: 7px;
+    left: 418px;
+    top: 6074px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 9px;
+    color: #696969;
+    text-decoration: none;
+}
+
+.Map_Map_adress_InnopolisUniversity {
+    position: absolute;
+    width: 53.33px;
+    height: 20.09px;
+    left: 393px;
+    top: 6111.76px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 9px;
+    color: #696969;
+    transform: matrix(0.84, -0.53, 0.54, 0.85, 0, 0);
+}
+
+/* footer */
+.Footer_Fone {
+    position: absolute;
+    width: 1126px;
+    height: 362px;
+    left: 10px;
+    top: 6361px;
+
+    background: #A3CC40;
+}
+
+.Footer_logo {
+    position: absolute;
+    left: 90px;
+    top: 6452px;
+}
+
+.Footer_text {
+    position: absolute;
+    width: 269px;
+    height: 72px;
+    left: 89px;
+    top: 6501px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.Foter_Copyright {
+    position: absolute;
+    width: 436px;
+    height: 39px;
+    left: 89px;
+    top: 6672px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.Footer_Site {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 26px;
+    left: 529px;
+    top: 6445px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.Footer_EventDetails {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6493px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Speakers {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6521px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Sponsors {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6549px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_PastEvents {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6577px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Contact {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 26px;
+    left: 738px;
+    top: 6445px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.Footer_Number {
+    text-decoration: none;
+    position: absolute;
+    width: 148px;
+    height: 16px;
+    left: 738px;
+    top: 6493px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_KinoPoisk {
+    text-decoration: none;
+    position: absolute;
+    width: 147px;
+    height: 16px;
+    left: 738px;
+    top: 6521px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Adress {
+    text-decoration: none;
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 738px;
+    top: 6549px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Map {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 738px;
+    top: 6593px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_AllContacts {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 738px;
+    top: 6621px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Ico_Instagram {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 96px;
+    top: 6604px;
+}
+
+.Footer_Ico_Linkedin {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 158px;
+    top: 6604px;
+}
+
+.Footer_Ico_Twitter {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 223px;
+    top: 6604.75px;
+}
+
+.Footer_Ico_YouTube {
+    position: absolute;
+    width: 18px;
+    height: 12.75px;
+    left: 290px;
+    top: 6608px;
+}
+
+.Footer_Ico_Facebook {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 347px;
+    top: 6604px;
 }
