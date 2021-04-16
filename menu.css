@@ -1,0 +1,184 @@
+div.wrapper ul.menu {
+    position: absolute;
+    list-style-type: none;
+}
+
+div.wrapper ul.menu a.menu_item_tel,
+a.menu_item_mail,
+a.menu_item_adress,
+a.menu_item_bell,
+a.menu_item_language,
+a.menu_item_EventDetails,
+a.menu_item_speakers,
+a.menu_item_sponsors,
+a.menu_item_pastevents,
+a.menu_item_contact,
+a.menu_item_ChooseFilm,
+a.menu_item_present {
+    text-decoration: none;
+    position: absolute;
+    font-family: IBM Plex Sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+div.wrapper ul.menu a.menu_item_tel,
+.menu_item_mail,
+.menu_item_adress,
+.menu_item_EventDetails,
+.menu_item_speakers,
+.menu_item_sponsors,
+.menu_item_pastevents,
+.menu_item_contact {
+    width: 111px;
+    height: 16px;
+}
+
+div.wrapper ul.menu a.menu_item_tel,
+.menu_item_mail,
+.menu_item_adress,
+.menu_item_language {
+    top: 50px;
+}
+
+div.wrapper ul.menu a.menu_item_EventDetails,
+a.menu_item_speakers,
+a.menu_item_sponsors,
+a.menu_item_pastevents,
+.menu_item_contact {
+    top: 81px;
+}
+
+.menu_item_logo {
+    position: absolute;
+    left: 89px;
+    top: 58px;
+}
+
+.menu_item_tel {
+    left: 297px
+}
+
+.menu_item_mail {
+    left: 450px;
+}
+
+.menu_item_adress {
+    left: 600px;
+}
+
+.menu_item_button {
+    position: absolute;
+    width: 130px;
+    height: 21px;
+    left: 761px;
+    top: 44px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.menu_item_bell {
+    left: 20.77%;
+    right: 5.38%;
+    top: 9.52%;
+    bottom: 14.29%;
+    text-align: center;
+    font-weight: bold !important;
+    color: black !important;
+}
+
+.menu_item_button_iconPhone {
+    position: absolute;
+    left: 6.15%;
+    right: 84.62%;
+    top: 23.81%;
+    bottom: 19.05%;
+}
+
+.menu_item_language {
+    width: 23px;
+    height: 16px;
+    left: 1010px;
+}
+
+.menu_item_language_icon {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 1029px;
+    top: 54px;
+}
+
+.menu_item_EventDetails {
+    left: 302px;
+}
+
+.menu_item_speakers {
+    left: 450px;
+}
+
+.menu_item_sponsors {
+    left: 581px;
+}
+
+.menu_item_pastevents {
+    left: 722px;
+}
+
+.menu_item_contact {
+    left: 871px;
+}
+
+.menu_item_ChooseFilm {
+    width: 728px;
+    height: 88px;
+    left: 209px;
+    top: 253px;
+    font-weight: 100 !important;
+    font-size: 68px !important;
+    line-height: 88px !important;
+    text-align: center;
+}
+
+.menu_item_present {
+    width: 592px;
+    height: 53px;
+    left: 296px;
+    top: 345px;
+    font-weight: normal !important;
+    font-size: 41px !important;
+    line-height: 53px !important;
+    text-align: center;
+}
+
+.MainPicture {
+    max-width: 1218px;
+    height: 648px;
+    left: -70px;
+    top: -82px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 648px;
+    position: relative; */
+
+}
+
+/* .MainPicture::before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background: linear-gradient(to top right, #FFFFFF 50%; rgba(0, 0, 0, 0) 52%);
+} */

@@ -1,0 +1,247 @@
+.Footer_Fone {
+    position: absolute;
+    width: 1126px;
+    height: 362px;
+    left: 10px;
+    top: 6361px;
+    background: #A3CC40;
+}
+
+.Footer_logo {
+    position: absolute;
+    left: 90px;
+    top: 6452px;
+}
+
+.Footer_text {
+    position: absolute;
+    width: 269px;
+    height: 72px;
+    left: 89px;
+    top: 6501px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.Foter_Copyright {
+    position: absolute;
+    width: 436px;
+    height: 39px;
+    left: 89px;
+    top: 6672px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.Footer_Site {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 26px;
+    left: 529px;
+    top: 6445px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.Footer_EventDetails {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6493px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Speakers {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6521px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Sponsors {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6549px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_PastEvents {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6577px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Contact {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 26px;
+    left: 738px;
+    top: 6445px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.Footer_Number {
+    text-decoration: none;
+    position: absolute;
+    width: 148px;
+    height: 16px;
+    left: 738px;
+    top: 6493px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_KinoPoisk {
+    text-decoration: none;
+    position: absolute;
+    width: 147px;
+    height: 16px;
+    left: 738px;
+    top: 6521px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Adress {
+    text-decoration: none;
+    position: absolute;
+    width: 189px;
+    height: 32px;
+    left: 738px;
+    top: 6549px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Map {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 738px;
+    top: 6593px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_AllContacts {
+    text-decoration: none;
+    position: absolute;
+    width: 111px;
+    height: 16px;
+    left: 738px;
+    top: 6621px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Footer_Ico_Instagram {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 96px;
+    top: 6604px;
+}
+
+.Footer_Ico_Linkedin {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 158px;
+    top: 6604px;
+}
+
+.Footer_Ico_Twitter {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 223px;
+    top: 6604.75px;
+}
+
+.Footer_Ico_YouTube {
+    position: absolute;
+    width: 18px;
+    height: 12.75px;
+    left: 290px;
+    top: 6608px;
+}
+
+.Footer_Ico_Facebook {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 347px;
+    top: 6604px;
+}

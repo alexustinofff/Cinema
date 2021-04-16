@@ -1,276 +1,48 @@
-/* Header */
-/* Как правильно сделать наследование, чтоб не писать каждый раз text-decoration например */
-.menu {
-    position: absolute;
-    list-style-type: none;
-
-}
-
-.menu_item_logo {
-    position: absolute;
-    left: 89px;
-    top: 58px
-}
-
-.menu_item_tel {
-    position: absolute;
-    text-decoration: none;
-    width: 111px;
-    height: 16px;
-    left: 297px;
-    top: 50px;
-    font-family: IBM Plex Sans, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.menu_item_mail {
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 450px;
-    top: 50px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-}
-
-.menu_item_adress {
-    position: absolute;
-    text-decoration: none;
-    width: 111px;
-    height: 16px;
-    left: 600px;
-    top: 50px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.menu_item_button {
-    position: absolute;
-    width: 130px;
-    height: 21px;
-    left: 761px;
-    top: 44px;
-    background-color: white;
-    border-radius: 5px;
-    border: 0px;
-}
-
-.menu_item_bell {
-    text-decoration: none;
-    position: absolute;
-    left: 20.77%;
-    right: 5.38%;
-    top: 9.52%;
-    bottom: 14.29%;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    color: #333333;
-    font-weight: bold;
-}
-
-.menu_item_button_iconPhone {
-    position: absolute;
-    left: 6.15%;
-    right: 84.62%;
-    top: 23.81%;
-    bottom: 19.05%;
-}
-
-.menu_item_language {
-    position: absolute;
-    text-decoration: none;
-    width: 23px;
-    height: 16px;
-    left: 1010px;
-    top: 50px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.menu_item_language_icon {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    left: 1029px;
-    top: 54px;
-}
-
-.menu_item_EventDetails {
-    text-decoration: none;
-    position: absolute;
-    width: 92px;
-    height: 16px;
-    left: 302px;
-    top: 81px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-    white-space: nowrap;
-}
-
-.menu_item_speakers {
-    position: absolute;
-    text-decoration: none;
-    width: 58px;
-    height: 9px;
-    left: 450px;
-    top: 81px;
-    font-family: IBM Plex Sans sans-serif;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.menu_item_sponsors {
-    position: absolute;
-    text-decoration: none;
-    width: 61px;
-    height: 9px;
-    left: 581px;
-    top: 81px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.menu_item_pastevents {
-    position: absolute;
-    text-decoration: none;
-    width: 74px;
-    height: 9px;
-    left: 722px;
-    top: 81px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    white-space: nowrap;
-    color: #FFFFFF;
-}
-
-.menu_item_contact {
-    position: absolute;
-    text-decoration: none;
-    width: 52px;
-    height: 9px;
-    left: 871px;
-    top: 81px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.menu_item_ChooseFilm {
-    position: absolute;
-    text-decoration: none;
-    width: 728px;
-    height: 88px;
-    left: 209px;
-    top: 253px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 68px;
-    line-height: 88px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.menu_item_present {
-    position: absolute;
-    text-decoration: none;
-    width: 592px;
-    height: 53px;
-    left: 296px;
-    top: 345px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 41px;
-    line-height: 53px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.MainPicture {
-    max-width: 1218px;
-    height: 648px;
-    left: -70px;
-    top: -82px;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    min-height: 648px;
-    position: relative; */
-
-}
-
-/* .MainPicture::before {
-    display: block;
-    content: "";
-    width: 100%;
-    height: 30px;
-    background-color: red;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateY(-100%);
-    background: linear-gradient(to top right, #FFFFFF 50%; rgba(0, 0, 0, 0) 52%);
-} */
-
-/* section */
-.Welcome {
+/* First page */
+.Rectangle {
     position: absolute;
     width: 426px;
     height: 221px;
     left: 563px;
     top: 525px;
-
     background: #FFFFFF;
     box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
     border-radius: 10px;
 }
 
+.Rectangle_Welcome {
+    position: absolute;
+    left: 53px;
+    top: 41px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 43px;
+
+}
+
+.Rectangle_Welcome_Text {
+    position: absolute;
+    width: 332px;
+    height: 69px;
+    left: 48px;
+    top: 99px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/* Advanteges */
 .Why {
     position: absolute;
     width: 278px;
     height: 62px;
-    left: 139px;
+    left: 140px;
     top: 712px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -278,7 +50,7 @@
     color: #A3CC40;
 }
 
-.BigScreen {
+.Img_BigScreen {
     position: absolute;
     width: 245px;
     height: 338px;
@@ -287,12 +59,67 @@
 
 }
 
+.BigScreenFirstText {
+    position: absolute;
+    width: 161px;
+    height: 26px;
+    left: 181px;
+    top: 1054px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.BigScreenText {
+    position: absolute;
+    height: 83px;
+    left: 155px;
+    top: 1102px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+}
+
 .Sound {
     position: absolute;
     width: 245px;
     height: 338px;
     left: 440px;
     top: 848px;
+}
+
+.Sound_FirstText {
+    /* position: absolute; */
+    width: 245px;
+    height: 26px;
+    left: 488px;
+    top: 1059px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.Sound_Text {
+    /* position: absolute; */
+    width: 245px;
+    height: 83px;
+    left: 464px;
+    top: 1106px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
 }
 
 .ComfortableChairs {
@@ -458,7 +285,6 @@
     border-radius: 0px 0px 10px 10px;
 }
 
-
 .TableText {
     position: absolute;
     width: 539px;
@@ -540,7 +366,6 @@
     font-weight: 500;
     font-size: 48px;
     line-height: 62px;
-
     color: #A3CC40;
 }
 
@@ -555,7 +380,6 @@
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
-
     color: #333333;
 }
 
@@ -1058,254 +882,4 @@
     line-height: 9px;
     color: #696969;
     transform: matrix(0.84, -0.53, 0.54, 0.85, 0, 0);
-}
-
-/* footer */
-.Footer_Fone {
-    position: absolute;
-    width: 1126px;
-    height: 362px;
-    left: 10px;
-    top: 6361px;
-
-    background: #A3CC40;
-}
-
-.Footer_logo {
-    position: absolute;
-    left: 90px;
-    top: 6452px;
-}
-
-.Footer_text {
-    position: absolute;
-    width: 269px;
-    height: 72px;
-    left: 89px;
-    top: 6501px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF;
-}
-
-.Foter_Copyright {
-    position: absolute;
-    width: 436px;
-    height: 39px;
-    left: 89px;
-    top: 6672px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 19px;
-    color: #FFFFFF;
-}
-
-.Footer_Site {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 26px;
-    left: 529px;
-    top: 6445px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
-
-.Footer_EventDetails {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6493px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Speakers {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6521px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Sponsors {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6549px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_PastEvents {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6577px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Contact {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 26px;
-    left: 738px;
-    top: 6445px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
-
-.Footer_Number {
-    text-decoration: none;
-    position: absolute;
-    width: 148px;
-    height: 16px;
-    left: 738px;
-    top: 6493px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_KinoPoisk {
-    text-decoration: none;
-    position: absolute;
-    width: 147px;
-    height: 16px;
-    left: 738px;
-    top: 6521px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Adress {
-    text-decoration: none;
-    position: absolute;
-    width: 189px;
-    height: 32px;
-    left: 738px;
-    top: 6549px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Map {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 738px;
-    top: 6593px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_AllContacts {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 738px;
-    top: 6621px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Ico_Instagram {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 96px;
-    top: 6604px;
-}
-
-.Footer_Ico_Linkedin {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 158px;
-    top: 6604px;
-}
-
-.Footer_Ico_Twitter {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 223px;
-    top: 6604.75px;
-}
-
-.Footer_Ico_YouTube {
-    position: absolute;
-    width: 18px;
-    height: 12.75px;
-    left: 290px;
-    top: 6608px;
-}
-
-.Footer_Ico_Facebook {
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 347px;
-    top: 6604px;
 }
