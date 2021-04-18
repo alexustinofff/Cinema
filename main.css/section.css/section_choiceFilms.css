@@ -1,0 +1,150 @@
+.FilmsHead {
+    position: absolute;
+    width: 548px;
+    height: 62px;
+    left: 137px;
+    top: 2876px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: #A3CC40;
+}
+
+.FilmsText {
+    position: absolute;
+    width: 548px;
+    height: 28px;
+    left: 139px;
+    top: 2965px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.Survivor {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 161px;
+    top: 3074px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.SurvivorText {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 162px;
+    top: 3125px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.SurvivorPoster {
+    position: absolute;
+    background: rgba(144, 210, 61, 0.4);
+}
+
+.SurvivorFilm {
+    position: absolute;
+    width: 284px;
+    height: 284px;
+    left: 139px;
+    top: 3057px;
+}
+
+.IceFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 422.33px;
+    top: 3057px;
+}
+
+.MarsFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 702.87px;
+    top: 3057px;
+}
+
+.SatelliteFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 139px;
+    top: 3340.33px;
+}
+
+.Ak47Film {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 422.33px;
+    top: 3340.33px;
+}
+
+.TerritoryFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 705.67px;
+    top: 3340.33px;
+}
+
+.DreamFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 139px;
+    top: 3623.67px;
+}
+
+.UnknownFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 422.33px;
+    top: 3623.67px;
+}
+
+.AliveFilm {
+    position: absolute;
+    width: 283.33px;
+    height: 283.33px;
+    left: 705.67px;
+    top: 3623.67px;
+}
+
+.FonesFilm {
+    position: absolute;
+    width: 850px;
+    height: 850px;
+    left: 139px;
+    top: 3057px;
+    background: rgba(22, 22, 22, 0.8);
+}
+
+.FonesSurvivorFilm {
+    position: absolute;
+    width: 283px;
+    height: 283px;
+    left: 139px;
+    top: 3057px;
+    background: rgba(144, 210, 61, 0.4);
+}

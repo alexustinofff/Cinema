@@ -1,0 +1,54 @@
+.PresentImg {
+    position: absolute;
+    width: 276px;
+    height: 276px;
+    left: 139px;
+    top: 2186px;
+    border-radius: 100%;
+}
+
+.PresentHead {
+    position: absolute;
+    width: 548px;
+    height: 62px;
+    left: 441px;
+    top: 2347px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: right;
+
+    /* color: #FFFFFF; */
+}
+
+.PresentText {
+    position: absolute;
+    width: 548px;
+    height: 173px;
+    left: 441px;
+    top: 2447px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: right;
+
+    /* color: #FFFFFF; */
+}
+
+.ReceivePresent {
+    position: absolute;
+    width: 190px;
+    height: 31px;
+    left: 797px;
+    top: 2646px;
+    border-radius: 6px;
+    background: #A3CC40;
+    color: #FFFFFF;
+
+}

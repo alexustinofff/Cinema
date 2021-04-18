@@ -1,0 +1,165 @@
+.Reviews {
+    position: absolute;
+    width: 548px;
+    height: 62px;
+    left: 139px;
+    top: 4665px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: #A3CC40;
+}
+
+.FeedBackFone {
+    position: absolute;
+    left: 0px;
+    top: 4626px;
+    width: 1124px;
+    height: 709px;
+}
+
+.FeedBackFone::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    display: block;
+    border-left: 100vw solid #fff;
+    border-bottom: 100px solid transparent;
+    overflow: hidden;
+}
+
+.ReviewsText {
+    position: absolute;
+    width: 548px;
+    height: 28px;
+    left: 141px;
+    top: 4753px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.ElenaElenova {
+    position: absolute;
+    width: 186px;
+    height: 20px;
+    left: 150.99px;
+    top: 5050px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* color: #FFFFFF; */
+}
+
+.ElenaFoto {
+    position: absolute;
+    width: 210px;
+    height: 152.71px;
+    left: 142.32px;
+    top: 4880.05px;
+    /* background: url(16f9e09b5b79546cf30d6f73497c82fc.jpg); */
+    border-radius: 8.57901px 8.57901px 0px 0px;
+}
+
+.ElenaText {
+    position: absolute;
+    width: 186px;
+    height: 52px;
+    left: 150.99px;
+    top: 5083.38px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* color: #FFFFFF; */
+}
+
+.BorisFoto {
+    position: absolute;
+    width: 245.56px;
+    height: 178.54px;
+    left: 441.76px;
+    top: 4856px;
+    /* background: url(загружено.jpg); */
+    border-radius: 10.0227px 10.0227px 0px 0px;
+}
+
+.BorisBorisov {
+    position: absolute;
+    width: 220.4px;
+    height: 23.02px;
+    left: 459.03px;
+    top: 5052.15px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* color: #FFFFFF; */
+}
+
+.BorisText {
+    position: absolute;
+    width: 220.4px;
+    height: 42.03px;
+    left: 458.83px;
+    top: 5093.72px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.LeoFoto {
+    position: absolute;
+    width: 210px;
+    height: 152.73px;
+    left: 776.47px;
+    top: 4881.06px;
+    border-radius: 8.55217px 8.55217px 0px 0px;
+}
+
+.LeoDicaprio {
+    position: absolute;
+    width: 171px;
+    height: 20px;
+    left: 793px;
+    top: 5048px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* color: #FFFFFF; */
+}
+
+.LeoText {
+    position: absolute;
+    width: 171px;
+    height: 52px;
+    left: 793px;
+    top: 5080px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.imgCinemaHoll {
+    position: absolute;
+    width: 670px;
+    height: 527px;
+    left: 178px;
+    top: 5370px;
+}

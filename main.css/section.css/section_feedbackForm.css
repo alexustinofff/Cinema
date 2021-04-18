@@ -1,0 +1,75 @@
+.FeedBack_Form {
+    position: absolute;
+    width: 252px;
+    height: 33px;
+    left: 633px;
+    top: 5413px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #A3CC40;
+}
+
+.FeedBack_Form_Name {
+    position: absolute;
+    width: 344px;
+    height: 40px;
+    left: 559px;
+    top: 5454px;
+    border-radius: 5px;
+}
+
+.FeedBack_Form_SeatNumber {
+    position: absolute;
+    width: 344px;
+    height: 40px;
+    left: 559px;
+    top: 5527px;
+    border-radius: 5px;
+}
+
+.FeedBack_Form_text {
+    position: absolute;
+    width: 344px;
+    height: 120px;
+    left: 559px;
+    top: 5597px;
+    border-radius: 5px;
+}
+
+.FeddBack_Form_Ok-Rectangle {
+    position: absolute;
+    width: 18px;
+    height: 17px;
+    left: 555px;
+    top: 5748px;
+    border: 1px solid #A3CC40;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.FeddBack_Form_Ok-Personal-Data {
+    position: absolute;
+    width: 275px;
+    height: 13px;
+    left: 586px;
+    top: 5749px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #333333;
+}
+
+.FeedBack_Form_Button {
+    position: absolute;
+    width: 344px;
+    height: 57px;
+    left: 559.48px;
+    top: 5807px;
+    background: #A3CC40;
+    border-radius: 6px;
+}

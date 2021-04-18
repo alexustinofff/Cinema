@@ -1,3 +1,43 @@
+/* Footer Map */
+.Map {
+    position: absolute;
+    width: 973px;
+    height: 421px;
+    left: 75px;
+    top: 5962px;
+    border-radius: 20px;
+}
+
+.Map_adress {
+    position: absolute;
+    width: 69px;
+    height: 7px;
+    left: 418px;
+    top: 6074px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 9px;
+    color: #696969;
+    text-decoration: none;
+}
+
+.Map_Map_adress_InnopolisUniversity {
+    position: absolute;
+    width: 53.33px;
+    height: 20.09px;
+    left: 393px;
+    top: 6111.76px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 9px;
+    color: #696969;
+    transform: matrix(0.84, -0.53, 0.54, 0.85, 0, 0);
+}
+/* Footer content */
 .Footer_Fone {
     position: absolute;
     width: 1126px;

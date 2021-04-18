@@ -1,0 +1,96 @@
+.Products {
+    position: absolute;
+    width: 548px;
+    height: 62px;
+    left: 139px;
+    top: 3986px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: #A3CC40;
+}
+
+.ProductsText {
+    position: absolute;
+    width: 548px;
+    height: 28px;
+    left: 139px;
+    top: 4075px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.CocaCola {
+    position: absolute;
+    width: 245px;
+    height: 331px;
+    left: 140px;
+    top: 4160px;
+}
+
+.ColaText {
+    position: absolute;
+    width: 177px;
+    height: 26px;
+    left: 178px;
+    top: 4421px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Trinket {
+    position: absolute;
+    width: 245px;
+    height: 331px;
+    left: 440px;
+    top: 4160px;
+}
+
+.TrinketText {
+    position: absolute;
+    width: 177px;
+    height: 86px;
+    left: 474px;
+    top: 4393px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Poster {
+    position: absolute;
+    width: 245px;
+    height: 331px;
+    left: 739px;
+    top: 4160px;
+}
+
+.PosterText {
+    position: absolute;
+    width: 177px;
+    height: 60px;
+    left: 773px;
+    top: 4403px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}

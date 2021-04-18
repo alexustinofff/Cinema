@@ -1,0 +1,145 @@
+#ChooseFilms {
+    position: absolute;
+    width: 394px;
+    height: 62px;
+    left: 135px;
+    top: 1692px;
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+
+    color: #A3CC40;
+}
+
+.Table {
+    position: absolute;
+    width: 849px;
+    height: 225px;
+    left: 138px;
+    top: 1838px;
+
+}
+
+.Session {
+    /* position: absolute;
+    width: 146.56px;
+    height: 26px;
+    left: 214px;
+    top: 1847px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF; */
+}
+
+.Name {
+    /* position: absolute;
+    width: 177px;
+    height: 26px;
+    left: 454px;
+    top: 1847px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF; */
+}
+
+.Genre {
+    /* position: absolute;
+    width: 56.53px;
+    height: 26px;
+    left: 694px;
+    top: 1847px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF; */
+}
+
+.SpiderMan {
+    /* position: absolute;
+    width: 240px;
+    height: 18px;
+    left: 454px;
+    top: 1898px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF; */
+}
+
+.Rectangle23 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 1838px;
+    background: #A3CC40;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.Rectangle24 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 1883px;
+    background: #373737;
+}
+
+.Rectangle25 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 1928px;
+    background: #4C4D4F;
+}
+
+.Rectangle26 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 1973px;
+    background: #373737;
+}
+
+.Rectangle27 {
+    position: absolute;
+    width: 849px;
+    height: 45px;
+    left: 138px;
+    top: 2018px;
+    background: #4C4D4F;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.TableText {
+    position: absolute;
+    width: 539px;
+    height: 55px;
+    left: 293px;
+    top: 2093px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: #333333;
+}
