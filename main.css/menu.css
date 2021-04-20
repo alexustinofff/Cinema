@@ -2,6 +2,7 @@ div.wrapper ul.menu {
     position: absolute;
     list-style-type: none;
 }
+
 /* (Сделать просто menu_item) */
 div.wrapper ul.menu a.menu_item_tel,
 a.menu_item_mail,
@@ -17,7 +18,7 @@ a.menu_item_ChooseFilm,
 a.menu_item_present {
     text-decoration: none;
     position: absolute;
-    font-family: IBM Plex Sans, sans-serif;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -199,7 +200,7 @@ a.menu_item_pastevents,
     position: absolute;
     left: 53px;
     top: 41px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans"sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 33px;
@@ -212,7 +213,7 @@ a.menu_item_pastevents,
     height: 69px;
     left: 48px;
     top: 99px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans"sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;

@@ -4,7 +4,7 @@
     height: 62px;
     left: 139px;
     top: 3986px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -18,7 +18,7 @@
     height: 28px;
     left: 139px;
     top: 4075px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
@@ -34,13 +34,33 @@
     top: 4160px;
 }
 
+.ColaFone {
+    position: absolute;
+    width: 245px;
+    height: 153px;
+    left: 140px;
+    top: 4338px;
+    background: rgba(163, 204, 64, 0.8);
+}
+
+/* .ColaFone::before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    display: block;
+    border-left: 100vw solid #fff;
+    border-bottom: 100px solid transparent;
+    overflow: hidden;
+} */
+
 .ColaText {
     position: absolute;
     width: 177px;
     height: 26px;
     left: 178px;
     top: 4421px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -63,13 +83,22 @@
     height: 86px;
     left: 474px;
     top: 4393px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.TrinketFone {
+    position: absolute;
+    width: 245px;
+    height: 153px;
+    left: 440px;
+    top: 4338px;
+    background: rgba(163, 204, 64, 0.8);
 }
 
 .Poster {
@@ -86,11 +115,31 @@
     height: 60px;
     left: 773px;
     top: 4403px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.PosterFone {
+    position: absolute;
+    width: 245px;
+    height: 153px;
+    left: 739px;
+    top: 4338px;
+    background: rgba(163, 204, 64, 0.8);
+}
+
+.PosterFone::before {
+    position: absolute;
+    bottom: -26px;
+    left: 0px;
+    content: "";
+    display: block;
+    border-top: 100px solid transparent;
+    border-right: 100vw solid rgba(163, 204, 64, 0.8);
+    overflow: hidden;
 }

@@ -14,8 +14,12 @@
    <link rel="stylesheet" href="main.css/section.css/section_reviews.css">
    <link rel="stylesheet" href="main.css/section.css/section_table.css">
    <link rel="stylesheet" href="main.css/footer.css">
+   <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet"> -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+    </style>
     <title>Innopolis Cinema</title>
 </head>
 <body>
@@ -127,56 +131,66 @@
                 </p>
             </div>
         </div>
+        <!-- Table -->
         <div>
-            <nav>
-                <div class="Rectangle23"></div>
-                <div class="Rectangle24"></div>
-                <div class="Rectangle25"></div>
-                <div class="Rectangle26"></div>
-                <div class="Rectangle27"></div>
-                <table class="Table" border="2" width=849px cellspacing="0" cellpadding="12px">
-                    <tr align="center">
-                        <span id="ChooseFilms">Выберите фильм</span>
-                        <thead>
+                <div class="HeaderTable"></div>
+                <div class="FirstLine"></div>
+                <div class="SecondLine"></div>
+                <div class="ThirdLine"></div>
+                <div class="FourthLine"></div>
+        </div>
+                <table class="Table" cellspacing="0" cellpadding= "12px">
+                    <span id="ChooseFilms">Выберите фильм</span>
+                   <div>
+                    <thead>
+                    <tr class="tableHead">
                             <th class="Session"> Начало сеанса</th>
-                            <th class="Name">Название</th>
+                            <th class="Name">Название фильма</th>
                             <th class="Genre">Жанр</th>
                     </tr>
                     </thead>
-                    <tbody>
-                        <tr align="center">
-                            <td>10:00</td>
-                            <td class="SpiderMan"><a target="_blank"
+                </div>
+                <div>  
+                <tbody>
+                        <tr class="SpiderMan_Description">
+                            <td class="ten_oclock">10:00</td>
+                           <td><a class="SpiderMan" target="_blank"
                                     href="https://www.kinopoisk.ru/film/838/">Человек-паук</a></td>
-                            <td>Фантастика, боевик, приключения</td>
+                            <td class="SpiderMan_Genre">Фантастика, боевик, приключения</td>
                         </tr>
-                        <tr align="center">
-                            <td>12:00</td>
-                            <td><a target="_blank" href="https://www.kinopoisk.ru/film/1122114/">Собачья жизнь 2</a>
-                            </td>
-                            <td>Фэнтэзи, драма, комедия</td>
+                        <tr class="DogLife2_Description">
+                            <td class="twelwe_oclock">12:00</td>
+                            <td><a class="DogLife" target="_blank" href="https://www.kinopoisk.ru/film/1122114/">
+                                Собачья жизнь 2</a></td>
+                            <td class="DogLife_Genre">Фэнтэзи, драма, комедия</td>
                         </tr>
-                        <tr align="center">
-                            <td>14:00</td>
-                            <td><a target="_blank" href="https://www.kinopoisk.ru/film/846824/">История игрушек 4</a>
-                            </td>
-                            <td>Мультфильм, фэнтэзи, комедия</td>
+                        <tr class="HistoryToys4_Description">
+                            <td class="fourteen_oclock">14:00</td>
+                            <td><a class="HistoryToys4" target="_blank" href="https://www.kinopoisk.ru/film/846824/">
+                                История игрушек 4</a></td>
+                            <td class="HistoryToys4_Genre">Мультфильм, фэнтэзи, комедия</td>
                         </tr>
-                        <tr align="center">
-                            <td>16:00</td>
-                            <td><a target="_blank" href="https://www.kinopoisk.ru/film/693730/">Люди в чёрном:
-                                    Интэрнэшнл</a></td>
-                            <td>Фантастика, боевик, комедия</td>
+                        <tr class="MeninBlack_Description">
+                            <td class="sixteen_oclock">16:00</td>
+                            <td><a class="MeninBlack" target="_blank" href="https://www.kinopoisk.ru/film/693730/">
+                                Люди в чёрном: Интэрнэшнл</a></td>
+                            <td class="MeninBlack_Genre">Фантастика, боевик, комедия</td>
                         </tr>
                     </tbody>
+                </div> 
+                <img class="Session_ArrowUp" src="svg/стрелка(начало сеанса).svg" alt="">
+                <img class="Name_ArrowDown" src="svg/стрелка(название фильма).svg" alt="">
+                <img class="ten_oclock_Arrow" src="svg/галка(10 00).svg" alt="">
+                <img class="twelwe_oclock_Arrow" src="svg/галка(12 00).svg" alt="">
+                <img class="fourteen_oclock_Arrow" src="svg/галка (14 00).svg" alt="">
+                <img class="sixteen_oclock_Arrow" src="svg/галка(16 00).svg" alt="">
                 </table>
                 <div class="TableText">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore<br>
                     magna aliqua. Ut enim ad minim veniam.
                 </div>
-            </nav>
-        </div>
+                <div><img class="PresentFone_Img" src="images/подарок(фон).PNG" alt="Present Fone"></div>
             <div>
                 <img class="PresentImg" src="images/Подарок.png" alt="Present">
                 <strong class="PresentHead" id="present">Подарок каждому!</strong>
@@ -253,7 +267,10 @@
                 <div class="ColaFone"></div>
                 <img class="Trinket" src="images/Брелоки.png" alt="#ProductsCinema"><br>
                 <strong class="TrinketText">Брелок “Железный человек”</strong><br>
-                <img class="Poster" src="images/Постер мстители.png" alt="#ProductsCinema"> <br>
+                <div class="TrinketFone"></div>
+                <div class="PosterFone"><img class="Poster" src="images/Постер мстители.png" 
+                    alt="#ProductsCinema"> <br>
+                    </div>
                 <strong class="PosterText">Постер “Мстители”</strong><br>
             </div>
             <div>
@@ -267,7 +284,10 @@
                 </blockquote>
             </div>
             <div>
+                <div class="ElenaFoto_Fone">
                 <img class="ElenaFoto" src="images/Елена Еленова.png" alt="ElenaReviews">
+            </div>
+            <div class="Elena_Data">13.12.2020</div>
                 <strong class="ElenaElenova">Елена Еленова</strong>
                 <blockquote class="ElenaText">
                     Lorem ipsum dolor sit amet, consectetur <br>
@@ -277,7 +297,10 @@
                 </blockquote>
             </div>
             <div>
+                <div class="BorisFoto_Fone">
                 <img class="BorisFoto" src="images/Борис Борисов.png" alt="BorisReviews">
+                </div>
+                <div class="Boris_Data">13.12.2020</div>
                 <span class="BorisBorisov">Борис Борисов</span>
                 <blockquote class="BorisText">
                     Lorem ipsum dolor sit amet, consectetur <br>
@@ -286,7 +309,10 @@
                 </blockquote>
             </div>
             <div>
+                <div class="LeoFone">
                 <img class="LeoFoto" src="images/Ди каприо.png" alt="LeoReviews">
+            </div>
+            <div class="Leo_Data">13.12.2020</div>
                 <span class="LeoDicaprio">Леонардо ДиКаприо</span>
                 <blockquote class="LeoText">
                     Lorem ipsum dolor sit amet, <br>
@@ -295,6 +321,8 @@
                     et dolore magna aliqua. <br>
                 </blockquote>
             </div>
+            <img class="Reviews_ArrowLeft" src="svg/стрелка лево(отзывы).svg" alt="">
+            <img class="Reviews_ArrowRight" src="svg/стрелка право(отзывы).svg" alt="">
         </div>
     </section>
         <div>

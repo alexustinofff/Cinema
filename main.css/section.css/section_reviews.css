@@ -1,10 +1,10 @@
 .Reviews {
-    position: absolute;
+    position: relative;
     width: 548px;
     height: 62px;
     left: 139px;
-    top: 4665px;
-    font-family: IBM Plex Sans;
+    top: 3729px;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -12,10 +12,24 @@
     color: #A3CC40;
 }
 
+.ReviewsText {
+    position: absolute;
+    width: 548px;
+    height: 28px;
+    left: 141px;
+    top: 4753px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
 .FeedBackFone {
     position: absolute;
     left: 0px;
-    top: 4626px;
+    top: 4619px;
     width: 1124px;
     height: 709px;
 }
@@ -31,65 +45,94 @@
     overflow: hidden;
 }
 
-.ReviewsText {
+.FeedBackFone::after {
     position: absolute;
-    width: 548px;
-    height: 28px;
-    left: 141px;
-    top: 4753px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
+    bottom: -26px;
+    left: 0px;
+    content: "";
+    display: block;
+    border-top: 100px solid transparent;
+    border-right: 100vw solid #fff;
+    overflow: hidden;
+}
+
+.ElenaFoto {
+    position: relative;
+    width: 210px;
+    height: 152.71px;
+    left: 0.32px;
+    top: 0px;
+    border-radius: 8.57901px 8.57901px 0px 0px;
+}
+
+.ElenaFoto_Fone {
+    position: absolute;
+    width: 210px;
+    height: 284px;
+    left: 142px;
+    top: 4879px;
+    opacity: 0.8;
+    background: #97B13C;
 }
 
 .ElenaElenova {
     position: absolute;
     width: 186px;
     height: 20px;
-    left: 150.99px;
+    left: 150px;
     top: 5050px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 19px;
-    /* color: #FFFFFF; */
-}
-
-.ElenaFoto {
-    position: absolute;
-    width: 210px;
-    height: 152.71px;
-    left: 142.32px;
-    top: 4880.05px;
-    /* background: url(16f9e09b5b79546cf30d6f73497c82fc.jpg); */
-    border-radius: 8.57901px 8.57901px 0px 0px;
+    color: #FFFFFF;
 }
 
 .ElenaText {
     position: absolute;
     width: 186px;
     height: 52px;
-    left: 150.99px;
-    top: 5083.38px;
-    font-family: IBM Plex Sans;
+    left: 112px;
+    top: 5077px;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 13px;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
+}
+
+.Elena_Data {
+    position: absolute;
+    width: 48px;
+    height: 12px;
+    left: 299.17px;
+    top: 5145.15px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.BorisFoto_Fone {
+    position: absolute;
+    width: 246px;
+    height: 332px;
+    left: 442px;
+    top: 4856px;
+    background: #97B13C;
+    border-radius: 10.0227px;
 }
 
 .BorisFoto {
-    position: absolute;
+    position: relative;
     width: 245.56px;
     height: 178.54px;
-    left: 441.76px;
-    top: 4856px;
-    /* background: url(загружено.jpg); */
+    left: -0.24px;
+    top: 1px;
     border-radius: 10.0227px 10.0227px 0px 0px;
 }
 
@@ -97,35 +140,60 @@
     position: absolute;
     width: 220.4px;
     height: 23.02px;
-    left: 459.03px;
-    top: 5052.15px;
-    font-family: IBM Plex Sans;
+    left: 461px;
+    top: 5052px;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 23px;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .BorisText {
     position: absolute;
     width: 220.4px;
     height: 42.03px;
-    left: 458.83px;
-    top: 5093.72px;
-    font-family: IBM Plex Sans;
+    left: 420px;
+    top: 5085px;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
+    color: #FFFFFF;
+}
+
+.Boris_Data {
+    position: absolute;
+    width: 48px;
+    height: 12px;
+    left: 625px;
+    top: 5166px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.LeoFone {
+    position: absolute;
+    width: 210px;
+    height: 284px;
+    left: 776.47px;
+    top: 4879px;
+    opacity: 0.8;
+    background: #97B13C;
 }
 
 .LeoFoto {
-    position: absolute;
+    position: relative;
     width: 210px;
     height: 152.73px;
-    left: 776.47px;
-    top: 4881.06px;
+    left: 0px;
+    top: 2px;
     border-radius: 8.55217px 8.55217px 0px 0px;
 }
 
@@ -135,25 +203,40 @@
     height: 20px;
     left: 793px;
     top: 5048px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 19px;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .LeoText {
     position: absolute;
     width: 171px;
     height: 52px;
-    left: 793px;
+    left: 755px;
     top: 5080px;
-    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 13px;
+    color: #FFFFFF;
+}
+
+.Leo_Data {
+    position: absolute;
+    width: 48px;
+    height: 12px;
+    left: 933.33px;
+    top: 5146.18px;
+    font-family: IBM Plex Sans sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 10px;
+    color: #FFFFFF;
 }
 
 .imgCinemaHoll {
@@ -162,4 +245,21 @@
     height: 527px;
     left: 178px;
     top: 5370px;
+}
+
+.Reviews_ArrowLeft {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 387px;
+    top: 4907px;
+}
+
+.Reviews_ArrowRight {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 702px;
+    top: 4907px;
+    transform: matrix(-1, 0, 0, 1, 0);
 }
