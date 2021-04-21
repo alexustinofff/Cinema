@@ -29,7 +29,7 @@
 .FeedBackFone {
     position: absolute;
     left: 0px;
-    top: 4619px;
+    top: 4637px;
     width: 1124px;
     height: 709px;
 }
@@ -47,8 +47,8 @@
 
 .FeedBackFone::after {
     position: absolute;
+    left: 10px;
     bottom: -26px;
-    left: 0px;
     content: "";
     display: block;
     border-top: 100px solid transparent;
@@ -61,7 +61,7 @@
     width: 210px;
     height: 152.71px;
     left: 0.32px;
-    top: 0px;
+    top: 1px;
     border-radius: 8.57901px 8.57901px 0px 0px;
 }
 
@@ -79,9 +79,9 @@
     position: absolute;
     width: 186px;
     height: 20px;
-    left: 150px;
+    left: 152px;
     top: 5050px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans"sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -93,9 +93,9 @@
     position: absolute;
     width: 186px;
     height: 52px;
-    left: 112px;
+    left: 152px;
     top: 5077px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans"sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -109,7 +109,7 @@
     height: 12px;
     left: 299.17px;
     top: 5145.15px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans"sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 8px;
@@ -142,7 +142,7 @@
     height: 23.02px;
     left: 461px;
     top: 5052px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans"sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -154,9 +154,9 @@
     position: absolute;
     width: 220.4px;
     height: 42.03px;
-    left: 420px;
+    left: 461px;
     top: 5085px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans"sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 11px;
@@ -170,7 +170,7 @@
     height: 12px;
     left: 625px;
     top: 5166px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans"sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 9px;
@@ -193,7 +193,7 @@
     width: 210px;
     height: 152.73px;
     left: 0px;
-    top: 2px;
+    top: 1px;
     border-radius: 8.55217px 8.55217px 0px 0px;
 }
 
@@ -215,7 +215,7 @@
     position: absolute;
     width: 171px;
     height: 52px;
-    left: 755px;
+    left: 793px;
     top: 5080px;
     font-family: IBM Plex Sans sans-serif;
     font-style: normal;

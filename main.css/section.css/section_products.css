@@ -32,27 +32,8 @@
     height: 331px;
     left: 140px;
     top: 4160px;
+    z-index: -1;
 }
-
-.ColaFone {
-    position: absolute;
-    width: 245px;
-    height: 153px;
-    left: 140px;
-    top: 4338px;
-    background: rgba(163, 204, 64, 0.8);
-}
-
-/* .ColaFone::before {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    content: "";
-    display: block;
-    border-left: 100vw solid #fff;
-    border-bottom: 100px solid transparent;
-    overflow: hidden;
-} */
 
 .ColaText {
     position: absolute;
@@ -67,14 +48,39 @@
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    z-index: 2;
+}
+
+.ColaFone {
+    position: absolute;
+    width: 238px;
+    height: 83px;
+    left: 144px;
+    top: 4402px;
+    background: rgba(163, 204, 64, 0.8);
+    z-index: 1;
+
+}
+
+.ColaFone::after {
+    position: absolute;
+    left: 0px;
+    bottom: 83px;
+    content: "";
+    border-top: 60px solid transparent;
+    border-right: 238px solid rgba(163, 204, 64, 0.8);
+    overflow: hidden;
 }
 
 .Trinket {
     position: absolute;
     width: 245px;
     height: 331px;
-    left: 440px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
     top: 4160px;
+    left: 440px;
 }
 
 .TrinketText {
@@ -90,23 +96,37 @@
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    z-index: 2;
 }
 
 .TrinketFone {
     position: absolute;
-    width: 245px;
-    height: 153px;
-    left: 440px;
-    top: 4338px;
+    width: 238px;
+    height: 83px;
+    left: 444px;
+    top: 4402px;
     background: rgba(163, 204, 64, 0.8);
+    z-index: 1;
+}
+
+.TrinketFone::after {
+    position: absolute;
+    left: 0px;
+    bottom: 83px;
+    content: "";
+    border-top: 60px solid transparent;
+    border-right: 238px solid rgba(163, 204, 64, 0.8);
+    overflow: hidden;
 }
 
 .Poster {
     position: absolute;
     width: 245px;
     height: 331px;
-    left: 739px;
+    left: 740px;
     top: 4160px;
+    bottom: 0px;
+    z-index: -1;
 }
 
 .PosterText {
@@ -126,20 +146,19 @@
 
 .PosterFone {
     position: absolute;
-    width: 245px;
-    height: 153px;
-    left: 739px;
-    top: 4338px;
+    width: 238px;
+    height: 83px;
+    left: 744px;
+    top: 4402px;
     background: rgba(163, 204, 64, 0.8);
 }
 
-.PosterFone::before {
+.PosterFone::after {
     position: absolute;
-    bottom: -26px;
+    bottom: 83px;
     left: 0px;
     content: "";
-    display: block;
-    border-top: 100px solid transparent;
-    border-right: 100vw solid rgba(163, 204, 64, 0.8);
+    border-top: 60px solid transparent;
+    border-right: 238px solid rgba(163, 204, 64, 0.8);
     overflow: hidden;
 }
