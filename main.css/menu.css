@@ -245,6 +245,53 @@ nav ul li:hover ul {
     display: block;
 } */
 
-nav.wrapper ul.nav_languages ul.Choice_languages {
-    color: red;
+/* ТРЕНИРОВКА */
+.dropdown{
+position: relative;
+margin-left: 15px;
 }
+.dropdown__list{
+    position: absolute;
+    background: blue;
+    left: -17px;
+    bottom: 0;
+    transform:translateY(100%);
+}
+.dropdown__list a{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: brown;
+    display: none;
+    padding: 5px 15px;
+}
+.dropdown__list a:hover{
+    color: yellow;
+    background: black;
+}
+.dropdown__trigger span{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    display: inline-block;
+}
+.dropdown__trigger div{
+color: red;
+vertical-align: middle;
+display: inline-block;
+margin-top: 3px;
+}
+.dropdown__trigger:hover span{
+    color: green;
+}
+.dropdown__trigger:hover div{
+    color: indigo;
+}
+.transform_opened .dropdown__trigger div{
+    transform: rotate(180deg);
+}
+.transform_opened .dropdown__list{
+    display: block;
+}
+
+/* КОНЕЦ */
