@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -25,48 +26,50 @@
 <body>
     <header>
         <!-- Menu -->
-        <div class="wrapper">
-            <ul class="menu">
+        <div class="menu">
+            <ul class="menu__item">
                 <li><a target="_blank" href="https://innopolis.university/">
-                    <img class="menu_item_logo" src="svg/logo.svg" alt="logo"></a></li>
-                <li><a class="menu_item_tel" target="_blank" href="#">+7 (800) 355 12-56</a></li>
-                <li><a class="menu_item_mail" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a></li>
-                <li><a class="menu_item_adress" target="_blank" href="#">ул.Спортивная д.1</a></li>
-                <button class="menu_item_button"><img class="menu_item_button_iconPhone" src="svg/Button_Icon_Tel.svg"
-                        alt="IconPhone">
-                    <a class="menu_item_bell" target="_blank" href="#">Заказать звонок</a></button>
-                    <li><img class="menu_item_language_icon" src="svg/ChooseLanguages.svg" alt="language"></li>
-                <li><a class="menu_item_EventDetails" target="_blank" href="#">EVENT DETAILS</a></li>
-                <li><a class="menu_item_speakers" target="_blank" href="#">SPEAKERS</a></li>
-                <li><a class="menu_item_sponsors" target="_blank" href="#">SPONSORS</a></li>
-                <li><a class="menu_item_pastevents" target="_blank" href="#">PAST EVENTS</a></li>
-                <li><a class="menu_item_contact" target="_blank" href="#">CONTACT</a></li>
-                <li><a class="menu_item_ChooseFilm" href="#ChooseFilms">Закажите билет в кино</a></li>
-                <li><a class="menu_item_present" href="#present">Всем покупателям подарок!</a>
+                    <img class="item-menu__logo" src="svg/logo.svg" alt="logo"></a></li>
+                <li><a class="item-menu__tel" target="_blank" href="#">+7 (800) 355 12-56</a></li>
+                <li><a class="item-menu__mail" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a></li>
+                <li><a class="item-menu__adress" target="_blank" href="#">ул.Спортивная д.1</a></li>
+                <button class="item-menu__button"><img class="button-item__iconPhone" 
+                    src="svg/Button_Icon_Tel.svg"alt="IconPhone">
+                    <a class="item-menu__bell" target="_blank" href="#">Заказать звонок</a></button>
+                <li><a class="item-menu__eventDetails" target="_blank" href="#">EVENT DETAILS</a></li>
+                <li><a class="item-menu__speakers" target="_blank" href="#">SPEAKERS</a></li>
+                <li><a class="item-menu__sponsors" target="_blank" href="#">SPONSORS</a></li>
+                <li><a class="item-menu__pastevents" target="_blank" href="#">PAST EVENTS</a></li>
+                <li><a class="item-menu__contact" target="_blank" href="#">CONTACT</a></li>
+                <li><a class="item-menu__chooseFilm" href="#ChooseFilms">Закажите билет в кино</a></li>
+                <li><a class="item-menu__present" href="#present">Всем покупателям подарок!</a>
             </ul>
     </div>
     <!-- Выбор языка -->
-    <nav class="nav_wrapper">
-        <ul class="nav_languages">
-            <li><a href="#">RU</a>
-            <ul class="Choice_languages">
+    <nav class="menu__language">
+        <ul>
+            <li><a href="#"><i class="Language"></i>RU</a><img class="Language__ico" 
+                src="svg/ChooseLanguages.svg" alt="language">
+            <ul>
                 <li><a href="#">EN</a></li>
-                <li><a href="#">CHI</a></li>
                 <li><a href="#">SPA</a></li>
+                <li><a href="#">CHI</a></li>
             </ul>
-        </li>
+            </li>
         </ul>
     </nav>
+ <!-- Главный фон -->
         <div>
             <img class="MainPicture" src="images/Главная страница.png" alt="HomePage">
         </div>
     </header>
     <section>
-        <div class="Welcom_Fone">
-        <div class="Welcome_Heading">
+        <div class="Welcom">
+        <div class="Welcom__Fone">
+        <div class="Welcome__Head">
                 <b>Добро пожаловать!</b>
             </div>
-        <div class="Welcome_Text">
+        <div class="Welcome__Text">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
                     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
@@ -79,21 +82,23 @@
                 </p>
         </div>
         </div>
+    </div>
         <!-- Main Advanteges -->
-        <b class="Why">Почему мы?</b><br>
-        <div>
-            <div class="Img_BigScreen"><img src="images/Большие экраны.png" alt="Img_BigScreen"></div><br>
-                <b class="BigScreen_Heading_Text">Большие экраны</b>
-                <p class="BigScreen_Text">
+        <div class="Advanteges">
+        <b class="Advanteges__head">Почему мы?</b><br>
+        <div class="BigScreen__item">
+            <div class="item-BigScreen__img"><img src="images/Большие экраны.png" alt="Img_BigScreen"></div><br>
+                <b class="item-BigScreen__HeadText">Большие экраны</b>
+                <p class="item-BigScreen__text">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt <br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.</p><br>
             </div>
-            <div>
-            <div class="Sound"><img class="a" src="images/Объёмный звук.png" alt="Img_Sound"> <br>
-                <b class="Sound_Heading_Text">Объёмный звук</b>
-                <p class="Sound_Text">
+            <div class="Sound__item">
+            <div class="item-Sound__img"><img class="a" src="images/Объёмный звук.png" alt="Img_Sound"> <br>
+                <b class="item-Sound__HeadText">Объёмный звук</b>
+                <p class="item-Sound__text">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
@@ -101,112 +106,118 @@
                 </p>
             </div>
         </div>
-            <div class="Comfortable_Chairs_Img">
-                <img src="images/Удобные кресла.png" alt="#MainAdvanteges"> <br>
-                <b class="Comfortable_Chairs_HeadingText">Удобные кресла</b>
-                <p class="Comfortable_Chairs_Text">
+        <div class="Chairs__item">
+            <div class="item-Chairs__img"><img src="images/Удобные кресла.png" alt="#MainAdvanteges"> <br>
+                <b class="item-Chairs__HeadText">Удобные кресла</b>
+                <p class="item-Chairs__Text">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.
                 </p>
             </div>
-            <div class="Cosiness_Atmosphere_Img">
-                <img src="images/Уютная атмосфера.png" alt="#MainAdvanteges"><br>
-                <b class="Cosiness_Atmosphere_HeadingText">Уютная атмосфера</b>
-                <p class="Cosiness_Atmosphere_Text">
-                    Lorem ipsum dolor sit amet, consectetur<br>
-                    adipiscing elit, sed do eiusmod tempor incididunt<br>
-                    ut labore et dolore magna aliqua. Ut enim ad<br>
-                    minim veniam.
-                </p>
-            </div>       
-            <div class="FullImmersion_Img">
-                <img src="images/Полное погружение.png" alt="#MainAdvanteges"><br>
-                <b  class="FullImmersion_HeadingText">Полное погружение</b>
-                <p class="FullImmersion_Text">
+        </div>
+        <div class="Atmosphere__item">
+            <div class="item-Atmosphere__img"><img src="images/Уютная атмосфера.png" alt="#MainAdvanteges"><br>
+                <b class="item-Atmosphere__HeadText">Уютная атмосфера</b>
+                <p class="item-Atmosphere__text">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.
                 </p>
             </div>
-            <div class="Kissing_Img">
-                <img src="images/Поцелуи на заднем ряду.png" alt="#MainAdvanteges"><br>
-                <b class="Kissing_HeadingText">Поцелуи на заднем ряду</b>
-                <p class="Kissing_Text">
+        </div>    
+        <div class="FullImmersion__item">
+            <div class="item-FullImmersion__img"><img src="images/Полное погружение.png" alt="#MainAdvanteges"><br>
+                <b  class="item-FullImmersion__HeadText">Полное погружение</b>
+                <p class="item-FullImmersion__text">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.
                 </p>
             </div>
+            </div>
+            <div class="Kissing__item">  
+            <div class="item-Kissing__img"><img src="images/Поцелуи на заднем ряду.png" alt="#MainAdvanteges"><br>
+                <b class="item-Kissing__HeadText">Поцелуи на заднем ряду</b>
+                <p class="item-Kissing__Text">
+                    Lorem ipsum dolor sit amet, consectetur<br>
+                    adipiscing elit, sed do eiusmod tempor incididunt<br>
+                    ut labore et dolore magna aliqua. Ut enim ad<br>
+                    minim veniam.
+                </p>
+            </div>
+            </div> 
         </div>
         <!-- Table -->
-        <div>
-                <div class="HeaderTable"></div>
-                <div class="FirstLine"></div>
-                <div class="SecondLine"></div>
-                <div class="ThirdLine"></div>
-                <div class="FourthLine"></div>
+        <span id="Table__head">Выберите фильм</span>
+        <div Table__line>
+                <div class="line-table__Header"></div>
+                <div class="line-table__First"></div>
+                <div class="line-table__Second"></div>
+                <div class="line-table__Third"></div>
+                <div class="line-table__Fourth"></div>
         </div>
-                <table class="Table" cellspacing="0" cellpadding= "12px">
-                    <span id="ChooseFilms">Выберите фильм</span>
-                   <div>
-                    <thead>
-                    <tr class="tableHead">
-                            <th class="Session"> Начало сеанса</th>
-                            <th class="Name">Название фильма</th>
-                            <th class="Genre">Жанр</th>
+                <table class="Table__text" cellspacing="0" cellpadding= "12px">
+                    <thead class="table__text">
+                    <tr class="text-table__Head">
+                            <th class="text-table__timeFilms"> Начало сеанса</th>
+                            <th class="text-table__nameFilms">Название фильма</th>
+                            <th class="text-table__genreFilms">Жанр</th>
                     </tr>
-                    </thead>
-                </div>
-                <div>  
-                <tbody>
-                        <tr class="SpiderMan_Description">
-                            <td class="ten_oclock">10:00</td>
-                           <td><a class="SpiderMan" target="_blank"
-                                    href="https://www.kinopoisk.ru/film/838/">Человек-паук</a></td>
-                            <td class="SpiderMan_Genre">Фантастика, боевик, приключения</td>
+                    </thead>  
+                <tbody class="films__description">
+                    <!-- SpiderMan film -->
+                        <tr class="description-films__SpiderMan">
+                            <td class="description-films-SpiderMan__time">10:00</td>
+                           <td><a class="description-films-SpiderMan__name" target="_blank" 
+                            href="https://www.kinopoisk.ru/film/838/">Человек-паук</a></td>
+                            <td class="description-films-SpiderMan__genre">Фантастика, боевик, приключения</td>
                         </tr>
-                        <tr class="DogLife2_Description">
-                            <td class="twelwe_oclock">12:00</td>
-                            <td><a class="DogLife" target="_blank" href="https://www.kinopoisk.ru/film/1122114/">
-                                Собачья жизнь 2</a></td>
-                            <td class="DogLife_Genre">Фэнтэзи, драма, комедия</td>
+                        <!-- DogLife2 film -->
+                        <tr class="description-films__DogLife2">
+                            <td class="description-films-DogLife2__time">12:00</td>
+                            <td><a class="description-films-DogLife2__name" target="_blank" 
+                                href="https://www.kinopoisk.ru/film/1122114/">Собачья жизнь 2</a></td>
+                            <td class="description-films-DogLife2__genre">Фэнтэзи, драма, комедия</td>
                         </tr>
-                        <tr class="HistoryToys4_Description">
-                            <td class="fourteen_oclock">14:00</td>
-                            <td><a class="HistoryToys4" target="_blank" href="https://www.kinopoisk.ru/film/846824/">
-                                История игрушек 4</a></td>
-                            <td class="HistoryToys4_Genre">Мультфильм, фэнтэзи, комедия</td>
+                        <!-- HistoryToys4 film -->
+                        <tr class="description-films__HistoryToys4">
+                            <td class="description-films-HistoryToys4__time">14:00</td>
+                            <td><a class="description-films-HistoryToys4__name" target="_blank" 
+                                href="https://www.kinopoisk.ru/film/846824/">История игрушек 4</a></td>
+                            <td class="description-films-HistoryToys4__genre">Мультфильм, фэнтэзи, комедия</td>
                         </tr>
-                        <tr class="MeninBlack_Description">
-                            <td class="sixteen_oclock">16:00</td>
-                            <td><a class="MeninBlack" target="_blank" href="https://www.kinopoisk.ru/film/693730/">
-                                Люди в чёрном: Интэрнэшнл</a></td>
-                            <td class="MeninBlack_Genre">Фантастика, боевик, комедия</td>
+                        <!-- Man in Black film -->
+                        <tr class="description-films__MeninBlack">
+                            <td class="description-films-MeninBlack__time">16:00</td>
+                            <td><a class="description-films-MeninBlack__name" target="_blank" 
+                                href="https://www.kinopoisk.ru/film/693730/">Люди в чёрном: Интэрнэшнл</a></td>
+                            <td class="description-films-MeninBlack__genre">Фантастика, боевик, комедия</td>
                         </tr>
                     </tbody>
-                </div> 
-                <img class="Session_ArrowUp" src="svg/стрелка(начало сеанса).svg" alt="">
-                <img class="Name_ArrowDown" src="svg/стрелка(название фильма).svg" alt="">
-                <img class="ten_oclock_Arrow" src="svg/галка(10 00).svg" alt="">
-                <img class="twelwe_oclock_Arrow" src="svg/галка(12 00).svg" alt="">
-                <img class="fourteen_oclock_Arrow" src="svg/галка (14 00).svg" alt="">
-                <img class="sixteen_oclock_Arrow" src="svg/галка(16 00).svg" alt="">
+                    <div class="line-table__arrow">
+                <img class="arrow-Up__time" src="svg/стрелка(начало сеанса).svg" alt="">
+                <img class="arrow-Down__name" src="svg/стрелка(название фильма).svg" alt="">
+                <img class="arrow__ten-oclock" src="svg/галка(10 00).svg" alt="">
+                <img class="arrow__twelwe-oclock" src="svg/галка(12 00).svg" alt="">
+                <img class="arrow__fourteen-oclock" src="svg/галка (14 00).svg" alt="">
+                <img class="arrow__sixteen-oclock" src="svg/галка(16 00).svg" alt="">
+            </div>
                 </table>
-                <div class="TableText">
+                <div class="footer__TableText">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore<br>
                     magna aliqua. Ut enim ad minim veniam.
                 </div>
                 <!-- Present -->
-                <div><img class="PresentFone_Img" src="images/подарок(фон).PNG" alt="Present Fone"></div>
-            <div>
-                <img class="PresentImg" src="images/Подарок.png" alt="Present">
-                <strong class="PresentHead" id="present">Подарок каждому!</strong>
-                <div class="PresentText">
+                <div class="present__item">
+                <img class="item-present__imgFone" src="images/подарок(фон).PNG" alt="Present Fone">
+                <img class="item-present__imgBox" src="images/Подарок.png" alt="Present">
+                <strong class="item-present__headText" id="present">Подарок каждому!</strong>
+                <div class="item-present__text">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore <br>
@@ -232,9 +243,9 @@
                         <br>
                     </p>
                 </div>
-                <button class="ReceivePresent">Получить подарок</button>
+                <button class="item-present__button">Получить подарок</button>
             </div>
-            <!-- Films -->
+            <!-- Films -->!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             <div>
                 <b class="FilmsHead">Фильмы</b>
                 <p class="FilmsText">
@@ -388,19 +399,5 @@
             <a class="Footer_Map" href="#">Как добраться</a>
             <a class="Footer_AllContacts" href="#">Все контакты</a>
             </div>
-<!-- Тренировка -->
-<div class="block01_lng dropdown">
-    <a href="#" class="dropdown__trigger">
-        <span>RU</span>
-<div img src="svg/Button_Icon_Tel.svg" alt=""></div>
-    </a>
-    <div class="dropdown__list">
-        <ul>
-            <li><a href="#">ESPN</a></li>
-            <li><a href="#">EN</a></li>
-        </ul>
-    </div>
-</div>
-<!-- КОНЕЦ -->
     </footer>
 </html>

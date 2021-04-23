@@ -1,4 +1,4 @@
-.Why {
+.Advanteges__head {
     position: absolute;
     width: 278px;
     height: 62px;
@@ -12,7 +12,7 @@
     color: #A3CC40;
 }
 
-.Img_BigScreen {
+.item-BigScreen__img {
     position: absolute;
     width: 245px;
     height: 338px;
@@ -21,7 +21,7 @@
 
 }
 
-.BigScreen_Heading_Text {
+.item-BigScreen__HeadText {
     position: absolute;
     width: 161px;
     height: 26px;
@@ -35,7 +35,7 @@
     text-align: center;
 }
 
-.BigScreen_Text {
+.item-BigScreen__text {
     position: absolute;
     height: 83px;
     left: 155px;
@@ -48,7 +48,7 @@
     text-align: center;
 }
 
-.Sound {
+.item-Sound__img {
     position: absolute;
     width: 245px;
     height: 338px;
@@ -56,7 +56,7 @@
     top: 848px;
 }
 
-.Sound_Heading_Text {
+.item-Sound__HeadText {
     text-align: center;
     position: absolute;
     width: 245px;
@@ -69,7 +69,7 @@
     line-height: 26px;
 }
 
-.Sound_Text {
+.item-Sound__text {
     position: absolute;
     width: 245px;
     height: 83px;
@@ -82,14 +82,15 @@
     text-align: center;
 }
 
-.Comfortable_Chairs_Img {
+.item-Chairs__img {
     position: absolute;
     width: 245px;
     height: 338px;
     left: 739px;
     top: 843px;
 }
-.Comfortable_Chairs_HeadingText{
+
+.item-Chairs__HeadText {
     text-align: center;
     position: absolute;
     width: 245px;
@@ -101,7 +102,8 @@
     font-size: 20px;
     line-height: 26px;
 }
-.Comfortable_Chairs_Text{
+
+.item-Chairs__Text {
     position: absolute;
     width: 245px;
     height: 83px;
@@ -113,14 +115,16 @@
     line-height: 14px;
     text-align: center;
 }
-.Cosiness_Atmosphere_Img {
+
+.item-Atmosphere__img {
     position: absolute;
     width: 245px;
     height: 338px;
     left: 140px;
     top: 1210px;
 }
-.Cosiness_Atmosphere_HeadingText{
+
+.item-Atmosphere__HeadText {
     text-align: center;
     position: absolute;
     width: 245px;
@@ -132,7 +136,8 @@
     font-size: 20px;
     line-height: 26px;
 }
-.Cosiness_Atmosphere_Text{
+
+.item-Atmosphere__text {
     position: absolute;
     width: 245px;
     height: 83px;
@@ -145,14 +150,15 @@
     text-align: center;
 }
 
-.FullImmersion_Img {
+.item-FullImmersion__img {
     position: absolute;
     width: 245px;
     height: 338px;
     left: 440px;
     top: 1210px;
 }
-.FullImmersion_HeadingText{
+
+.item-FullImmersion__HeadText {
     text-align: center;
     position: absolute;
     width: 245px;
@@ -164,7 +170,8 @@
     font-size: 20px;
     line-height: 26px;
 }
-.FullImmersion_Text{
+
+.item-FullImmersion__text {
     position: absolute;
     width: 245px;
     height: 83px;
@@ -177,14 +184,15 @@
     text-align: center;
 }
 
-.Kissing_Img{
+.item-Kissing__img {
     position: absolute;
     width: 245px;
     height: 338px;
     left: 739px;
     top: 1210px;
 }
-.Kissing_HeadingText{
+
+.item-Kissing__HeadText {
     text-align: center;
     position: absolute;
     width: 245px;
@@ -196,7 +204,8 @@
     font-size: 20px;
     line-height: 26px;
 }
-.Kissing_Text{
+
+.item-Kissing__Text {
     position: absolute;
     width: 245px;
     height: 83px;
@@ -208,9 +217,3 @@
     line-height: 14px;
     text-align: center;
 }
-
-
-
-
-
-

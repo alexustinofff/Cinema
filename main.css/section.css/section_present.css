@@ -1,4 +1,4 @@
-.PresentFone_Img {
+.item-present__imgFone {
     position: absolute;
     width: 1129px;
     height: 587px;
@@ -28,7 +28,7 @@
     overflow: hidden;
 } */
 
-.PresentImg {
+.item-present__imgBox {
     position: absolute;
     width: 276px;
     height: 276px;
@@ -37,7 +37,7 @@
     border-radius: 100%;
 }
 
-.PresentHead {
+.item-present__headText {
     position: absolute;
     width: 548px;
     height: 62px;
@@ -52,7 +52,7 @@
     color: #FFFFFF;
 }
 
-.PresentText {
+.item-present__text {
     position: absolute;
     width: 548px;
     height: 173px;
@@ -67,7 +67,7 @@
     color: #FFFFFF;
 }
 
-.ReceivePresent {
+.item-present__button {
     position: absolute;
     width: 190px;
     height: 31px;
@@ -76,5 +76,6 @@
     border-radius: 6px;
     background: #A3CC40;
     color: #FFFFFF;
+    border: none;
 
 }

@@ -1,21 +1,20 @@
-div.wrapper ul.menu {
+div.menu ul.menu__item {
     position: absolute;
     list-style-type: none;
 }
 
-/* (Сделать просто menu_item) */
-div.wrapper ul.menu a.menu_item_tel,
-a.menu_item_mail,
-a.menu_item_adress,
-a.menu_item_bell,
+div.menu ul.menu__item a.item-menu__tel,
+a.item-menu__mail,
+a.item-menu__adress,
+a.item-menu__bell,
 a.menu_item_language,
-a.menu_item_EventDetails,
-a.menu_item_speakers,
-a.menu_item_sponsors,
-a.menu_item_pastevents,
-a.menu_item_contact,
-a.menu_item_ChooseFilm,
-a.menu_item_present {
+a.item-menu__eventDetails,
+a.item-menu__speakers,
+a.item-menu__sponsors,
+a.item-menu__pastevents,
+a.item-menu__contact,
+a.item-menu__chooseFilm,
+a.item-menu__present {
     text-decoration: none;
     position: absolute;
     font-family: "IBM Plex Sans", sans-serif;
@@ -27,52 +26,52 @@ a.menu_item_present {
     font-weight: bold;
 }
 
-div.wrapper ul.menu a.menu_item_tel,
-.menu_item_mail,
-.menu_item_adress,
-.menu_item_EventDetails,
-.menu_item_speakers,
-.menu_item_sponsors,
-.menu_item_pastevents,
-.menu_item_contact {
+div.menu ul.menu__item a.item-menu__tel,
+.item-menu__mail,
+.item-menu__adress,
+.item-menu__eventDetails,
+.item-menu__speakers,
+.item-menu__sponsors,
+.item-menu__pastevents,
+.item-menu__contact {
     width: 111px;
     height: 16px;
 }
 
-div.wrapper ul.menu a.menu_item_tel,
-.menu_item_mail,
-.menu_item_adress,
+div.menu ul.menu__item a.item-menu__tel,
+.item-menu__mail,
+.item-menu__adress,
 .menu_item_language {
     top: 50px;
 }
 
-div.wrapper ul.menu a.menu_item_EventDetails,
-a.menu_item_speakers,
-a.menu_item_sponsors,
-a.menu_item_pastevents,
-.menu_item_contact {
+div.menu ul.menu__item a.item-menu__eventDetails,
+a.item-menu__speakers,
+a.item-menu__sponsors,
+a.item-menu__pastevents,
+.item-menu__contact {
     top: 81px;
 }
 
-.menu_item_logo {
+.item-menu__logo {
     position: absolute;
     left: 89px;
     top: 58px;
 }
 
-.menu_item_tel {
+.item-menu__tel {
     left: 297px
 }
 
-.menu_item_mail {
+.item-menu__mail {
     left: 450px;
 }
 
-.menu_item_adress {
+.item-menu__adress {
     left: 600px;
 }
 
-.menu_item_button {
+.item-menu__button {
     position: absolute;
     width: 130px;
     height: 21px;
@@ -83,7 +82,7 @@ a.menu_item_pastevents,
     border: 0px;
 }
 
-.menu_item_bell {
+.item-menu__bell {
     left: 20.77%;
     right: 5.38%;
     top: 9.52%;
@@ -93,7 +92,7 @@ a.menu_item_pastevents,
     color: black !important;
 }
 
-.menu_item_button_iconPhone {
+.button-item__iconPhone {
     position: absolute;
     left: 6.15%;
     right: 84.62%;
@@ -101,29 +100,27 @@ a.menu_item_pastevents,
     bottom: 19.05%;
 }
 
-
-
-.menu_item_EventDetails {
+.item-menu__eventDetails {
     left: 302px;
 }
 
-.menu_item_speakers {
+.item-menu__speakers {
     left: 450px;
 }
 
-.menu_item_sponsors {
+.item-menu__sponsors {
     left: 581px;
 }
 
-.menu_item_pastevents {
+.item-menu__pastevents {
     left: 722px;
 }
 
-.menu_item_contact {
+.item-menu__contact {
     left: 871px;
 }
 
-.menu_item_ChooseFilm {
+.item-menu__chooseFilm {
     width: 728px;
     height: 88px;
     left: 209px;
@@ -134,7 +131,7 @@ a.menu_item_pastevents,
     text-align: center;
 }
 
-.menu_item_present {
+.item-menu__present {
     width: 592px;
     height: 53px;
     left: 296px;
@@ -173,7 +170,7 @@ a.menu_item_pastevents,
 } */
 
 /* welcom */
-.Welcom_Fone {
+.Welcom__Fone {
     position: absolute;
     width: 426px;
     height: 221px;
@@ -184,7 +181,7 @@ a.menu_item_pastevents,
     border-radius: 10px;
 }
 
-.Welcome_Heading {
+.Welcome__Head {
     position: absolute;
     left: 53px;
     top: 41px;
@@ -195,7 +192,7 @@ a.menu_item_pastevents,
     line-height: 43px;
 }
 
-.Welcome_Text {
+.Welcome__Text {
     position: absolute;
     width: 332px;
     height: 69px;
@@ -208,90 +205,53 @@ a.menu_item_pastevents,
     line-height: 14px;
 }
 
-/* .menu_item_language {
-    width: 23px;
-    height: 16px;
-    left: 1000px;
-}
-
-.menu_item_language_icon {
+/* Menu language */
+.Language__ico {
     position: absolute;
     width: 8px;
     height: 8px;
-    left: 1029px;
-    top: 57px;
-} */
-
-/* nav ul li a:hover {
-    background-color: rgb(139, 128, 114);
+    left: 20px;
+    top: 2px;
 }
 
-nav ul {
-    list-style: none;
+.menu__language {
+    position: absolute;
+    width: 23px;
+    height: 16px;
+    left: 1009px;
+    top: 46px;
+    font-size: 12px;
+}
+
+.menu__language ul li a {
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.menu__language ul li {
+    position: relative;
+}
+
+.menu__language li a:hover {
     background: gray;
+    box-shadow: 1px 5px 10px -5px gray;
+    transition: 0.3s;
 }
 
-nav.nav_wrapper ul.nav_languages li a {
-    display: inline-block;
-    padding: 3px 10px;
-}
-
-nav.nav_wrapper ul.nav_languages ul.choice_languages {
-    display: none;
+/* language list */
+.menu__language li ul {
     position: absolute;
-}
-
-nav ul li:hover ul {
-    display: block;
-} */
-
-/* ТРЕНИРОВКА */
-.dropdown{
-position: relative;
-margin-left: 15px;
-}
-.dropdown__list{
-    position: absolute;
-    background: blue;
-    left: -17px;
-    bottom: 0;
-    transform:translateY(100%);
-}
-.dropdown__list a{
-    font-weight: 500;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: brown;
+    min-width: 23px;
+    left: -3px;
     display: none;
-    padding: 5px 15px;
 }
-.dropdown__list a:hover{
-    color: yellow;
-    background: black;
+
+.menu__language li ul li {
+    padding: 5px;
 }
-.dropdown__trigger span{
-    color: black;
-    font-weight: 500;
-    font-size: 15px;
-    display: inline-block;
-}
-.dropdown__trigger div{
-color: red;
-vertical-align: middle;
-display: inline-block;
-margin-top: 3px;
-}
-.dropdown__trigger:hover span{
-    color: green;
-}
-.dropdown__trigger:hover div{
-    color: indigo;
-}
-.transform_opened .dropdown__trigger div{
-    transform: rotate(180deg);
-}
-.transform_opened .dropdown__list{
+
+.menu__language li:hover ul {
     display: block;
 }
-
-/* КОНЕЦ */

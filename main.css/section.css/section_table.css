@@ -1,4 +1,4 @@
-#ChooseFilms {
+#Table__head {
     position: absolute;
     width: 394px;
     height: 62px;
@@ -12,7 +12,7 @@
     color: #A3CC40;
 }
 
-.HeaderTable {
+.line-table__Header {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -22,7 +22,7 @@
     border-radius: 10px 10px 0px 0px;
 }
 
-.FirstLine {
+.line-table__First {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -31,7 +31,7 @@
     background: #373737;
 }
 
-.SecondLine {
+.line-table__Second {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -40,7 +40,7 @@
     background: #4C4D4F;
 }
 
-.ThirdLine {
+.line-table__Third {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -49,7 +49,7 @@
     background: #373737;
 }
 
-.FourthLine {
+.line-table__Fourth {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -59,7 +59,7 @@
     border-radius: 0px 0px 10px 10px;
 }
 
-.Table {
+.Table__text {
     position: absolute;
     width: 849px;
     height: 225px;
@@ -69,7 +69,7 @@
     width: 849px;
 }
 
-.tableHead {
+.text-table__Head {
     position: relative;
     align: center;
     color: #FFFFFF;
@@ -81,7 +81,7 @@
     text-align: center;
 }
 
-.Session {
+.text-table__timeFilms {
     position: absolute;
     width: 146px;
     height: 26px;
@@ -89,7 +89,7 @@
     top: 6px;
 }
 
-.Name {
+.text-table__nameFilms {
     position: absolute;
     width: 177px;
     height: 26px;
@@ -97,7 +97,7 @@
     top: 6px;
 }
 
-.Genre {
+.text-table__genreFilms {
     position: absolute;
     width: 56px;
     height: 26px;
@@ -105,14 +105,14 @@
     top: 6px;
 }
 
-/* Spider Man Description */
-.SpiderMan_Description {
+/* SpiderMan Description */
+.description-films__SpiderMan {
     position: relative;
     align: center;
     color: #FFFFFF;
 }
 
-.ten_oclock {
+.description-films-SpiderMan__time {
     position: absolute;
     width: 236px;
     height: 18px;
@@ -125,7 +125,7 @@
     line-height: 18px;
 }
 
-.SpiderMan {
+.description-films-SpiderMan__name {
     text-decoration: none;
     position: absolute;
     width: 240px;
@@ -140,7 +140,7 @@
     color: #FFFFFF;
 }
 
-.SpiderMan_Genre {
+.description-films-SpiderMan__genre {
     position: absolute;
     width: 240px;
     height: 18px;
@@ -153,13 +153,14 @@
     line-height: 18px;
 }
 
-.DogLife2_Description {
+/* DogLife Description */
+.description-films__DogLife2 {
     position: relative;
     align: center;
     color: #FFFFFF;
 }
 
-.twelwe_oclock {
+.description-films-DogLife2__time {
     position: absolute;
     width: 236px;
     height: 18px;
@@ -172,7 +173,7 @@
     line-height: 18px;
 }
 
-.DogLife {
+.description-films-DogLife2__name {
     text-decoration: none;
     position: absolute;
     width: 240px;
@@ -187,7 +188,7 @@
     color: #FFFFFF;
 }
 
-.DogLife_Genre {
+.description-films-DogLife2__genre {
     position: absolute;
     width: 240px;
     height: 18px;
@@ -200,13 +201,13 @@
     line-height: 18px;
 }
 
-.HistoryToys4_Description {
+.description-films__HistoryToys4 {
     position: relative;
     align: center;
     color: #FFFFFF;
 }
 
-.fourteen_oclock {
+.description-films-HistoryToys4__time {
     position: absolute;
     width: 236px;
     height: 18px;
@@ -219,7 +220,7 @@
     line-height: 18px;
 }
 
-.HistoryToys4 {
+.description-films-HistoryToys4__name {
     text-decoration: none;
     position: absolute;
     width: 240px;
@@ -234,7 +235,7 @@
     color: #FFFFFF;
 }
 
-.HistoryToys4_Genre {
+.description-films-HistoryToys4__genre {
     position: absolute;
     width: 240px;
     height: 18px;
@@ -247,13 +248,13 @@
     line-height: 18px;
 }
 
-.MeninBlack_Description {
+.description-films__MeninBlack {
     position: relative;
     align: center;
     color: #FFFFFF;
 }
 
-.sixteen_oclock {
+.description-films-MeninBlack__time {
     position: absolute;
     width: 236px;
     height: 18px;
@@ -267,7 +268,7 @@
     color: #FFFFFF;
 }
 
-.MeninBlack {
+.description-films-MeninBlack__name {
     text-decoration: none;
     position: absolute;
     width: 240px;
@@ -282,7 +283,7 @@
     color: #FFFFFF;
 }
 
-.MeninBlack_Genre {
+.description-films-MeninBlack__genre {
     position: absolute;
     width: 240px;
     height: 18px;
@@ -295,7 +296,56 @@
     line-height: 18px;
 }
 
-.TableText {
+.arrow-Up__time {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 360px;
+    top: 1852px;
+    transform: matrix(1, 0, 0, -1, 0)
+}
+
+.arrow-Down__name {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 640px;
+    top: 1852px;
+}
+
+.arrow__ten-oclock {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 163px;
+    top: 1899px;
+}
+
+.arrow__twelwe-oclock {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 164px;
+    top: 1945px;
+}
+
+.arrow__fourteen-oclock {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 166px;
+    top: 1985px;
+}
+
+.arrow__sixteen-oclock {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 167px;
+    top: 2030px;
+}
+
+.footer__TableText {
     position: absolute;
     width: 539px;
     height: 55px;
@@ -308,53 +358,4 @@
     line-height: 14px;
     text-align: center;
     color: #333333;
-}
-
-.Session_ArrowUp {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 360px;
-    top: 1852px;
-    transform: matrix(1, 0, 0, -1, 0)
-}
-
-.Name_ArrowDown {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 640px;
-    top: 1852px;
-}
-
-.ten_oclock_Arrow {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 163px;
-    top: 1899px;
-}
-
-.twelwe_oclock_Arrow {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 164px;
-    top: 1945px;
-}
-
-.fourteen_oclock_Arrow {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 166px;
-    top: 1985px;
-}
-
-.sixteen_oclock_Arrow {
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    left: 167px;
-    top: 2030px;
 }
