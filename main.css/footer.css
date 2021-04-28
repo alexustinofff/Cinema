@@ -1,5 +1,31 @@
 /* Footer Map */
-.Map {
+/* font family */
+.Map__adress,
+.adress-Map__InnopolisUniversity,
+.item-Footer__text,
+.item-Foter__Copyright,
+.item-Foter__Site,
+.item-Foter__EventDetails,
+.item-Foter__Speakers,
+.item-Foter__Sponsors,
+.item-Foter__PastEvents,
+.item-Foter__Contact,
+.item-Foter__Number,
+.item-Foter__KinoPoisk,
+.item-Foter__Adress,
+.item-Foter__Map,
+.item-Foter__AllContacts {
+    position: absolute;
+    text-decoration: none;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.Map__img {
     position: absolute;
     width: 973px;
     height: 421px;
@@ -8,37 +34,31 @@
     border-radius: 20px;
 }
 
-.Map_adress {
-    position: absolute;
+.Map__adress {
     width: 69px;
     height: 7px;
     left: 418px;
     top: 6074px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
     font-weight: 600;
-    font-size: 7px;
-    line-height: 9px;
-    color: #696969;
-    text-decoration: none;
+    font-size: 7px !important;
+    line-height: 9px !important;
+    color: #696969 !important;
 }
 
-.Map_Map_adress_InnopolisUniversity {
-    position: absolute;
+.adress-Map__InnopolisUniversity {
     width: 53.33px;
     height: 20.09px;
     left: 393px;
     top: 6111.76px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
     font-weight: 600;
-    font-size: 7px;
-    line-height: 9px;
-    color: #696969;
+    font-size: 7px !important;
+    line-height: 9px !important;
+    color: #696969 !important;
     transform: matrix(0.84, -0.53, 0.54, 0.85, 0, 0);
 }
+
 /* Footer content */
-.Footer_Fone {
+.item-Footer__Fone {
     position: absolute;
     width: 1126px;
     height: 362px;
@@ -47,206 +67,23 @@
     background: #A3CC40;
 }
 
-.Footer_logo {
+.item-Footer__logo {
     position: absolute;
     left: 90px;
     top: 6452px;
 }
 
-.Footer_text {
-    position: absolute;
+.item-Footer__text {
     width: 269px;
     height: 72px;
     left: 89px;
     top: 6501px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    color: #FFFFFF;
+    font-size: 14px !important;
+    line-height: 18px !important;
 }
 
-.Foter_Copyright {
-    position: absolute;
-    width: 436px;
-    height: 39px;
-    left: 89px;
-    top: 6672px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 19px;
-    color: #FFFFFF;
-}
-
-.Footer_Site {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 26px;
-    left: 529px;
-    top: 6445px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
-
-.Footer_EventDetails {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6493px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Speakers {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6521px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Sponsors {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6549px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_PastEvents {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6577px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Contact {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 26px;
-    left: 738px;
-    top: 6445px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
-}
-
-.Footer_Number {
-    text-decoration: none;
-    position: absolute;
-    width: 148px;
-    height: 16px;
-    left: 738px;
-    top: 6493px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_KinoPoisk {
-    text-decoration: none;
-    position: absolute;
-    width: 147px;
-    height: 16px;
-    left: 738px;
-    top: 6521px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Adress {
-    text-decoration: none;
-    position: absolute;
-    width: 189px;
-    height: 32px;
-    left: 738px;
-    top: 6549px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Map {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 738px;
-    top: 6593px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_AllContacts {
-    text-decoration: none;
-    position: absolute;
-    width: 111px;
-    height: 16px;
-    left: 738px;
-    top: 6621px;
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-}
-
-.Footer_Ico_Instagram {
+.ico-footer__Instagram {
     position: absolute;
     width: 18px;
     height: 18px;
@@ -254,7 +91,7 @@
     top: 6604px;
 }
 
-.Footer_Ico_Linkedin {
+.ico-footer__Linkedin {
     position: absolute;
     width: 18px;
     height: 18px;
@@ -262,7 +99,7 @@
     top: 6604px;
 }
 
-.Footer_Ico_Twitter {
+.ico-footer__Twitter {
     position: absolute;
     width: 18px;
     height: 18px;
@@ -270,7 +107,7 @@
     top: 6604.75px;
 }
 
-.Footer_Ico_YouTube {
+.ico-footer__YouTube {
     position: absolute;
     width: 18px;
     height: 12.75px;
@@ -278,10 +115,103 @@
     top: 6608px;
 }
 
-.Footer_Ico_Facebook {
+.ico-footer__Facebook {
     position: absolute;
     width: 18px;
     height: 18px;
     left: 347px;
     top: 6604px;
+}
+
+.item-Foter__Copyright {
+    width: 436px;
+    height: 39px;
+    left: 89px;
+    top: 6672px;
+    font-weight: normal !important;
+    font-size: 15px !important;
+    line-height: 19px !important;
+}
+
+.item-Foter__Site {
+    width: 111px;
+    height: 26px;
+    left: 529px;
+    top: 6445px;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+}
+
+.item-Foter__EventDetails {
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6493px;
+}
+
+.item-Foter__Speakers {
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6521px;
+}
+
+.item-Foter__Sponsors {
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6549px;
+}
+
+.item-Foter__PastEvents {
+    width: 111px;
+    height: 16px;
+    left: 529px;
+    top: 6577px;
+}
+
+.item-Foter__Contact {
+    width: 111px;
+    height: 26px;
+    left: 738px;
+    top: 6445px;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    line-height: 26px !important;
+}
+
+.item-Foter__Number {
+    width: 148px;
+    height: 16px;
+    left: 738px;
+    top: 6493px;
+}
+
+.item-Foter__KinoPoisk {
+    width: 147px;
+    height: 16px;
+    left: 738px;
+    top: 6521px;
+}
+
+.item-Foter__Adress {
+    width: 189px;
+    height: 32px;
+    left: 738px;
+    top: 6549px;
+}
+
+.item-Foter__Map {
+    width: 111px;
+    height: 16px;
+    left: 738px;
+    top: 6593px;
+}
+
+.item-Foter__AllContacts {
+    width: 111px;
+    height: 16px;
+    left: 738px;
+    top: 6621px;
 }

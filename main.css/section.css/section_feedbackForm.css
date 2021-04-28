@@ -1,18 +1,32 @@
-.FeedBack_Form {
+/* font family */
+.item-FeedBack__form,
+.FeedBack-Form__agree {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+}
+
+.item-feedBack__img {
+    position: absolute;
+    width: 670px;
+    height: 527px;
+    left: 178px;
+    top: 5370px;
+}
+
+
+.item-FeedBack__form_head {
     position: absolute;
     width: 252px;
     height: 33px;
     left: 633px;
     top: 5413px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 25px;
     line-height: 32px;
     color: #A3CC40;
 }
 
-.FeedBack_Form_Name {
+.form-feedBack__name {
     position: absolute;
     width: 344px;
     height: 40px;
@@ -21,7 +35,7 @@
     border-radius: 5px;
 }
 
-.FeedBack_Form_SeatNumber {
+.form-feedBack__seatNumber {
     position: absolute;
     width: 344px;
     height: 40px;
@@ -30,7 +44,7 @@
     border-radius: 5px;
 }
 
-.FeedBack_Form_text {
+.form-feedBack__reviews {
     position: absolute;
     width: 344px;
     height: 120px;
@@ -39,7 +53,7 @@
     border-radius: 5px;
 }
 
-.FeddBack_Form_Ok-Rectangle {
+.FeedBack-Form__checkMark {
     position: absolute;
     width: 18px;
     height: 17px;
@@ -50,21 +64,19 @@
     border-radius: 5px;
 }
 
-.FeddBack_Form_Ok-Personal-Data {
+.FeedBack-Form__agree {
     position: absolute;
     width: 275px;
     height: 13px;
     left: 586px;
     top: 5749px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 13px;
     color: #333333;
 }
 
-.FeedBack_Form_Button {
+.FeedBack-Form__button {
     position: absolute;
     width: 344px;
     height: 57px;

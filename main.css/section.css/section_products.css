@@ -1,32 +1,38 @@
-.Products {
+/* font family */
+.products__head,
+.products__head_text,
+.Cola-item__text,
+.Trinket-item__text,
+.Poster-item__text {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+}
+
+.products__head {
     position: absolute;
     width: 548px;
     height: 62px;
     left: 139px;
     top: 3986px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 48px;
     line-height: 62px;
     color: #A3CC40;
 }
 
-.ProductsText {
+.products__head_text {
     position: absolute;
     width: 548px;
     height: 28px;
     left: 139px;
     top: 4075px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
     color: #333333;
 }
 
-.CocaCola {
+.products-item__CocaCola {
     position: absolute;
     width: 245px;
     height: 331px;
@@ -35,14 +41,12 @@
     z-index: -1;
 }
 
-.ColaText {
+.Cola-item__text {
     position: absolute;
     width: 177px;
     height: 26px;
     left: 178px;
     top: 4421px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
@@ -51,7 +55,7 @@
     z-index: 2;
 }
 
-.ColaFone {
+.Cola-item__fone {
     position: absolute;
     width: 238px;
     height: 83px;
@@ -62,7 +66,7 @@
 
 }
 
-.ColaFone::after {
+.Cola-item__fone::after {
     position: absolute;
     left: 0px;
     bottom: 83px;
@@ -72,7 +76,7 @@
     overflow: hidden;
 }
 
-.Trinket {
+.products-item__Trinket {
     position: absolute;
     width: 245px;
     height: 331px;
@@ -83,14 +87,12 @@
     left: 440px;
 }
 
-.TrinketText {
+.Trinket-item__text {
     position: absolute;
     width: 177px;
     height: 86px;
     left: 474px;
     top: 4393px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
@@ -99,7 +101,7 @@
     z-index: 2;
 }
 
-.TrinketFone {
+.TrinketTrinket-item__fone {
     position: absolute;
     width: 238px;
     height: 83px;
@@ -109,7 +111,7 @@
     z-index: 1;
 }
 
-.TrinketFone::after {
+.TrinketTrinket-item__fone::after {
     position: absolute;
     left: 0px;
     bottom: 83px;
@@ -119,7 +121,7 @@
     overflow: hidden;
 }
 
-.Poster {
+.products-item__Poster {
     position: absolute;
     width: 245px;
     height: 331px;
@@ -129,22 +131,21 @@
     z-index: -1;
 }
 
-.PosterText {
+.Poster-item__text {
     position: absolute;
     width: 177px;
     height: 60px;
     left: 773px;
     top: 4403px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
     text-align: center;
     color: #FFFFFF;
+    z-index: 2;
 }
 
-.PosterFone {
+.PosterPoster-item__fone {
     position: absolute;
     width: 238px;
     height: 83px;
@@ -153,7 +154,7 @@
     background: rgba(163, 204, 64, 0.8);
 }
 
-.PosterFone::after {
+.PosterPoster-item__fone::after {
     position: absolute;
     bottom: 83px;
     left: 0px;

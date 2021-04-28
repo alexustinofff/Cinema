@@ -1,65 +1,36 @@
-.FilmsHead {
+/* Заголовок */
+/* font family */
+.films-choice__poster {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+}
+
+.text-films__head {
     position: absolute;
     width: 548px;
     height: 62px;
     left: 137px;
     top: 2876px;
-    font-family: "IBM Plex Sans"sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 48px;
     line-height: 62px;
     color: #A3CC40;
 }
 
-.FilmsText {
+.text-films__head_text {
     position: absolute;
     width: 548px;
     height: 28px;
     left: 139px;
     top: 2965px;
-    font-family: "IBM Plex Sans"sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
     color: #333333;
 }
 
-.Survivor {
-    position: absolute;
-    width: 239px;
-    height: 38px;
-    left: 161px;
-    top: 3074px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-}
-
-.SurvivorText {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 162px;
-    top: 3125px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-}
-
-.SurvivorPoster {
-    position: absolute;
-    background: rgba(144, 210, 61, 0.4);
-}
-
-.SurvivorFilm {
+/* Таблица с фильмами */
+.poster-films__Survivor_img {
     position: absolute;
     width: 284px;
     height: 284px;
@@ -67,7 +38,43 @@
     top: 3057px;
 }
 
-.IceFilm {
+.poster-films__Survivor_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 163px;
+    top: 3074px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Survivor_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 163px;
+    top: 3125px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.films-choice__poster:hover .poster-films__Survivor_fones {
+    position: absolute;
+    width: 283px;
+    height: 283px;
+    /* left: 139px;
+    top: 3057px; */
+    background: rgba(144, 210, 61, 0.4);
+    z-index: 2;
+}
+
+.poster-films__Ice_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
@@ -75,7 +82,33 @@
     top: 3057px;
 }
 
-.MarsFilm {
+.poster-films__ice_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 446px;
+    top: 3074px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__ice_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 446px;
+    top: 3125px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Martian_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
@@ -83,7 +116,33 @@
     top: 3057px;
 }
 
-.SatelliteFilm {
+.poster-films__Martian_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 730px;
+    top: 3074px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Martian_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 730px;
+    top: 3125px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Satellite_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
@@ -91,7 +150,33 @@
     top: 3340.33px;
 }
 
-.Ak47Film {
+.poster-films__Satellite_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 163px;
+    top: 3367px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Satellite_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 163px;
+    top: 3412px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Ak47_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
@@ -99,7 +184,33 @@
     top: 3340.33px;
 }
 
-.TerritoryFilm {
+.poster-films__Ak47_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 446px;
+    top: 3367px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Ak47_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 446px;
+    top: 3412px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Territory_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
@@ -107,7 +218,33 @@
     top: 3340.33px;
 }
 
-.DreamFilm {
+.poster-films__Territory_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 730px;
+    top: 3367px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Territory_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 730px;
+    top: 3412px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Dream_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
@@ -115,7 +252,33 @@
     top: 3623.67px;
 }
 
-.UnknownFilm {
+.poster-films__Dream_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 105px;
+    left: 163px;
+    top: 3651px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Dream_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 163px;
+    top: 3696px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Unknown_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
@@ -123,7 +286,33 @@
     top: 3623.67px;
 }
 
-.AliveFilm {
+.poster-films__Unknown_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 446px;
+    top: 3651px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Unknownr_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 446px;
+    top: 3696px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Alive_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
@@ -131,20 +320,37 @@
     top: 3623.67px;
 }
 
-.FonesFilm {
+.poster-films__Alive_head_Text {
+    position: absolute;
+    width: 239px;
+    height: 38px;
+    left: 730px;
+    top: 3651px;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 38px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Alive_Text {
+    position: absolute;
+    width: 237px;
+    height: 105px;
+    left: 730px;
+    top: 3696px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.poster-films__Fones {
     position: absolute;
     width: 850px;
     height: 850px;
     left: 139px;
     top: 3057px;
     background: rgba(22, 22, 22, 0.8);
-}
-
-.FonesSurvivorFilm {
-    position: absolute;
-    width: 283px;
-    height: 283px;
-    left: 139px;
-    top: 3057px;
-    background: rgba(144, 210, 61, 0.4);
 }

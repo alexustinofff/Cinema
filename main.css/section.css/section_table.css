@@ -4,9 +4,9 @@
     height: 62px;
     left: 135px;
     top: 1705px;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 48px;
     line-height: 62px;
     color: #A3CC40;
@@ -73,7 +73,7 @@
     position: relative;
     align: center;
     color: #FFFFFF;
-    font-family: IBM Plex Sans sans-serif;
+    font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -105,6 +105,27 @@
     top: 6px;
 }
 
+/* font family */
+.description-films-SpiderMan__time,
+.description-films-SpiderMan__name,
+.description-films-SpiderMan__genre,
+.description-films-DogLife2__time,
+.description-films-DogLife2__name,
+.description-films-DogLife2__genre,
+.description-films-HistoryToys4__time,
+.description-films-HistoryToys4__name,
+.description-films-HistoryToys4__genre,
+.description-films-MeninBlack__time,
+.description-films-MeninBlack__name,
+.description-films-MeninBlack__genre,
+.footer__TableText {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
 /* SpiderMan Description */
 .description-films__SpiderMan {
     position: relative;
@@ -118,11 +139,6 @@
     height: 18px;
     top: 58px;
     left: 87px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
 }
 
 .description-films-SpiderMan__name {
@@ -132,11 +148,6 @@
     height: 18px;
     left: 340px;
     top: 58px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
     color: #FFFFFF;
 }
 
@@ -146,11 +157,6 @@
     height: 18px;
     left: 561px;
     top: 58px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
 }
 
 /* DogLife Description */
@@ -166,11 +172,6 @@
     height: 18px;
     left: 87px;
     top: 104px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
 }
 
 .description-films-DogLife2__name {
@@ -180,11 +181,6 @@
     height: 18px;
     left: 340px;
     top: 103px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
     color: #FFFFFF;
 }
 
@@ -194,11 +190,6 @@
     height: 18px;
     left: 561px;
     top: 103px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
 }
 
 .description-films__HistoryToys4 {
@@ -213,11 +204,6 @@
     height: 18px;
     left: 87px;
     top: 145px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
 }
 
 .description-films-HistoryToys4__name {
@@ -227,11 +213,6 @@
     height: 18px;
     left: 338px;
     top: 149px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
     color: #FFFFFF;
 }
 
@@ -241,11 +222,6 @@
     height: 18px;
     left: 561px;
     top: 149px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
 }
 
 .description-films__MeninBlack {
@@ -260,11 +236,6 @@
     height: 18px;
     left: 87px;
     top: 189px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
     color: #FFFFFF;
 }
 
@@ -275,11 +246,6 @@
     height: 18px;
     left: 338px;
     top: 191px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
     color: #FFFFFF;
 }
 
@@ -289,11 +255,6 @@
     height: 18px;
     left: 561px;
     top: 191px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
 }
 
 .arrow-Up__time {
@@ -351,11 +312,7 @@
     height: 55px;
     left: 293px;
     top: 2093px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
+    font-size: 11px !important;
     text-align: center;
     color: #333333;
 }

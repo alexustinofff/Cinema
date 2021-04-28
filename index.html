@@ -16,11 +16,10 @@
    <link rel="stylesheet" href="main.css/section.css/section_table.css">
    <link rel="stylesheet" href="main.css/footer.css">
    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet"> -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap" rel="stylesheet">
     <title>Innopolis Cinema</title>
 </head>
 <body>
@@ -59,12 +58,10 @@
         </ul>
     </nav>
  <!-- Главный фон -->
-        <div>
-            <img class="MainPicture" src="images/Главная страница.png" alt="HomePage">
+        <div class="menu__main_img">
+            <img class="menu__main_img" src="images/Главная страница.png" alt="HomePage">
         </div>
-    </header>
-    <section>
-        <div class="Welcom">
+        <section class="Welcom">
         <div class="Welcom__Fone">
         <div class="Welcome__Head">
                 <b>Добро пожаловать!</b>
@@ -76,13 +73,14 @@
                     enim ad minim veniam.
                 </p>
                 <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br>
+                    <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br>
                     dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
                     non proident, sunt.
                 </p>
         </div>
         </div>
-    </div>
+    </header>
+        <section>
         <!-- Main Advanteges -->
         <div class="Advanteges">
         <b class="Advanteges__head">Почему мы?</b><br>
@@ -214,7 +212,9 @@
                 </div>
                 <!-- Present -->
                 <div class="present__item">
-                <img class="item-present__imgFone" src="images/подарок(фон).PNG" alt="Present Fone">
+                        <div class="item__main_Img">
+                            <img class="item-present__imgFone" src="images/подарок(фон).PNG" alt="Present Fone">
+                        </div>
                 <img class="item-present__imgBox" src="images/Подарок.png" alt="Present">
                 <strong class="item-present__headText" id="present">Подарок каждому!</strong>
                 <div class="item-present__text">
@@ -223,17 +223,17 @@
                         sed do eiusmod tempor incididunt ut labore et dolore <br>
                         magna aliqua. Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum
                         pulvinar etiam non quam. <br>
-                        Ut pharetra sit amet aliquam id diam maecenas. <br>
+                       Ut pharetra sit amet aliquam id diam maecenas. <br>
                     </p>
                     <p>
-                        Nunc vel risus commodo viverra maecenas accumsan. Morbi enim nunc faucibus a.
+                       <br> Nunc vel risus commodo viverra maecenas accumsan. Morbi enim nunc faucibus a.
                         Mauris commodo quis <br>
                         imperdiet massa.Sed elementum tempus egestas sed sed risus
                         pretium quam vulputate. Aliquam vestibulum <br>
                         morbi blandit cursus risus at ultrices mi tempus. <br>
                     </p>
                     <p>
-                        Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam.
+                       <br> Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam.
                         Ut pharetra sit <br>
                         amet aliquam id diam maecenas. Sed elementum tempus egestas sed sed risus
                         pretium quam vulputate. <br>
@@ -245,19 +245,36 @@
                 </div>
                 <button class="item-present__button">Получить подарок</button>
             </div>
-            <!-- Films -->!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            <div>
-                <b class="FilmsHead">Фильмы</b>
-                <p class="FilmsText">
+            <!-- Films -->
+            <!-- Заголовок -->
+            <div class="choiсe__films">
+            <div class="films__text">
+                <b class="text-films__head">Фильмы</b>
+                <p class="text-films__head_text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore <br>
                     magna aliqua. Nibh mauris cursus mattis molestie a iaculis at.
                     Vel quam elementum pulvinar etiam non quam. <br>
                 </p>
             </div>
-            <div>
-                <span class="Survivor">Выживший</span>
-                <p class="SurvivorText">
+            <!-- Таблица фильмов -->
+            <div class="films-choice__poster">
+               <div><img class="poster-films__Survivor_img" src="images/Выживший.png" alt="Survivor">
+                <div class="poster-films__Survivor_fones"></div>
+                <span class="poster-films__Survivor_head_Text">Выживший</span>
+                <p class="poster-films__Survivor_Text">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </div> 
+                <div>
+                    <img class="poster-films__Ice_img" src="images/Лёд.png" alt="Ice">
+                <span class="poster-films__ice_head_Text">Лёд</span>
+                <p class="poster-films__ice_Text">
                     Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit, sed do eiusmod tempor <br>
                     incididunt ut labore et dolore magna aliqua.<br>
@@ -267,137 +284,218 @@
                 </p>
             </div>
             <div>
-                <img class="SurvivorFilm" src="images/Выживший.png" alt="Survivor">
-                <img class="IceFilm" src="images/Лёд.png" alt="Ice">
-                <img class="MarsFilm" src="images/Марсианин.png" alt="Mars">
-                <img class="SatelliteFilm" src="images/Спутник.png" alt="Satellite">
-                <img class="Ak47Film" src="images/Калашников.png" alt="Ak47">
-                <img class="TerritoryFilm" src="images/Территория.png" alt="territory">
-                <img class="DreamFilm" src="images/Мечта реальна.png" alt="Dreamisreal">
-                <img class="UnknownFilm" src="images/unknown.png" alt="unknown">
-                <img class="AliveFilm" src="images/Живое.png" alt="alive">
-                <div class="FonesFilm"></div>
-                <div class="FonesSurvivorFilm"></div>
+                <img class="poster-films__Martian_img" src="images/Марсианин.png" alt="Mars">
+                <span class="poster-films__Martian_head_Text">Марсианин</span>
+                <p class="poster-films__Martian_Text">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </div>
+            <div>
+                <img class="poster-films__Satellite_img" src="images/Спутник.png" alt="Satellite">
+                <span class="poster-films__Satellite_head_Text">Спутник</span>
+                <p class="poster-films__Satellite_Text">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </div>
+            <div>
+                <img class="poster-films__Ak47_img" src="images/Калашников.png" alt="Ak47">
+                <span class="poster-films__Ak47_head_Text">Калашников</span>
+                <p class="poster-films__Ak47_Text">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </div>
+            <div>
+                <img class="poster-films__Territory_img" src="images/Территория.png" alt="territory">
+                <span class="poster-films__Territory_head_Text">Территория</span>
+                <p class="poster-films__Territory_Text">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </div>
+            <div>
+                <img class="poster-films__Dream_img" src="images/Мечта реальна.png" alt="Dreamisreal">
+                <span class="poster-films__Dream_head_Text">Мечта реальна</span>
+                <p class="poster-films__Dream_Text">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </div>
+            <div>
+                <img class="poster-films__Unknown_img" src="images/unknown.png" alt="unknown">
+                <span class="poster-films__Unknown_head_Text">Неизвестно</span>
+                <p class="poster-films__Unknownr_Text">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </div>
+            <div>
+                <img class="poster-films__Alive_img" src="images/Живое.png" alt="alive">
+                <span class="poster-films__Alive_head_Text">Живое</span>
+                <p class="poster-films__Alive_Text">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </div>
+                <div class="poster-films__Fones"></div>
+            </div>
             </div>
             <!-- Products -->
-            <div>
-                <strong class="Products">Товары</strong>
-                <p class="ProductsText">
+            <!-- Заголовок -->
+        <div>
+            <div class="choice__products">
+                <strong class="products__head">Товары</strong>
+                <p class="products__head_text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua.
                     Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam. <br>
                 </p>
-                <img class="CocaCola" src="images/кока-кола.png" alt="#ProductsCinema"><br>
-                <strong class="ColaText">Coca-cola</strong><br>
-                <div class="ColaFone"></div>
-                <img class="Trinket" src="images/Брелоки.png" alt="#ProductsCinema"><br> 
-                    <div class="TrinketFone"></div>
-                <strong class="TrinketText">Брелок “Железный человек”</strong><br>
-                <img class="Poster" src="images/Постер мстители.png" alt="#ProductsCinema"> <br>
-                    <div class="PosterFone"></div>
-                <strong class="PosterText">Постер “Мстители”</strong><br>
+                <!-- Карточка продуктов -->
+                <div class="item-products">
+                <img class="products-item__CocaCola" src="images/кока-кола.png" alt="#ProductsCinema"><br>
+                <strong class="Cola-item__text">Coca-cola</strong><br>
+                <div class="Cola-item__fone"></div>
+                <img class="products-item__Trinket" src="images/Брелоки.png" alt="#ProductsCinema"><br> 
+                <strong class="Trinket-item__text">Брелок “Железный человек”</strong><br>    
+                <div class="TrinketTrinket-item__fone"></div>
+                <img class="products-item__Poster" src="images/Постер мстители.png" alt="#ProductsCinema"> <br>
+                <strong class="Poster-item__text">Постер “Мстители”</strong><br>    
+                <div class="PosterPoster-item__fone"></div>
+            </div>
             </div>
             <!-- Reviews -->
-            <div>
-                <strong class="Reviews">Отзывы</strong>
-                <div class="FeedBackFone" ><img src="images/FeedBack_Fone.PNG" alt="FeedBackFone"></div>
-                <blockquote class="ReviewsText">
+            <div class="Reviews">
+            <div class="Reviews__head">
+                <strong class="Reviews__head_text">Отзывы</strong>
+                <div class="Reviews__fone" ><img src="images/FeedBack_Fone.PNG" alt="FeedBackFone"></div>
+                <blockquote class="Reviews__text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore <br>
                     magna aliqua. Nibh mauris cursus mattis molestie a iaculis at.
                     Vel quam elementum pulvinar etiam non quam. <br>
                 </blockquote>
             </div>
-            <div>
-                <div class="ElenaFoto_Fone">
-                <img class="ElenaFoto" src="images/Елена Еленова.png" alt="ElenaReviews">
-            </div>
-            <div class="Elena_Data">13.12.2020</div>
-                <strong class="ElenaElenova">Елена Еленова</strong>
-                <blockquote class="ElenaText">
+            <div class="Reviews__people">
+                <div class="Reviews__Elena">
+                    <div class="Elena-reviews__fone">
+                <img class="Elena-reviews__img" src="images/Елена Еленова.png" alt="ElenaReviews"></div>
+                <strong class="Elena-reviews__name">Елена Еленова</strong>
+                <blockquote class="Elena-reviews__text">
                     Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit, sed do eiusmod tempor <br>
                     incididunt ut labore et dolore magna <br>
                     aliqua.
                 </blockquote>
-            </div>
-            <div>
-                <div class="BorisFoto_Fone">
-                <img class="BorisFoto" src="images/Борис Борисов.png" alt="BorisReviews">
+                <div class="Elena-reviews__data">13.12.2020</div>
                 </div>
-                <div class="Boris_Data">13.12.2020</div>
-                <span class="BorisBorisov">Борис Борисов</span>
-                <blockquote class="BorisText">
+            <div class="Reviews__Boris">
+                <div class="Boris-reviews__fone">
+                <img class="Boris-reviews__img" src="images/Борис Борисов.png" alt="BorisReviews"></div>
+                <div class="Boris-reviews__data">13.12.2020</div>
+                <span class="Boris-reviews__name">Борис Борисов</span>
+                <blockquote class="Boris-reviews__text">
                     Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit, sed do eiusmod tempor <br>
                     incididunt ut labore et dolore magna aliqua. <br>
                 </blockquote>
             </div>
-            <div>
-                <div class="LeoFone">
-                <img class="LeoFoto" src="images/Ди каприо.png" alt="LeoReviews">
-            </div>
-            <div class="Leo_Data">13.12.2020</div>
-                <span class="LeoDicaprio">Леонардо ДиКаприо</span>
-                <blockquote class="LeoText">
+            <div class="Reviews__leo">
+                <div class="Leo-reviews__fone">
+                <img class="Leo-reviews__img" src="images/Ди каприо.png" alt="LeoReviews"></div>
+            <div class="Leo-reviews__data">13.12.2020</div>
+                <span class="Leo-reviews__name">Леонардо ДиКаприо</span>
+                <blockquote class="Leo-reviews__text">
                     Lorem ipsum dolor sit amet, <br>
                     consectetur adipiscing elit, sed do <br>
                     eiusmod tempor incididunt ut labore <br>
                     et dolore magna aliqua. <br>
                 </blockquote>
             </div>
-            <img class="Reviews_ArrowLeft" src="svg/стрелка лево(отзывы).svg" alt="">
-            <img class="Reviews_ArrowRight" src="svg/стрелка право(отзывы).svg" alt="">
+            </div>
+            <img class="Reviews__Arrow_Left" src="svg/стрелка лево(отзывы).svg" alt="">
+            <img class="Reviews__Arrow_Right" src="svg/стрелка право(отзывы).svg" alt="">
         </div>
     </section>
     <!-- Feedback -->
-        <div>
-            <img class="imgCinemaHoll" src="images/imgFeedBack.jpg" alt="imgCinemaHoll">
-            <span class="FeedBack_Form">Обратная связь</span>
+        <div class="FeedBack__item">
+            <img class="item-feedBack__img" src="images/imgFeedBack.jpg" alt="imgCinemaHoll">
+            <span class="item-FeedBack__form_head">Обратная связь</span>
             <form action="#">
-                <input class="FeedBack_Form_Name" type="text" name="Name" placeholder="Полное имя">
-                <input class="FeedBack_Form_SeatNumber" type="text" name="SeatNumber" placeholder="Номер места">
-                <input class="FeedBack_Form_text" type="text" name="FeedBack" placeholder="Напишите свой отзыв">
+                <input class="form-feedBack__name" type="text" name="Name" placeholder="Полное имя">
+                <input class="form-feedBack__seatNumber" type="text" name="SeatNumber" placeholder="Номер места">
+                <input class="form-feedBack__reviews" type="text" name="FeedBack" placeholder="Напишите свой отзыв">
             </form>
-            <div class="FeddBack_Form_Ok-Rectangle"></div>
-            <span class="FeddBack_Form_Ok-Personal-Data">Я согласен на обработку персональных данных</span>
+            <div class="FeedBack-Form__checkMark"></div>
+            <span class="FeedBack-Form__agree">Я согласен на обработку персональных данных</span>
             <form action="#">
-                <input class="FeedBack_Form_Button" type="submit" name="submit" placeholder="Послать">
+                <input class="FeedBack-Form__button" type="submit" name="submit" placeholder="Послать">
             </form>
         </div>
         <!-- Map -->
-        <img class="Map" src="images/Карта.jpg" alt="Map">
-        <a class="Map_adress" target="_blank" href="https://yandex.ru/maps/121642/innopolis/house/universitetskaya_ulitsa_1/YEEYcQNjS0AFQFtvfXt0cnprZQ==/?ll=48.743632%2C55.753467&utm_source=main_stripe_big&z=17.65">
+        <img class="Map__img" src="images/Карта.jpg" alt="Map">
+        <a class="Map__adress" target="_blank" href="https://yandex.ru/maps/121642/innopolis/house/universitetskaya_ulitsa_1/YEEYcQNjS0AFQFtvfXt0cnprZQ==/?ll=48.743632%2C55.753467&utm_source=main_stripe_big&z=17.65">
             Университетская, 1</a>
-            <span class="Map_Map_adress_InnopolisUniversity">Университет Иннополис</span>
+            <span class="adress-Map__InnopolisUniversity">Университет Иннополис</span>
         </section>
         <!-- Footer -->
             <footer>
-                <div>
-                <div class="Footer_Fone"></div>
+                <div class="footer__item">
+                <div class="item-Footer__Fone"></div>
                <a target="_blank" href="https://innopolis.university/"> 
-                <img class="Footer_logo" src="svg/logo.svg" alt="LogoUniversity"></a>
-            <span class="Footer_text">Lorem ipsum dolor sit amet consectetur <br>
+                <img class="item-Footer__logo" src="svg/logo.svg" alt="LogoUniversity"></a>
+            <span class="item-Footer__text">Lorem ipsum dolor sit amet consectetur <br>
                  adipisicing elit, sed do eiusmod tempor <br>
                  incididunt ut labore et dolore magna <br>
                 aliqua. Ut enim ad minim veniam</span>
-            <a class="Footer_Ico_Instagram" target="_blank" href="https://www.instagram.com/innopolis/"><img src="svg/ico_instagram.svg" alt="Instagram"></a>
-            <a class="Footer_Ico_Linkedin" target="_blank" href="https://www.linkedin.cn/login"><img src="svg/ico_linkedin.svg" alt="linkedin"></a>
-            <a class="Footer_Ico_Twitter" target="_blank" href="https://twitter.com/InnopolisRus"><img src="svg/ico_twitter.svg" alt="twitter"></a>
-            <a class="Footer_Ico_YouTube" target="_blank" href="https://www.youtube.com/channel/UCPzZyyzdemUh4Bbo7d75r0g"><img src="svg/ico_YouTube.svg" alt="YouTube"></a>
-            <a class="Footer_Ico_Facebook" target="_blank" href="https://ru-ru.facebook.com/innopolis.ru"><img src="svg/ico_facebook.svg" alt="facebook"></a>
-            <span class="Foter_Copyright">Copyright @ 2020 Innopolis University . All Rights Reserved.</span>
-            <a class="Footer_Site" href="#">SITE</a>
-            <a class="Footer_EventDetails" href="#">EVENT DETAILS</a>
-            <a class="Footer_Speakers" href="#">SPEAKERS</a>
-            <a class="Footer_Sponsors" href="#">SPONSORS</a>
-            <a class="Footer_PastEvents" href="#">PAST EVENTS</a>
-            <a class="Footer_Contact" href="#">CONTACT</a>
-            <a class="Footer_Number" href="#">+7 (800) 355 12-56</a>
-            <a class="Footer_KinoPoisk" href="#">kino@innopolis.ru</a>
-            <a class="Footer_Adress" href="#">420500, г. Иннополис ул.Университетская, д.1</a>
-            <a class="Footer_Map" href="#">Как добраться</a>
-            <a class="Footer_AllContacts" href="#">Все контакты</a>
+                <div class="footer__ico">
+            <a class="ico-footer__Instagram" target="_blank" href="https://www.instagram.com/innopolis/"><img src="svg/ico_instagram.svg" alt="Instagram"></a>
+            <a class="ico-footer__Linkedin" target="_blank" href="https://www.linkedin.cn/login"><img src="svg/ico_linkedin.svg" alt="linkedin"></a>
+            <a class="ico-footer__Twitter" target="_blank" href="https://twitter.com/InnopolisRus"><img src="svg/ico_twitter.svg" alt="twitter"></a>
+            <a class="ico-footer__YouTube" target="_blank" href="https://www.youtube.com/channel/UCPzZyyzdemUh4Bbo7d75r0g"><img src="svg/ico_YouTube.svg" alt="YouTube"></a>
+            <a class="ico-footer__Facebook" target="_blank" href="https://ru-ru.facebook.com/innopolis.ru"><img src="svg/ico_facebook.svg" alt="facebook"></a>
+        </div>
+            <span class="item-Foter__Copyright">Copyright @ 2020 Innopolis University . All Rights Reserved.</span>
+            <a class="item-Foter__Site" href="#">SITE</a>
+            <a class="item-Foter__EventDetails" href="#">EVENT DETAILS</a>
+            <a class="item-Foter__Speakers" href="#">SPEAKERS</a>
+            <a class="item-Foter__Sponsors" href="#">SPONSORS</a>
+            <a class="item-Foter__PastEvents" href="#">PAST EVENTS</a>
+            <a class="item-Foter__Contact" href="#">CONTACT</a>
+            <a class="item-Foter__Number" href="#">+7 (800) 355 12-56</a>
+            <a class="item-Foter__KinoPoisk" href="#">kino@innopolis.ru</a>
+            <a class="item-Foter__Adress" href="#">420500, г. Иннополис ул.Университетская, д.1</a>
+            <a class="item-Foter__Map" href="#">Как добраться</a>
+            <a class="item-Foter__AllContacts" href="#">Все контакты</a>
             </div>
     </footer>
 </html>

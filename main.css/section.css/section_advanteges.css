@@ -1,12 +1,27 @@
+.Advanteges__head,
+.item-BigScreen__HeadText,
+.item-BigScreen__text,
+.item-Sound__HeadText,
+.item-Sound__text,
+.item-Chairs__HeadText,
+.item-Chairs__Text,
+.item-Atmosphere__HeadText,
+.item-Atmosphere__text,
+.item-FullImmersion__HeadText,
+.item-FullImmersion__text,
+.item-Kissing__HeadText,
+.item-Kissing__Text {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+}
+
 .Advanteges__head {
     position: absolute;
     width: 278px;
     height: 62px;
     left: 140px;
     top: 712px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 48px;
     line-height: 62px;
     color: #A3CC40;
@@ -25,10 +40,8 @@
     position: absolute;
     width: 161px;
     height: 26px;
-    left: 181px;
+    left: 182px;
     top: 1054px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
@@ -38,10 +51,8 @@
 .item-BigScreen__text {
     position: absolute;
     height: 83px;
-    left: 155px;
+    left: 143px;
     top: 1102px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
@@ -62,8 +73,6 @@
     width: 245px;
     height: 26px;
     top: 210px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
@@ -74,8 +83,6 @@
     width: 245px;
     height: 83px;
     top: 250px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
@@ -96,8 +103,6 @@
     width: 245px;
     height: 26px;
     top: 210px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
@@ -108,8 +113,6 @@
     width: 245px;
     height: 83px;
     top: 250px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
@@ -130,8 +133,6 @@
     width: 245px;
     height: 26px;
     top: 210px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
@@ -142,8 +143,6 @@
     width: 245px;
     height: 83px;
     top: 250px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
@@ -164,8 +163,6 @@
     width: 245px;
     height: 26px;
     top: 210px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
@@ -176,8 +173,6 @@
     width: 245px;
     height: 83px;
     top: 250px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
@@ -198,8 +193,6 @@
     width: 245px;
     height: 26px;
     top: 210px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 26px;
@@ -210,8 +203,6 @@
     width: 245px;
     height: 83px;
     top: 250px;
-    font-family: IBM Plex Sans sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 11px;
     line-height: 14px;
