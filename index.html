@@ -16,6 +16,7 @@
    <link rel="stylesheet" href="main.css/section.css/section_table.css">
    <link rel="stylesheet" href="main.css/footer.css">
    <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="main.css/button.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -24,27 +25,32 @@
 </head>
 <body>
     <header>
+        <!-- Main img -->
+        <div class="menu__main_img"><img src="images/main img.png" alt="Main images"></div>
         <!-- Menu -->
         <div class="menu">
-            <ul class="menu__item">
-                <li><a target="_blank" href="https://innopolis.university/">
-                    <img class="item-menu__logo" src="svg/logo.svg" alt="logo"></a></li>
-                <li><a class="item-menu__tel" target="_blank" href="#">+7 (800) 355 12-56</a></li>
-                <li><a class="item-menu__mail" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a></li>
-                <li><a class="item-menu__adress" target="_blank" href="#">ул.Спортивная д.1</a></li>
-                <button class="item-menu__button"><img class="button-item__iconPhone" 
-                    src="svg/Button_Icon_Tel.svg"alt="IconPhone">
-                    <a class="item-menu__bell" target="_blank" href="#">Заказать звонок</a></button>
-                <li><a class="item-menu__eventDetails" target="_blank" href="#">EVENT DETAILS</a></li>
-                <li><a class="item-menu__speakers" target="_blank" href="#">SPEAKERS</a></li>
-                <li><a class="item-menu__sponsors" target="_blank" href="#">SPONSORS</a></li>
-                <li><a class="item-menu__pastevents" target="_blank" href="#">PAST EVENTS</a></li>
-                <li><a class="item-menu__contact" target="_blank" href="#">CONTACT</a></li>
-                <li><a class="item-menu__chooseFilm" href="#ChooseFilms">Закажите билет в кино</a></li>
-                <li><a class="item-menu__present" href="#present">Всем покупателям подарок!</a>
-            </ul>
+            <div class="menu__item">
+                <a class="item-menu__tel" target="_blank" href="#">+7 (800) 355 12-56</a>
+                <a class="item-menu__mail" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a>
+                <a class="item-menu__adress" target="_blank" href="#">ул.Спортивная д.1</a>
+                <a class="item-menu__eventDetails" target="_blank" href="#">EVENT DETAILS</a>
+                <a class="item-menu__speakers" target="_blank" href="#">SPEAKERS</a>
+                <a class="item-menu__sponsors" target="_blank" href="#">SPONSORS</a>
+                <a class="item-menu__pastevents" target="_blank" href="#">PAST EVENTS</a>
+                <a class="item-menu__contact" target="_blank" href="#">CONTACT</a>
+            </div>
     </div>
-    <!-- Выбор языка -->
+    <!-- Main head -->
+    <div class="headlines__main">
+            <a class="main-headline__chooseFilm" href="#ChooseFilms">Закажите билет в кино</a>
+            <a class="main-headline__present" href="#present">Всем покупателям подарок!</a>
+        </div>
+                <!-- logo -->
+    <a target="_blank" href="https://innopolis.university/"><img class="item-menu__logo" src="svg/logo.svg" alt="logo"></a>
+    <!-- button -->
+    <button class="item-menu__button"><img class="button-item__iconPhone" src="svg/Button_Icon_Tel.svg"alt="Icon Phone">
+        <a class="item-menu__bell" target="_blank" href="#">Заказать звонок</a></button>
+    <!-- choice language -->
     <nav class="menu__language">
         <ul>
             <li><a href="#"><i class="Language"></i>RU</a><img class="Language__ico" 
@@ -57,15 +63,10 @@
             </li>
         </ul>
     </nav>
- <!-- Главный фон -->
-        <div class="menu__main_img">
-            <img class="menu__main_img" src="images/Главная страница.png" alt="HomePage">
-        </div>
-        <section class="Welcom">
+ <!-- welcome fone -->
+        <div class="Welcom__item">
         <div class="Welcom__Fone">
-        <div class="Welcome__Head">
-                <b>Добро пожаловать!</b>
-            </div>
+        <div class="Welcome__Head"><b>Добро пожаловать!</b></div>
         <div class="Welcome__Text">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
@@ -79,76 +80,87 @@
                 </p>
         </div>
         </div>
+    </div>
     </header>
-        <section>
         <!-- Main Advanteges -->
-        <div class="Advanteges">
+        <section class="Advanteges__block">
         <b class="Advanteges__head">Почему мы?</b><br>
-        <div class="BigScreen__item">
-            <div class="item-BigScreen__img"><img src="images/Большие экраны.png" alt="Img_BigScreen"></div><br>
-                <b class="item-BigScreen__HeadText">Большие экраны</b>
-                <p class="item-BigScreen__text">
+        <div class="Advanteges__container">
+            <div class="Advanteges__wrapper">
+        <div class="wrapper__item">
+            <figure>
+            <img class="item-BigScreen__img" src="images/Большие экраны.png" alt="Img_BigScreen"><br>
+        </figure>
+                <b class="wrapper__tittle">Большие экраны</b>
+                <p class="wrapper__subtittle">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt <br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.</p><br>
             </div>
-            <div class="Sound__item">
-            <div class="item-Sound__img"><img class="a" src="images/Объёмный звук.png" alt="Img_Sound"> <br>
-                <b class="item-Sound__HeadText">Объёмный звук</b>
-                <p class="item-Sound__text">
+            <div class="wrapper__item">
+                <figure>
+            <img class="item-Sound__img"src="images/Объёмный звук.png" alt="Img_Sound"><br>
+            </figure>
+                <b class="wrapper__tittle">Объёмный звук</b>
+                <p class="wrapper__subtittle">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.
                 </p>
             </div>
-        </div>
-        <div class="Chairs__item">
-            <div class="item-Chairs__img"><img src="images/Удобные кресла.png" alt="#MainAdvanteges"> <br>
-                <b class="item-Chairs__HeadText">Удобные кресла</b>
-                <p class="item-Chairs__Text">
+        <div class="wrapper__item">
+            <figure>
+            <img class="item-Chairs__img" src="images/Удобные кресла.png" alt="#MainAdvanteges"><br>
+            </figure>
+                <b class="wrapper__tittle">Удобные кресла</b>
+                <p class="wrapper__subtittle">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.
                 </p>
             </div>
-        </div>
-        <div class="Atmosphere__item">
-            <div class="item-Atmosphere__img"><img src="images/Уютная атмосфера.png" alt="#MainAdvanteges"><br>
-                <b class="item-Atmosphere__HeadText">Уютная атмосфера</b>
-                <p class="item-Atmosphere__text">
+        <div class="wrapper__item">
+            <figure>
+            <img class="item-Atmosphere__img" src="images/Уютная атмосфера.png" alt="#MainAdvanteges"><br>
+            </figure>
+                <b class="wrapper__tittle">Уютная атмосфера</b>
+                <p class="wrapper__subtittle">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.
                 </p>
-            </div>
         </div>    
-        <div class="FullImmersion__item">
-            <div class="item-FullImmersion__img"><img src="images/Полное погружение.png" alt="#MainAdvanteges"><br>
-                <b  class="item-FullImmersion__HeadText">Полное погружение</b>
-                <p class="item-FullImmersion__text">
+        <div class="wrapper__item">
+            <figure>
+            <img class="item-FullImmersion__img" src="images/Полное погружение.png" alt="#MainAdvanteges"><br>
+            </figure>
+                <b  class="wrapper__tittle">Полное погружение</b>
+                <p class="wrapper__subtittle">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.
                 </p>
             </div>
-            </div>
-            <div class="Kissing__item">  
-            <div class="item-Kissing__img"><img src="images/Поцелуи на заднем ряду.png" alt="#MainAdvanteges"><br>
-                <b class="item-Kissing__HeadText">Поцелуи на заднем ряду</b>
-                <p class="item-Kissing__Text">
+            <div class class="wrapper__item">
+                <figure>  
+            <img class="item-Kissing__img" src="images/Поцелуи на заднем ряду.png" alt="#MainAdvanteges"><br>
+            </figure>
+                <b  class="wrapper__tittle">Поцелуи на заднем ряду</b>
+                <p class="wrapper__subtittle">
                     Lorem ipsum dolor sit amet, consectetur<br>
                     adipiscing elit, sed do eiusmod tempor incididunt<br>
                     ut labore et dolore magna aliqua. Ut enim ad<br>
                     minim veniam.
                 </p>
-            </div>
             </div> 
         </div>
+        </div>
+        </section>
         <!-- Table -->
         <span id="Table__head">Выберите фильм</span>
         <div Table__line>
@@ -246,23 +258,22 @@
                 <button class="item-present__button">Получить подарок</button>
             </div>
             <!-- Films -->
-            <!-- Заголовок -->
-            <div class="choiсe__films">
-            <div class="films__text">
-                <b class="text-films__head">Фильмы</b>
+            <section class="choiсe__films">
+                <h2 class="text-films__head" id="ChooseFilms">Фильмы</h2>
                 <p class="text-films__head_text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore <br>
                     magna aliqua. Nibh mauris cursus mattis molestie a iaculis at.
                     Vel quam elementum pulvinar etiam non quam. <br>
                 </p>
-            </div>
-            <!-- Таблица фильмов -->
-            <div class="films-choice__poster">
-               <div><img class="poster-films__Survivor_img" src="images/Выживший.png" alt="Survivor">
-                <div class="poster-films__Survivor_fones"></div>
-                <span class="poster-films__Survivor_head_Text">Выживший</span>
-                <p class="poster-films__Survivor_Text">
+            <div class="films__block">
+                <div class="films__wrapper">
+                <div class="poster-films__fones">
+                <figure>
+              <a href="https://www.kinopoisk.ru/film/522941/" target="_blank"><img src="images/Выживший.png" alt="Survivor">
+            </figure>
+                <span class="films-wrapper__tittle">Выживший</span>
+                <p class="films-wrapper__subtittle">
                     Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit, sed do eiusmod tempor <br>
                     incididunt ut labore et dolore magna aliqua.<br>
@@ -270,11 +281,119 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
-            </div> 
-                <div>
-                    <img class="poster-films__Ice_img" src="images/Лёд.png" alt="Ice">
-                <span class="poster-films__ice_head_Text">Лёд</span>
-                <p class="poster-films__ice_Text">
+            </a>
+            </div>
+                <div class="poster-films__fones">
+                    <figure></figure>
+                   <a href="https://www.kinopoisk.ru/film/522941/" target="_blank"></a> <img src="images/Лёд.png" alt="Ice">
+                </figure>
+                <span class="films-wrapper__tittle">Лёд</span>
+                <p class="films-wrapper__subtittle">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </a> 
+            </div>
+            <div class="poster-films__fones">
+                <figure>
+                <a href="https://www.kinopoisk.ru/film/522941/" target="_blank"><img src="images/Марсианин.png" alt="Mars">
+            </figure>
+                <span class="films-wrapper__tittle">Марсианин</span>
+                <p class="films-wrapper__subtittle">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </a>
+            </div>
+            <div class="poster-films__fones">
+                <figure>
+               <a href="https://www.kinopoisk.ru/film/522941/" target="_blank"><img src="images/Спутник.png" alt="Satellite">
+            </figure>
+                <span class="films-wrapper__tittle">Спутник</span>
+                <p class="films-wrapper__subtittle">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </a> 
+            </div>
+            <div class="poster-films__fones">
+                <figure>
+                <a href="https://www.kinopoisk.ru/film/522941/"><img src="images/Калашников.png" alt="Ak47">
+            </figure>
+                <span class="films-wrapper__tittle">Калашников</span>
+                <p class="films-wrapper__subtittle">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </a>
+            </div>
+            <div class="poster-films__fones">
+                <figure>
+                <a href="https://www.kinopoisk.ru/film/522941/"><img src="images/Территория.png" alt="territory">
+            </figure>
+                <span class="films-wrapper__tittle">Территория</span>
+                <p class="films-wrapper__subtittle">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </a>
+            </div>
+            <div class="poster-films__fones">
+                <figure>
+                <a href="https://www.kinopoisk.ru/film/522941/"><img src="images/Мечта реальна.png" alt="Dreamisreal">
+            </figure>
+                <span class="films-wrapper__tittle">Мечта реальна</span>
+                <p class="films-wrapper__subtittle">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </a>
+            </div>
+            <div class="poster-films__fones">
+                <figure>
+                <a href="https://www.kinopoisk.ru/film/522941/"><img src="images/unknown.png" alt="unknown">
+            </figure>
+                <span class="films-wrapper__tittle">Неизвестно</span>
+                <p class="films-wrapper__subtittle">
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna aliqua.<br>
+                    Nibh mauris cursus mattis molestie a iaculis at. <br>
+                    Vel quam elementum pulvinar etiam non quam. <br>
+                    Ut pharetra sit amet aliquam id diam maecenas. <br>
+                </p>
+            </a>
+            </div>
+            <div class="poster-films__fones">
+                <figure>
+                <img class="films-wrapper__tittle" src="images/Живое.png" alt="alive">
+            </figure>
+                <span class="films-wrapper__tittle">Живое</span>
+                <p class="films-wrapper__subtittle">
                     Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit, sed do eiusmod tempor <br>
                     incididunt ut labore et dolore magna aliqua.<br>
@@ -283,93 +402,10 @@
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
             </div>
-            <div>
-                <img class="poster-films__Martian_img" src="images/Марсианин.png" alt="Mars">
-                <span class="poster-films__Martian_head_Text">Марсианин</span>
-                <p class="poster-films__Martian_Text">
-                    Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut labore et dolore magna aliqua.<br>
-                    Nibh mauris cursus mattis molestie a iaculis at. <br>
-                    Vel quam elementum pulvinar etiam non quam. <br>
-                    Ut pharetra sit amet aliquam id diam maecenas. <br>
-                </p>
-            </div>
-            <div>
-                <img class="poster-films__Satellite_img" src="images/Спутник.png" alt="Satellite">
-                <span class="poster-films__Satellite_head_Text">Спутник</span>
-                <p class="poster-films__Satellite_Text">
-                    Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut labore et dolore magna aliqua.<br>
-                    Nibh mauris cursus mattis molestie a iaculis at. <br>
-                    Vel quam elementum pulvinar etiam non quam. <br>
-                    Ut pharetra sit amet aliquam id diam maecenas. <br>
-                </p>
-            </div>
-            <div>
-                <img class="poster-films__Ak47_img" src="images/Калашников.png" alt="Ak47">
-                <span class="poster-films__Ak47_head_Text">Калашников</span>
-                <p class="poster-films__Ak47_Text">
-                    Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut labore et dolore magna aliqua.<br>
-                    Nibh mauris cursus mattis molestie a iaculis at. <br>
-                    Vel quam elementum pulvinar etiam non quam. <br>
-                    Ut pharetra sit amet aliquam id diam maecenas. <br>
-                </p>
-            </div>
-            <div>
-                <img class="poster-films__Territory_img" src="images/Территория.png" alt="territory">
-                <span class="poster-films__Territory_head_Text">Территория</span>
-                <p class="poster-films__Territory_Text">
-                    Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut labore et dolore magna aliqua.<br>
-                    Nibh mauris cursus mattis molestie a iaculis at. <br>
-                    Vel quam elementum pulvinar etiam non quam. <br>
-                    Ut pharetra sit amet aliquam id diam maecenas. <br>
-                </p>
-            </div>
-            <div>
-                <img class="poster-films__Dream_img" src="images/Мечта реальна.png" alt="Dreamisreal">
-                <span class="poster-films__Dream_head_Text">Мечта реальна</span>
-                <p class="poster-films__Dream_Text">
-                    Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut labore et dolore magna aliqua.<br>
-                    Nibh mauris cursus mattis molestie a iaculis at. <br>
-                    Vel quam elementum pulvinar etiam non quam. <br>
-                    Ut pharetra sit amet aliquam id diam maecenas. <br>
-                </p>
-            </div>
-            <div>
-                <img class="poster-films__Unknown_img" src="images/unknown.png" alt="unknown">
-                <span class="poster-films__Unknown_head_Text">Неизвестно</span>
-                <p class="poster-films__Unknownr_Text">
-                    Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut labore et dolore magna aliqua.<br>
-                    Nibh mauris cursus mattis molestie a iaculis at. <br>
-                    Vel quam elementum pulvinar etiam non quam. <br>
-                    Ut pharetra sit amet aliquam id diam maecenas. <br>
-                </p>
-            </div>
-            <div>
-                <img class="poster-films__Alive_img" src="images/Живое.png" alt="alive">
-                <span class="poster-films__Alive_head_Text">Живое</span>
-                <p class="poster-films__Alive_Text">
-                    Lorem ipsum dolor sit amet, consectetur <br>
-                    adipiscing elit, sed do eiusmod tempor <br>
-                    incididunt ut labore et dolore magna aliqua.<br>
-                    Nibh mauris cursus mattis molestie a iaculis at. <br>
-                    Vel quam elementum pulvinar etiam non quam. <br>
-                    Ut pharetra sit amet aliquam id diam maecenas. <br>
-                </p>
-            </div>
-                <div class="poster-films__Fones"></div>
-            </div>
-            </div>
+        </div>
+    </div>
+    </div>
+    </section>
             <!-- Products -->
             <!-- Заголовок -->
         <div>

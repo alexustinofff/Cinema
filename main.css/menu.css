@@ -1,83 +1,91 @@
-.menu {
-    width: 1124px;
+.menu__main_img {
+    position: absolute;
     margin: auto;
+    width: 1124px;
 }
 
-div.menu ul.menu__item {
+.menu__main_img::after {
     position: absolute;
-    list-style-type: none;
-}
-
-div.menu ul.menu__item a.item-menu__tel,
-a.item-menu__mail,
-a.item-menu__adress,
-a.item-menu__bell,
-a.menu_item_language,
-a.item-menu__eventDetails,
-a.item-menu__speakers,
-a.item-menu__sponsors,
-a.item-menu__pastevents,
-a.item-menu__contact,
-a.item-menu__chooseFilm,
-a.item-menu__present {
-    font-family: "IBM Plex Sans";
-    text-decoration: none;
-    position: absolute;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    color: #FFFFFF;
-    font-weight: bold;
-}
-
-div.menu ul.menu__item a.item-menu__tel,
-.item-menu__mail,
-.item-menu__adress,
-.item-menu__eventDetails,
-.item-menu__speakers,
-.item-menu__sponsors,
-.item-menu__pastevents,
-.item-menu__contact {
-    width: 111px;
-    height: 16px;
-}
-
-div.menu ul.menu__item a.item-menu__tel,
-.item-menu__mail,
-.item-menu__adress,
-.menu_item_language {
-    top: 50px;
-}
-
-div.menu ul.menu__item a.item-menu__eventDetails,
-a.item-menu__speakers,
-a.item-menu__sponsors,
-a.item-menu__pastevents,
-.item-menu__contact {
-    top: 81px;
+    top: 535px;
+    left: 0px;
+    bottom: 0;
+    content: "";
+    display: block;
+    border-right: 100vw solid #fff;
+    border-top: 106px solid transparent;
+    overflow: hidden;
 }
 
 .item-menu__logo {
     position: absolute;
-    left: 89px;
-    top: 58px;
+    left: 90px;
+    top: 54px;
+}
+
+.menu__item a {
+    position: absolute;
+    text-decoration: none;
+    float: left;
+    color: #FFFFFF;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
 }
 
 .item-menu__tel {
-    left: 297px
+    width: 125px;
+    left: 290px;
+    top: 48px;
 }
 
 .item-menu__mail {
-    left: 450px;
+    width: 98px;
+    left: 451px;
+    top: 45px;
 }
 
 .item-menu__adress {
-    left: 600px;
+    width: 125px;
+    left: 604px;
+    top: 46px;
 }
 
+.item-menu__eventDetails {
+    width: 125px;
+    left: 297px;
+    top: 77px;
+}
+
+.item-menu__speakers {
+    width: 58px;
+    left: 453px;
+    top: 78px;
+}
+
+.item-menu__sponsors {
+    width: 62px;
+    left: 582px;
+    top: 78px;
+}
+
+.item-menu__pastevents {
+    width: 103px;
+    left: 723px;
+    top: 78px;
+}
+
+.item-menu__contact {
+    width: 52px;
+    left: 871px;
+    top: 78px;
+}
+
+/* button */
 .item-menu__button {
-    position: absolute;
+    position: relative;
     width: 130px;
     height: 21px;
     left: 761px;
@@ -88,13 +96,19 @@ a.item-menu__pastevents,
 }
 
 .item-menu__bell {
-    left: 20.77%;
+    position: absolute;
+    left: 21%;
     right: 5.38%;
     top: 9.52%;
     bottom: 14.29%;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
     text-align: center;
-    font-weight: bold !important;
-    color: black !important;
+    text-decoration: none;
+    color: black;
 }
 
 .item-menu__button:hover {
@@ -104,110 +118,10 @@ a.item-menu__pastevents,
 
 .button-item__iconPhone {
     position: absolute;
-    left: 6.15%;
-    right: 84.62%;
-    top: 23.81%;
-    bottom: 19.05%;
-}
-
-.item-menu__eventDetails {
-    left: 302px;
-}
-
-.item-menu__speakers {
-    left: 450px;
-}
-
-.item-menu__sponsors {
-    left: 581px;
-}
-
-.item-menu__pastevents {
-    left: 722px;
-}
-
-.item-menu__contact {
-    left: 871px;
-}
-
-.item-menu__chooseFilm {
-    width: 728px;
-    height: 88px;
-    left: 209px;
-    top: 253px;
-    font-weight: 100 !important;
-    font-size: 68px !important;
-    line-height: 88px !important;
-    text-align: center;
-}
-
-.item-menu__present {
-    width: 592px;
-    height: 53px;
-    left: 296px;
-    top: 345px;
-    font-weight: normal !important;
-    font-size: 41px !important;
-    line-height: 53px !important;
-    text-align: center;
-}
-
-.menu__main_img {
-    position: relative;
-    z-index: -1;
-    width: 1193px;
-    height: 648px;
-    left: 0px;
-    top: 0px;
-    margin: auto;
-}
-
-.menu__main_img::after {
-    position: absolute;
-    top: 548px;
-    left: 0px;
-    bottom: 0px;
-    content: "";
-    display: block;
-    border-right: 100vw solid #fff;
-    border-top: 100px solid transparent;
-    overflow: hidden;
-}
-
-/* welcom */
-.Welcom__Fone {
-    position: absolute;
-    width: 426px;
-    height: 221px;
-    left: 563px;
-    top: 525px;
-    background: #FFFFFF;
-    box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
-    border-radius: 10px;
-}
-
-.Welcome__Head {
-    position: absolute;
-    left: 53px;
-    top: 41px;
-    font-size: 33px;
-    font-family: "IBM Plex Sans";
-    font-style: normal;
-    font-weight: 600;
-    line-height: 43px;
-}
-
-.Welcome__Text {
-    position: absolute;
-    width: 332px;
-    height: 69px;
-    left: 48px;
-    top: 99px;
-    font-family: "IBM Plex Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
+    left: 7%;
+    right: 80%;
+    top: 21%;
+    bottom: 19%;
 }
 
 /* Menu language */
@@ -223,12 +137,12 @@ a.item-menu__pastevents,
     position: absolute;
     width: 23px;
     height: 16px;
-    left: 1009px;
-    top: 46px;
+    left: 1010px;
+    top: 47px;
     font-size: 12px;
     font-family: "IBM Plex Sans";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 100;
     font-size: 12px;
     line-height: 16px;
 }
@@ -250,7 +164,7 @@ a.item-menu__pastevents,
     transition: 0.3s;
 }
 
-/* language list */
+/* language list*/
 .menu__language li ul {
     position: absolute;
     min-width: 23px;
@@ -264,4 +178,71 @@ a.item-menu__pastevents,
 
 .menu__language li:hover ul {
     display: block;
+}
+
+/* Заголовки */
+.headlines__main a {
+    position: absolute;
+    font-family: "IBM Plex Sans";
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-headline__chooseFilm {
+    width: 728px;
+    height: 88px;
+    left: 200px;
+    top: 224px;
+    font-weight: 100;
+    font-size: 68px;
+    line-height: 88px;
+}
+
+.main-headline__present {
+    width: 592px;
+    height: 53px;
+    left: 264px;
+    top: 330px;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 53px;
+}
+
+/* welcom text */
+.Welcom__Fone {
+    position: absolute;
+    width: 426px;
+    height: 221px;
+    left: 563px;
+    top: 525px;
+    background: #FFFFFF;
+    box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
+    border-radius: 10px;
+}
+
+.Welcom__item .Welcome__Head,
+.Welcome__Text {
+    position: absolute;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+}
+
+.Welcome__Head {
+    left: 49px;
+    top: 30px;
+    font-size: 33px;
+    font-weight: bolder;
+    line-height: 46px;
+    letter-spacing: 1px;
+}
+
+.Welcome__Text {
+    width: 332px;
+    height: 69px;
+    left: 48px;
+    top: 94px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 14px;
 }
