@@ -1,4 +1,4 @@
-#Table__head {
+/* #table__head {
     position: absolute;
     width: 394px;
     height: 62px;
@@ -10,9 +10,9 @@
     font-size: 48px;
     line-height: 62px;
     color: #A3CC40;
-}
+} */
 
-.line-table__Header {
+.line-table__header {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -22,7 +22,7 @@
     border-radius: 10px 10px 0px 0px;
 }
 
-.line-table__First {
+.line-table__first {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -31,7 +31,7 @@
     background: #373737;
 }
 
-.line-table__Second {
+.line-table__second {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -40,7 +40,7 @@
     background: #4C4D4F;
 }
 
-.line-table__Third {
+.line-table__third {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -49,7 +49,7 @@
     background: #373737;
 }
 
-.line-table__Fourth {
+.line-table__fourth {
     position: absolute;
     width: 849px;
     height: 45px;
@@ -59,7 +59,7 @@
     border-radius: 0px 0px 10px 10px;
 }
 
-.Table__text {
+.table__text {
     position: absolute;
     width: 849px;
     height: 225px;
@@ -69,7 +69,7 @@
     width: 849px;
 }
 
-.text-table__Head {
+.item-table__head {
     position: relative;
     align: center;
     color: #FFFFFF;
@@ -81,7 +81,7 @@
     text-align: center;
 }
 
-.text-table__timeFilms {
+.text-table__time_films {
     position: absolute;
     width: 146px;
     height: 26px;
@@ -89,7 +89,7 @@
     top: 6px;
 }
 
-.text-table__nameFilms {
+.text-table__name_films {
     position: absolute;
     width: 177px;
     height: 26px;
@@ -97,7 +97,7 @@
     top: 6px;
 }
 
-.text-table__genreFilms {
+.text-table__genre_films {
     position: absolute;
     width: 56px;
     height: 26px;
@@ -106,19 +106,19 @@
 }
 
 /* font family */
-.description-films-SpiderMan__time,
-.description-films-SpiderMan__name,
-.description-films-SpiderMan__genre,
-.description-films-DogLife2__time,
-.description-films-DogLife2__name,
-.description-films-DogLife2__genre,
-.description-films-HistoryToys4__time,
-.description-films-HistoryToys4__name,
-.description-films-HistoryToys4__genre,
-.description-films-MeninBlack__time,
-.description-films-MeninBlack__name,
-.description-films-MeninBlack__genre,
-.footer__TableText {
+.description-films-spider_man__time,
+.description-films-spider_man__name,
+.description-films-spider_man__genre,
+.description-films-dog_life2__time,
+.description-films-dog_life2__name,
+.description-films-dog_life2__genre,
+.description-films-history_toys4__time,
+.description-films-history_toys4__name,
+.description-films-history_toys4__genre,
+.description-films-men_in_black__time,
+.description-films-men_in_black__name,
+.description-films-men_in_black__genre,
+.footer__table_text {
     font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: normal;
@@ -127,13 +127,13 @@
 }
 
 /* SpiderMan Description */
-.description-films__SpiderMan {
+.description-films__spider_man {
     position: relative;
     align: center;
     color: #FFFFFF;
 }
 
-.description-films-SpiderMan__time {
+.description-films-spider_man__time {
     position: absolute;
     width: 236px;
     height: 18px;
@@ -141,7 +141,7 @@
     left: 87px;
 }
 
-.description-films-SpiderMan__name {
+.description-films-spider_man__name {
     text-decoration: none;
     position: absolute;
     width: 240px;
@@ -151,7 +151,7 @@
     color: #FFFFFF;
 }
 
-.description-films-SpiderMan__genre {
+.description-films-spider_man__genre {
     position: absolute;
     width: 240px;
     height: 18px;
@@ -160,13 +160,13 @@
 }
 
 /* DogLife Description */
-.description-films__DogLife2 {
+.description-films__dog_life2 {
     position: relative;
     align: center;
     color: #FFFFFF;
 }
 
-.description-films-DogLife2__time {
+.description-films-dog_life2__time {
     position: absolute;
     width: 236px;
     height: 18px;
@@ -174,7 +174,7 @@
     top: 104px;
 }
 
-.description-films-DogLife2__name {
+.description-films-dog_life2__name {
     text-decoration: none;
     position: absolute;
     width: 240px;
@@ -184,7 +184,7 @@
     color: #FFFFFF;
 }
 
-.description-films-DogLife2__genre {
+.description-films-dog_life2__genre {
     position: absolute;
     width: 240px;
     height: 18px;
@@ -192,13 +192,13 @@
     top: 103px;
 }
 
-.description-films__HistoryToys4 {
+.description-films__history_toys4 {
     position: relative;
     align: center;
     color: #FFFFFF;
 }
 
-.description-films-HistoryToys4__time {
+.description-films-history_toys4__time {
     position: absolute;
     width: 236px;
     height: 18px;
@@ -206,7 +206,7 @@
     top: 145px;
 }
 
-.description-films-HistoryToys4__name {
+.description-films-history_toys4__name {
     text-decoration: none;
     position: absolute;
     width: 240px;
@@ -216,7 +216,7 @@
     color: #FFFFFF;
 }
 
-.description-films-HistoryToys4__genre {
+.description-films-history_toys4__genre {
     position: absolute;
     width: 240px;
     height: 18px;
@@ -224,13 +224,13 @@
     top: 149px;
 }
 
-.description-films__MeninBlack {
+.description-films__men_in_black {
     position: relative;
     align: center;
     color: #FFFFFF;
 }
 
-.description-films-MeninBlack__time {
+.description-films-men_in_black__time {
     position: absolute;
     width: 236px;
     height: 18px;
@@ -239,7 +239,7 @@
     color: #FFFFFF;
 }
 
-.description-films-MeninBlack__name {
+.description-films-men_in_black__name {
     text-decoration: none;
     position: absolute;
     width: 240px;
@@ -249,7 +249,7 @@
     color: #FFFFFF;
 }
 
-.description-films-MeninBlack__genre {
+.description-films-men_in_black__genre {
     position: absolute;
     width: 240px;
     height: 18px;
@@ -257,7 +257,7 @@
     top: 191px;
 }
 
-.arrow-Up__time {
+.arrow-up__time {
     position: absolute;
     width: 12px;
     height: 12px;
@@ -266,7 +266,7 @@
     transform: matrix(1, 0, 0, -1, 0)
 }
 
-.arrow-Down__name {
+.arrow-down__name {
     position: absolute;
     width: 12px;
     height: 12px;
@@ -306,7 +306,7 @@
     top: 2030px;
 }
 
-.footer__TableText {
+.footer__table_text {
     position: absolute;
     width: 539px;
     height: 55px;

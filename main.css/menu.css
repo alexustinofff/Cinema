@@ -1,3 +1,4 @@
+/* Main img */
 .menu__main_img {
     position: absolute;
     margin: auto;
@@ -15,13 +16,13 @@
     border-top: 106px solid transparent;
     overflow: hidden;
 }
-
+/* logo */
 .item-menu__logo {
     position: absolute;
     left: 90px;
     top: 54px;
 }
-
+/* Menu */
 .menu__item a {
     position: absolute;
     text-decoration: none;
@@ -53,7 +54,7 @@
     top: 46px;
 }
 
-.item-menu__eventDetails {
+.item-menu__eventdetails {
     width: 125px;
     left: 297px;
     top: 77px;
@@ -124,8 +125,8 @@
     bottom: 19%;
 }
 
-/* Menu language */
-.Language__ico {
+/* choice language */
+.language__ico {
     position: absolute;
     width: 8px;
     height: 8px;
@@ -210,7 +211,7 @@
 }
 
 /* welcom text */
-.Welcom__Fone {
+.welcom__fone {
     position: absolute;
     width: 426px;
     height: 221px;
@@ -221,14 +222,14 @@
     border-radius: 10px;
 }
 
-.Welcom__item .Welcome__Head,
-.Welcome__Text {
+.welcom__item .welcome__head,
+.welcome__text {
     position: absolute;
     font-family: "IBM Plex Sans";
     font-style: normal;
 }
 
-.Welcome__Head {
+.welcome__head {
     left: 49px;
     top: 30px;
     font-size: 33px;
@@ -237,7 +238,7 @@
     letter-spacing: 1px;
 }
 
-.Welcome__Text {
+.welcome__text {
     width: 332px;
     height: 69px;
     left: 48px;

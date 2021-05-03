@@ -1,4 +1,4 @@
-.item-present__imgFone {
+.item-present__img_fone {
     position: absolute;
     width: 1129px;
     height: 587px;
@@ -7,7 +7,7 @@
     z-index: -1;
 }
 
-.item__main_Img::before {
+.item__main_img::before {
     position: absolute;
     width: 0;
     top: 2219px;
@@ -19,7 +19,7 @@
     overflow: hidden;
 }
 
-.item__main_Img::after {
+.item__main_img::after {
     position: absolute;
     top: 2706px;
     left: 10px;
@@ -31,7 +31,7 @@
     overflow: hidden;
 }
 
-.item-present__imgBox {
+.item-present__img_box {
     position: absolute;
     width: 276px;
     height: 276px;
@@ -40,12 +40,12 @@
     border-radius: 100%;
 }
 
-.item-present__imgBox:hover {
+.item-present__img_box:hover {
     cursor: help;
 }
 
 /* font family */
-.item-present__headText,
+.item-present__head_text,
 .item-present__text {
     position: absolute;
     font-family: "IBM Plex Sans";
@@ -54,7 +54,7 @@
     color: #FFFFFF;
 }
 
-.item-present__headText {
+.item-present__head_text {
     width: 548px;
     height: 62px;
     left: 441px;

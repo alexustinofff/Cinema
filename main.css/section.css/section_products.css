@@ -1,14 +1,14 @@
 /* font family */
-.products__head,
+/* .products__head,
 .products__head_text,
-.Cola-item__text,
-.Trinket-item__text,
-.Poster-item__text {
+.cola-item__text,
+.trinket-item__text,
+.poster-item__text {
     font-family: "IBM Plex Sans";
     font-style: normal;
-}
+} */
 
-.products__head {
+/* .products__head {
     position: absolute;
     width: 548px;
     height: 62px;
@@ -18,9 +18,9 @@
     font-size: 48px;
     line-height: 62px;
     color: #A3CC40;
-}
+} */
 
-.products__head_text {
+/* .products__head_text {
     position: absolute;
     width: 548px;
     height: 28px;
@@ -32,7 +32,7 @@
     color: #333333;
 }
 
-.products-item__CocaCola {
+.products-item__coca_cola {
     position: absolute;
     width: 245px;
     height: 331px;
@@ -41,7 +41,7 @@
     z-index: -1;
 }
 
-.Cola-item__text {
+.cola-item__text {
     position: absolute;
     width: 177px;
     height: 26px;
@@ -55,7 +55,7 @@
     z-index: 2;
 }
 
-.Cola-item__fone {
+.cola-item__fone {
     position: absolute;
     width: 238px;
     height: 83px;
@@ -66,7 +66,7 @@
 
 }
 
-.Cola-item__fone::after {
+.cola-item__fone::after {
     position: absolute;
     left: 0px;
     bottom: 83px;
@@ -76,7 +76,7 @@
     overflow: hidden;
 }
 
-.products-item__Trinket {
+.products-item__trinket {
     position: absolute;
     width: 245px;
     height: 331px;
@@ -87,7 +87,7 @@
     left: 440px;
 }
 
-.Trinket-item__text {
+.trinket-item__text {
     position: absolute;
     width: 177px;
     height: 86px;
@@ -101,7 +101,7 @@
     z-index: 2;
 }
 
-.TrinketTrinket-item__fone {
+.trinket-item__fone {
     position: absolute;
     width: 238px;
     height: 83px;
@@ -111,7 +111,7 @@
     z-index: 1;
 }
 
-.TrinketTrinket-item__fone::after {
+.trinket-item__fone::after {
     position: absolute;
     left: 0px;
     bottom: 83px;
@@ -121,7 +121,7 @@
     overflow: hidden;
 }
 
-.products-item__Poster {
+.products-item__poster {
     position: absolute;
     width: 245px;
     height: 331px;
@@ -131,7 +131,7 @@
     z-index: -1;
 }
 
-.Poster-item__text {
+.poster-item__text {
     position: absolute;
     width: 177px;
     height: 60px;
@@ -145,7 +145,7 @@
     z-index: 2;
 }
 
-.PosterPoster-item__fone {
+.poster-item__fone {
     position: absolute;
     width: 238px;
     height: 83px;
@@ -154,7 +154,7 @@
     background: rgba(163, 204, 64, 0.8);
 }
 
-.PosterPoster-item__fone::after {
+.poster-item__fone::after {
     position: absolute;
     bottom: 83px;
     left: 0px;
@@ -162,4 +162,58 @@
     border-top: 60px solid transparent;
     border-right: 238px solid rgba(163, 204, 64, 0.8);
     overflow: hidden;
+} */
+.choice__products{
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.head-block__subtittle{
+    margin-top: 44px;
+    margin-bottom: 60px;
+    width: 548px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.27;
+    color: #333333;
+}
+.products__block{
+    overflow: hidden;
+    margin: 0 -28px;
+}
+.products__item{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 33.333%;
+    padding: 0 28px;
+    float: left;    
+    box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.products__buy{
+    float: left;    
+    color: #333333;
+}
+.products__buy img{
+    width: 245px;
+    height: 331px;
+}
+.products__tittle{
+    position: absolute;
+    text-align:center;
+    margin-top: 72%;
+    margin-left: 14%;
+    margin-right: 14%;
+    width: 177px;
+    height: 153px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.3;
+    color: #FFFFFF;
 }

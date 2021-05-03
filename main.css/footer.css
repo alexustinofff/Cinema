@@ -1,20 +1,20 @@
 /* Footer Map */
 /* font family */
-.Map__adress,
-.adress-Map__InnopolisUniversity,
-.item-Footer__text,
-.item-Foter__Copyright,
-.item-Foter__Site,
-.item-Foter__EventDetails,
-.item-Foter__Speakers,
-.item-Foter__Sponsors,
-.item-Foter__PastEvents,
-.item-Foter__Contact,
-.item-Foter__Number,
-.item-Foter__KinoPoisk,
-.item-Foter__Adress,
-.item-Foter__Map,
-.item-Foter__AllContacts {
+.map__adress,
+.adress-map__innopolis_university,
+.item-footer__text,
+.item-foter__copyright,
+.item-footer__site,
+.item-footer__event_details,
+.item-footer__speakers,
+.item-footer__sponsors,
+.item-footer__past_events,
+.item-footer__contact,
+.item-footer__number,
+.item-footer__kinopoisk,
+.item-footer__adress,
+.item-footer__map,
+.item-footer__all_contacts {
     position: absolute;
     text-decoration: none;
     font-family: "IBM Plex Sans";
@@ -25,7 +25,7 @@
     color: #FFFFFF;
 }
 
-.Map__img {
+.map__img {
     position: absolute;
     width: 973px;
     height: 421px;
@@ -34,7 +34,7 @@
     border-radius: 20px;
 }
 
-.Map__adress {
+.map__adress {
     width: 69px;
     height: 7px;
     left: 418px;
@@ -45,7 +45,7 @@
     color: #696969 !important;
 }
 
-.adress-Map__InnopolisUniversity {
+.adress-map__innopolis_university {
     width: 53.33px;
     height: 20.09px;
     left: 393px;
@@ -58,7 +58,7 @@
 }
 
 /* Footer content */
-.item-Footer__Fone {
+.item-footer__fone {
     position: absolute;
     width: 1126px;
     height: 362px;
@@ -67,13 +67,13 @@
     background: #A3CC40;
 }
 
-.item-Footer__logo {
+.item-footer__logo {
     position: absolute;
     left: 90px;
     top: 6452px;
 }
 
-.item-Footer__text {
+.item-footer__text {
     width: 269px;
     height: 72px;
     left: 89px;
@@ -83,7 +83,8 @@
     line-height: 18px !important;
 }
 
-.ico-footer__Instagram {
+.ico-footer__instagram {
+    display: inline-block;
     position: absolute;
     width: 18px;
     height: 18px;
@@ -91,7 +92,8 @@
     top: 6604px;
 }
 
-.ico-footer__Linkedin {
+.ico-footer__linkedin {
+    display: inline-block;
     position: absolute;
     width: 18px;
     height: 18px;
@@ -99,7 +101,8 @@
     top: 6604px;
 }
 
-.ico-footer__Twitter {
+.ico-footer__twitter {
+    display: inline-block;
     position: absolute;
     width: 18px;
     height: 18px;
@@ -107,7 +110,8 @@
     top: 6604.75px;
 }
 
-.ico-footer__YouTube {
+.ico-footer__youtube {
+    display: inline-block;
     position: absolute;
     width: 18px;
     height: 12.75px;
@@ -115,7 +119,8 @@
     top: 6608px;
 }
 
-.ico-footer__Facebook {
+.ico-footer__facebook {
+    display: inline-block;
     position: absolute;
     width: 18px;
     height: 18px;
@@ -123,7 +128,7 @@
     top: 6604px;
 }
 
-.item-Foter__Copyright {
+.item-footer__copyright {
     width: 436px;
     height: 39px;
     left: 89px;
@@ -133,7 +138,7 @@
     line-height: 19px !important;
 }
 
-.item-Foter__Site {
+.item-footer__site {
     width: 111px;
     height: 26px;
     left: 529px;
@@ -143,35 +148,35 @@
     line-height: 26px !important;
 }
 
-.item-Foter__EventDetails {
+.item-footer__event_details {
     width: 111px;
     height: 16px;
     left: 529px;
     top: 6493px;
 }
 
-.item-Foter__Speakers {
+.item-footer__speakers {
     width: 111px;
     height: 16px;
     left: 529px;
     top: 6521px;
 }
 
-.item-Foter__Sponsors {
+.item-footer__sponsors {
     width: 111px;
     height: 16px;
     left: 529px;
     top: 6549px;
 }
 
-.item-Foter__PastEvents {
+.item-footer__past_events {
     width: 111px;
     height: 16px;
     left: 529px;
     top: 6577px;
 }
 
-.item-Foter__Contact {
+.item-footer__contact {
     width: 111px;
     height: 26px;
     left: 738px;
@@ -181,35 +186,35 @@
     line-height: 26px !important;
 }
 
-.item-Foter__Number {
+.item-footer__number {
     width: 148px;
     height: 16px;
     left: 738px;
     top: 6493px;
 }
 
-.item-Foter__KinoPoisk {
+.item-footer__kinopoisk {
     width: 147px;
     height: 16px;
     left: 738px;
     top: 6521px;
 }
 
-.item-Foter__Adress {
+.item-footer__adress {
     width: 189px;
     height: 32px;
     left: 738px;
     top: 6549px;
 }
 
-.item-Foter__Map {
+.item-footer__map {
     width: 111px;
     height: 16px;
     left: 738px;
     top: 6593px;
 }
 
-.item-Foter__AllContacts {
+.item-footer__all_contacts {
     width: 111px;
     height: 16px;
     left: 738px;

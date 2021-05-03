@@ -1,11 +1,11 @@
 /* Заголовок */
 /* font family */
-.films-choice__poster {
+/* .films-choice__poster {
     font-family: "IBM Plex Sans";
     font-style: normal;
 }
 
-.text-films__head {
+.text-films__tittle{
     position: absolute;
     width: 548px;
     height: 62px;
@@ -17,7 +17,7 @@
     color: #A3CC40;
 }
 
-.text-films__head_text {
+.text-films__subtittle{
     position: absolute;
     width: 548px;
     height: 28px;
@@ -27,9 +27,12 @@
     font-size: 11px;
     line-height: 14px;
     color: #333333;
-}
+} */
 
 /* Таблица с фильмами */
+/* .films__wrapper a{
+    float: left;
+}
 .poster-films__Survivor_img {
     position: absolute;
     width: 284px;
@@ -38,7 +41,7 @@
     top: 3057px;
 }
 
-.poster-films__Survivor_head_Text {
+.films-wrapper__tittle {
     position: absolute;
     width: 239px;
     height: 38px;
@@ -51,7 +54,7 @@
     z-index: 2;
 }
 
-.poster-films__Survivor_Text {
+.films-wrapper__subtittle {
     position: absolute;
     width: 237px;
     height: 105px;
@@ -68,8 +71,8 @@
     position: absolute;
     width: 283px;
     height: 283px;
-    /* left: 139px;
-    top: 3057px; */
+    left: 139px;
+    top: 3057px;
     background: rgba(144, 210, 61, 0.4);
     z-index: 2;
 }
@@ -82,64 +85,12 @@
     top: 3057px;
 }
 
-.poster-films__ice_head_Text {
-    position: absolute;
-    width: 239px;
-    height: 38px;
-    left: 446px;
-    top: 3074px;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.poster-films__ice_Text {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 446px;
-    top: 3125px;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
 .poster-films__Martian_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
     left: 702.87px;
     top: 3057px;
-}
-
-.poster-films__Martian_head_Text {
-    position: absolute;
-    width: 239px;
-    height: 38px;
-    left: 730px;
-    top: 3074px;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.poster-films__Martian_Text {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 730px;
-    top: 3125px;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-    z-index: 2;
 }
 
 .poster-films__Satellite_img {
@@ -150,64 +101,12 @@
     top: 3340.33px;
 }
 
-.poster-films__Satellite_head_Text {
-    position: absolute;
-    width: 239px;
-    height: 38px;
-    left: 163px;
-    top: 3367px;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.poster-films__Satellite_Text {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 163px;
-    top: 3412px;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
 .poster-films__Ak47_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
     left: 422.33px;
     top: 3340.33px;
-}
-
-.poster-films__Ak47_head_Text {
-    position: absolute;
-    width: 239px;
-    height: 38px;
-    left: 446px;
-    top: 3367px;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.poster-films__Ak47_Text {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 446px;
-    top: 3412px;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-    z-index: 2;
 }
 
 .poster-films__Territory_img {
@@ -218,64 +117,12 @@
     top: 3340.33px;
 }
 
-.poster-films__Territory_head_Text {
-    position: absolute;
-    width: 239px;
-    height: 38px;
-    left: 730px;
-    top: 3367px;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.poster-films__Territory_Text {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 730px;
-    top: 3412px;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
 .poster-films__Dream_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
     left: 139px;
     top: 3623.67px;
-}
-
-.poster-films__Dream_head_Text {
-    position: absolute;
-    width: 239px;
-    height: 105px;
-    left: 163px;
-    top: 3651px;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.poster-films__Dream_Text {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 163px;
-    top: 3696px;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-    z-index: 2;
 }
 
 .poster-films__Unknown_img {
@@ -286,64 +133,12 @@
     top: 3623.67px;
 }
 
-.poster-films__Unknown_head_Text {
-    position: absolute;
-    width: 239px;
-    height: 38px;
-    left: 446px;
-    top: 3651px;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.poster-films__Unknownr_Text {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 446px;
-    top: 3696px;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
 .poster-films__Alive_img {
     position: absolute;
     width: 283.33px;
     height: 283.33px;
     left: 705.67px;
     top: 3623.67px;
-}
-
-.poster-films__Alive_head_Text {
-    position: absolute;
-    width: 239px;
-    height: 38px;
-    left: 730px;
-    top: 3651px;
-    font-weight: 600;
-    font-size: 29px;
-    line-height: 38px;
-    color: #FFFFFF;
-    z-index: 2;
-}
-
-.poster-films__Alive_Text {
-    position: absolute;
-    width: 237px;
-    height: 105px;
-    left: 730px;
-    top: 3696px;
-    font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
-    color: #FFFFFF;
-    z-index: 2;
 }
 
 .poster-films__Fones {
@@ -353,4 +148,69 @@
     left: 139px;
     top: 3057px;
     background: rgba(22, 22, 22, 0.8);
+} */
+.choiсe__films{
+    border-collapse: collapse;
+    width: 850px;
+    margin-top: 70px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text-films__subtittle{
+    margin-top: 40px;
+    width: 548px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.27;
+    color: #333333;
+}
+.films__wrapper{
+    overflow: hidden;
+    margin-top: 1050px;
+    background: rgba(22, 22, 22, 0.8); 
+}
+
+.films__wrapper a{
+    display: block; 
+    float: left; 
+    position: relative;
+    width: 283px;
+    height: 283px;
+}
+.films__wrapper img{
+    width: 283px;
+    height: 283px;
+}
+.films-wrapper__tittle{
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 1.31;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: all 0.2s ease;
+    width: 283px;
+    height: 283px;
+    z-index: 3;
+}
+.films-wrapper__subtittle{
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 25px;
+    Width: 283px;
+    height: 283px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.27;
+    color: #FFFFFF;
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: 3;
 }

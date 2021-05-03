@@ -1,11 +1,11 @@
 /* font family */
-.item-FeedBack__form,
-.FeedBack-Form__agree {
+.item-feed_back__form,
+.feed_back-form__agree {
     font-family: "IBM Plex Sans";
     font-style: normal;
 }
 
-.item-feedBack__img {
+.item-feed_back__img {
     position: absolute;
     width: 670px;
     height: 527px;
@@ -14,7 +14,7 @@
 }
 
 
-.item-FeedBack__form_head {
+/* .item-feed_back__form_head {
     position: absolute;
     width: 252px;
     height: 33px;
@@ -24,9 +24,9 @@
     font-size: 25px;
     line-height: 32px;
     color: #A3CC40;
-}
+} */
 
-.form-feedBack__name {
+.form-feed_back__name {
     position: absolute;
     width: 344px;
     height: 40px;
@@ -35,7 +35,7 @@
     border-radius: 5px;
 }
 
-.form-feedBack__seatNumber {
+.form-feed_back__seat_number {
     position: absolute;
     width: 344px;
     height: 40px;
@@ -44,7 +44,7 @@
     border-radius: 5px;
 }
 
-.form-feedBack__reviews {
+.form-feed_back__reviews {
     position: absolute;
     width: 344px;
     height: 120px;
@@ -53,7 +53,7 @@
     border-radius: 5px;
 }
 
-.FeedBack-Form__checkMark {
+.feed_back-form__check_mark {
     position: absolute;
     width: 18px;
     height: 17px;
@@ -64,7 +64,7 @@
     border-radius: 5px;
 }
 
-.FeedBack-Form__agree {
+.feed_back-form__agree {
     position: absolute;
     width: 275px;
     height: 13px;
@@ -76,7 +76,7 @@
     color: #333333;
 }
 
-.FeedBack-Form__button {
+.feed_back-form__button {
     position: absolute;
     width: 344px;
     height: 57px;

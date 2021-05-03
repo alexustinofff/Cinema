@@ -1,20 +1,20 @@
 /* font family */
-.Reviews__head_text,
-.Reviews__text,
-.Elena-reviews__name,
-.Elena-reviews__text,
-.Elena-reviews__data,
-.Boris-reviews__name,
-.Boris-reviews__text,
-.Boris-reviews__data,
-.Leo-reviews__name,
-.Leo-reviews__text,
-.Leo-reviews__data {
+.item-reviews__tittle,
+.item-reviews__subtittle,
+.elena-reviews__name,
+.elena-reviews__text,
+.elena-reviews__data,
+.boris-reviews__name,
+.boris-reviews__text,
+.boris-reviews__data,
+.leo-reviews__name,
+.leo-reviews__text,
+.leo-reviews__data {
     font-family: "IBM Plex Sans";
     font-style: normal;
 }
 
-.Reviews__head_text {
+/* .item-reviews__tittle {
     position: relative;
     width: 548px;
     height: 62px;
@@ -24,9 +24,9 @@
     font-size: 48px;
     line-height: 62px;
     color: #A3CC40;
-}
+} */
 
-.Reviews__text {
+.item-reviews__subtittle {
     position: absolute;
     width: 548px;
     height: 28px;
@@ -37,7 +37,7 @@
     line-height: 14px;
 }
 
-.Reviews__fone {
+.reviews__fone {
     position: absolute;
     left: 0px;
     top: 4637px;
@@ -45,7 +45,7 @@
     height: 709px;
 }
 
-.Reviews__fone::before {
+.reviews__fone::before {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -56,7 +56,7 @@
     overflow: hidden;
 }
 
-.Reviews__fone::after {
+.reviews__fone::after {
     position: absolute;
     left: 10px;
     bottom: -26px;
@@ -67,7 +67,7 @@
     overflow: hidden;
 }
 
-.Elena-reviews__img {
+.elena-reviews__img {
     position: relative;
     width: 210px;
     height: 152.71px;
@@ -76,7 +76,7 @@
     border-radius: 8.57901px 8.57901px 0px 0px;
 }
 
-.Elena-reviews__fone {
+.elena-reviews__fone {
     position: absolute;
     width: 210px;
     height: 284px;
@@ -86,7 +86,7 @@
     background: #97B13C;
 }
 
-.Elena-reviews__name {
+.elena-reviews__name {
     position: absolute;
     width: 186px;
     height: 20px;
@@ -98,7 +98,7 @@
     color: #FFFFFF;
 }
 
-.Elena-reviews__text {
+.elena-reviews__text {
     position: absolute;
     width: 186px;
     height: 52px;
@@ -110,7 +110,7 @@
     color: #FFFFFF;
 }
 
-.Elena-reviews__data {
+.elena-reviews__data {
     position: absolute;
     width: 48px;
     height: 12px;
@@ -122,7 +122,7 @@
     color: #FFFFFF;
 }
 
-.Boris-reviews__img {
+.boris-reviews__img {
     position: relative;
     width: 245.56px;
     height: 178.54px;
@@ -131,7 +131,7 @@
     border-radius: 10.0227px 10.0227px 0px 0px;
 }
 
-.Boris-reviews__fone {
+.boris-reviews__fone {
     position: absolute;
     width: 246px;
     height: 332px;
@@ -141,7 +141,7 @@
     border-radius: 10.0227px;
 }
 
-.Boris-reviews__name {
+.boris-reviews__name {
     position: absolute;
     width: 220.4px;
     height: 23.02px;
@@ -153,7 +153,7 @@
     color: #FFFFFF;
 }
 
-.Boris-reviews__text {
+.boris-reviews__text {
     position: absolute;
     width: 220.4px;
     height: 42.03px;
@@ -165,7 +165,7 @@
     color: #FFFFFF;
 }
 
-.Boris-reviews__data {
+.boris-reviews__data {
     position: absolute;
     width: 48px;
     height: 12px;
@@ -177,7 +177,7 @@
     color: #FFFFFF;
 }
 
-.Leo-reviews__img {
+.leo-reviews__img {
     position: relative;
     width: 210px;
     height: 152.73px;
@@ -186,7 +186,7 @@
     border-radius: 8.55217px 8.55217px 0px 0px;
 }
 
-.Leo-reviews__fone {
+.leo-reviews__fone {
     position: absolute;
     width: 210px;
     height: 284px;
@@ -196,7 +196,7 @@
     background: #97B13C;
 }
 
-.Leo-reviews__name {
+.leo-reviews__name {
     position: absolute;
     width: 171px;
     height: 20px;
@@ -208,7 +208,7 @@
     color: #FFFFFF;
 }
 
-.Leo-reviews__text {
+.leo-reviews__text {
     position: absolute;
     width: 171px;
     height: 52px;
@@ -220,7 +220,7 @@
     color: #FFFFFF;
 }
 
-.Leo-reviews__data {
+.leo-reviews__data {
     position: absolute;
     width: 48px;
     height: 12px;
@@ -232,7 +232,7 @@
     color: #FFFFFF;
 }
 
-.Reviews__Arrow_Left {
+.reviews__arrow_left {
     position: absolute;
     width: 32px;
     height: 32px;
@@ -240,7 +240,7 @@
     top: 4907px;
 }
 
-.Reviews__Arrow_Right {
+.reviews__arrow_ight {
     position: absolute;
     width: 32px;
     height: 32px;
