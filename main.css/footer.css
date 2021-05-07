@@ -1,222 +1,162 @@
-/* Footer Map */
+/* Footer content */
 /* font family */
-.map__adress,
-.adress-map__innopolis_university,
-.item-footer__text,
-.item-foter__copyright,
-.item-footer__site,
-.item-footer__event_details,
-.item-footer__speakers,
-.item-footer__sponsors,
-.item-footer__past_events,
-.item-footer__contact,
-.item-footer__number,
-.item-footer__kinopoisk,
-.item-footer__adress,
-.item-footer__map,
-.item-footer__all_contacts {
+.footer_menu__item a {
     position: absolute;
     text-decoration: none;
     font-family: "IBM Plex Sans";
     font-style: normal;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1rem;
     color: #FFFFFF;
 }
 
-.map__img {
-    position: absolute;
-    width: 973px;
-    height: 421px;
-    left: 75px;
-    top: 5962px;
-    border-radius: 20px;
-}
-
-.map__adress {
-    width: 69px;
-    height: 7px;
-    left: 418px;
-    top: 6074px;
-    font-weight: 600;
-    font-size: 7px !important;
-    line-height: 9px !important;
-    color: #696969 !important;
-}
-
-.adress-map__innopolis_university {
-    width: 53.33px;
-    height: 20.09px;
-    left: 393px;
-    top: 6111.76px;
-    font-weight: 600;
-    font-size: 7px !important;
-    line-height: 9px !important;
-    color: #696969 !important;
-    transform: matrix(0.84, -0.53, 0.54, 0.85, 0, 0);
-}
-
-/* Footer content */
 .item-footer__fone {
-    position: absolute;
-    width: 1126px;
-    height: 362px;
-    left: 10px;
-    top: 6361px;
     background: #A3CC40;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: right;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 22.6rem;
+    overflow: hidden;
+    margin-top: 65.6rem;
 }
 
 .item-footer__logo {
     position: absolute;
-    left: 90px;
-    top: 6452px;
+    left: 5.68rem;
+    top: 402.75rem;
 }
 
 .item-footer__text {
-    width: 269px;
-    height: 72px;
-    left: 89px;
-    top: 6501px;
+    width: 16.8rem;
+    height: 4.5rem;
+    left: 5.68rem;
+    top: 406.2rem;
     font-weight: normal;
-    font-size: 14px !important;
-    line-height: 18px !important;
+    font-size: 0.87rem;
+    line-height: 1.1rem;
+    position: absolute;
+    text-decoration: none;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.1rem;
+    color: #FFFFFF;
+    word-spacing: 0.25rem;
 }
 
-.ico-footer__instagram {
+.footer__ico {
     display: inline-block;
     position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 96px;
-    top: 6604px;
-}
-
-.ico-footer__linkedin {
-    display: inline-block;
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 158px;
-    top: 6604px;
-}
-
-.ico-footer__twitter {
-    display: inline-block;
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 223px;
-    top: 6604.75px;
-}
-
-.ico-footer__youtube {
-    display: inline-block;
-    position: absolute;
-    width: 18px;
-    height: 12.75px;
-    left: 290px;
-    top: 6608px;
-}
-
-.ico-footer__facebook {
-    display: inline-block;
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    left: 347px;
-    top: 6604px;
+    margin-top: 143.2rem;
+    margin-left: 6rem;
+    letter-spacing: 2.56rem;
+    left: 0.1rem;
+    top: 269.3rem;
 }
 
 .item-footer__copyright {
-    width: 436px;
-    height: 39px;
-    left: 89px;
-    top: 6672px;
-    font-weight: normal !important;
-    font-size: 15px !important;
-    line-height: 19px !important;
+    width: 27.25rem;
+    height: 2.43rem;
+    left: 5.56rem;
+    top: 417rem;
+    font-weight: normal;
+    font-size: 0.93rem;
+    line-height: 1.18rem;
+    position: absolute;
+    text-decoration: none;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1rem;
+    color: #FFFFFF;
 }
 
-.item-footer__site {
-    width: 111px;
-    height: 26px;
-    left: 529px;
-    top: 6445px;
+.footer_menu_item__site {
+    width: 6.93rem;
+    height: 1.6rem;
+    left: 33.3rem;
+    top: 403.2rem;
     font-weight: bold !important;
-    font-size: 20px !important;
-    line-height: 26px !important;
+    font-size: 1.25rem !important;
+    line-height: 1.6rem !important;
 }
 
-.item-footer__event_details {
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6493px;
+.footer_menu_item__event_details {
+    width: 6.93rem;
+    height: 1rem;
+    left: 33.06rem;
+    top: 405.8rem;
 }
 
-.item-footer__speakers {
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6521px;
+.footer_menu_item__speakers {
+    width: 6.93rem;
+    height: 1rem;
+    left: 33.06rem;
+    top: 407.5rem;
 }
 
-.item-footer__sponsors {
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6549px;
+.footer_menu_item__sponsors {
+    width: 6.93rem;
+    height: 1rem;
+    left: 33.06rem;
+    top: 409.31rem;
 }
 
-.item-footer__past_events {
-    width: 111px;
-    height: 16px;
-    left: 529px;
-    top: 6577px;
+.footer_menu_item__past_events {
+    width: 6.93rem;
+    height: 1rem;
+    left: 33.06rem;
+    top: 411.06rem;
 }
 
-.item-footer__contact {
-    width: 111px;
-    height: 26px;
-    left: 738px;
-    top: 6445px;
+.footer_menu_item__contact {
+    width: 6.93rem;
+    height: 1.6rem;
+    left: 46.1rem;
+    top: 402.8rem;
     font-weight: bold !important;
-    font-size: 20px !important;
-    line-height: 26px !important;
+    font-size: 1.25rem !important;
+    line-height: 1.62rem !important;
 }
 
-.item-footer__number {
-    width: 148px;
-    height: 16px;
-    left: 738px;
-    top: 6493px;
+.footer_menu_item__number {
+    width: 9.25rem;
+    height: 1rem;
+    left: 46.1rem;
+    top: 405.8rem;
 }
 
-.item-footer__kinopoisk {
-    width: 147px;
-    height: 16px;
-    left: 738px;
-    top: 6521px;
+.footer_menu_item__kinopoisk {
+    width: 9.18rem;
+    height: 1rem;
+    left: 46.1rem;
+    top: 407.5rem;
 }
 
-.item-footer__adress {
-    width: 189px;
-    height: 32px;
-    left: 738px;
-    top: 6549px;
+.footer_menu_item__adress {
+    width: 11.8rem;
+    height: 2rem;
+    left: 46.1rem;
+    top: 409.3rem;
 }
 
-.item-footer__map {
-    width: 111px;
-    height: 16px;
-    left: 738px;
-    top: 6593px;
+.footer_menu_item__map {
+    width: 6.93rem;
+    height: 1rem;
+    left: 46.1rem;
+    top: 412.06rem;
 }
 
-.item-footer__all_contacts {
-    width: 111px;
-    height: 16px;
-    left: 738px;
-    top: 6621px;
+.footer_menu_item__all_Contacts {
+    width: 6.93rem;
+    height: 1rem;
+    left: 46.1rem;
+    top: 413.81rem;
 }

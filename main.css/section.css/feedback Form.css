@@ -1,0 +1,90 @@
+/* font family */
+.item-feed_back__form,
+.feed_back-form__agree {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+}
+
+.item-feed_back__img {
+    position: absolute;
+    width: 41.8rem;
+    height: 32.9rem;
+    left: 11.1rem;
+    top: 335.6rem;
+}
+
+
+.feed_back__tittle {
+    position: absolute;
+    width: 15.7rem;
+    height: 2.06rem;
+    left: 39rem;
+    top: 337.8rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #A3CC40;
+    letter-spacing: 0.06rem;
+}
+
+.form-feed_back__name {
+    position: absolute;
+    width: 21.5rem;
+    height: 2.5rem;
+    left: 34.9rem;
+    top: 340.8rem;
+    border-radius: 0.3rem;
+}
+
+.form-feed_back__seat_number {
+    position: absolute;
+    width: 21.5rem;
+    height: 2.5rem;
+    left: 34.9rem;
+    top: 345.4rem;
+    border-radius: 0.31rem;
+}
+
+.form-feed_back__reviews {
+    position: absolute;
+    width: 21.5rem;
+    height: 7.5rem;
+    left: 34.9rem;
+    top: 349.8rem;
+    border-radius: 0.31rem;
+}
+
+.feed_back-form__check_mark {
+    position: absolute;
+    width: 1.1rem;
+    height: 1.06rem;
+    left: 34.6rem;
+    top: 359.2rem;
+    border: 0.06rem solid #A3CC40;
+    box-sizing: border-box;
+    border-radius: 0.31rem;
+}
+
+.feed_back-form__agree {
+    position: absolute;
+    width: 17.1rem;
+    height: 0.8rem;
+    left: 36.6rem;
+    top: 359.3rem;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 0.81rem;
+    color: #333333;
+}
+
+.feed_back-form__button {
+    position: absolute;
+    width: 21.5rem;
+    height: 3.5rem;
+    left: 34.9rem;
+    top: 362.9rem;
+    background: #A3CC40;
+    border-radius: 0.3rem;
+    border: none;
+    color: #fff;
+}

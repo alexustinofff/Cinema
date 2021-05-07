@@ -1,37 +1,41 @@
 .advanteges__block {
-    width: 850px;
+    width: 53.1rem;
     margin: 0 auto;
     position: relative;
     font-family: "IBM Plex Sans";
 }
 
-.head-block__tittle {
+.advanteges__block__tittle {
+    position: absolute;
     font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
+    font-weight: 600;
+    font-size: 3rem;
     line-height: 1.29;
     color: #A3CC40;
+    left: -4.25rem;
+    top: -16rem;
+    word-spacing: 0.4rem;
 }
 
 .advanteges__container {
-    margin-top: 795px;
-    margin-left: 28px;
+    position: relative;
+    margin-top: 8.1rem;
+    margin-left: -6.1rem;
+
 }
 
 .advanteges__wrapper {
     overflow: hidden;
-    padding: 18px;
-    margin-left: -156px;
+    padding: 0.3rem;
 }
 
 .wrapper__item {
-    padding-top: 20px;
+    padding-top: 1.2rem;
     float: left;
     box-sizing: border-box;
     width: 33.333%;
-    padding-left: 28px;
-    padding-right: 28px;
-    height: 390px;
+    padding-left: 1.7rem;
+    height: 24.3rem;
 }
 
 .wrapper__item img {
@@ -40,23 +44,23 @@
 }
 
 .wrapper__tittle {
-    width: 245px;
+    width: 15.3rem;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.3;
     text-align: center;
-    padding-top: 45px;
+    padding-top: 2.8rem;
     display: block;
 }
 
 .wrapper__subtittle {
-    width: 245px;
+    width: 15.3rem;
     font-style: normal;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 0.6rem;
     line-height: 1.3;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 45px;
+    padding-top: 1.8rem;
+    padding-bottom: 2.8rem;
 }

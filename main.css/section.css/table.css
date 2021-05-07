@@ -12,6 +12,19 @@
     color: #A3CC40;
 } */
 
+#table-block__tittle {
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.29;
+    color: #A3CC40;
+    left: 135px;
+    top: 1690px;
+    letter-spacing: 2px;
+    font-family: "IBM plex sans";
+}
+
 .line-table__header {
     position: absolute;
     width: 849px;
@@ -315,4 +328,5 @@
     font-size: 11px !important;
     text-align: center;
     color: #333333;
+    z-index: 2;
 }

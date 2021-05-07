@@ -1,0 +1,240 @@
+/* font family */
+.item-reviews__tittle,
+.item-reviews__subtittle,
+.elena-reviews__name,
+.elena-reviews__text,
+.elena-reviews__data,
+.boris-reviews__name,
+.boris-reviews__text,
+.boris-reviews__data,
+.leo-reviews__name,
+.leo-reviews__text,
+.leo-reviews__data {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+}
+
+.item-reviews__tittle {
+    position: absolute;
+    width: 34.2rem;
+    height: 3.8rem;
+    left: 9.3rem;
+    top: 281.2rem;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.8rem;
+    color: #A3CC40;
+    z-index: 1;
+    letter-spacing: 0.06rem;
+}
+
+.item-reviews__subtittle {
+    position: absolute;
+    width: 34.2rem;
+    height: 1.7rem;
+    left: 8.8rem;
+    top: 286.2rem;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    z-index: 2;
+}
+
+.reviews__fone {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: right;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 44.3rem;
+    overflow: hidden;
+    margin-top: 9rem;
+    z-index: -1;
+}
+
+.reviews__fone::before {
+    position: absolute;
+    content: "";
+    display: block;
+    border-left: 100vw solid #fff;
+    border-bottom: 100px solid transparent;
+    overflow: hidden;
+    margin-top: -19.9rem;
+}
+
+.reviews__fone::after {
+    position: absolute;
+    left: -0.4rem;
+    content: "";
+    display: block;
+    border-top: 100px solid transparent;
+    border-right: 100vw solid #fff;
+    overflow: hidden;
+    margin-top: 19.9rem;
+}
+
+.elena-reviews__img {
+    position: relative;
+    width: 13.1rem;
+    height: 9.5rem;
+    left: 0.02rem;
+    top: 0.06rem;
+    border-radius: 0.5rem 0.53rem 0px 0px;
+}
+
+.elena-reviews__fone {
+    position: absolute;
+    width: 13.1rem;
+    height: 17.7rem;
+    left: 8.8rem;
+    top: 304.9rem;
+    opacity: 0.8;
+    background: #97B13C;
+}
+
+.elena-reviews__name {
+    position: absolute;
+    width: 11.6rem;
+    height: 1.2rem;
+    left: 9.5rem;
+    top: 315.6rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+    color: #FFFFFF;
+}
+
+.elena-reviews__text {
+    position: absolute;
+    width: 11.6rem;
+    height: 3.25rem;
+    left: 9.5rem;
+    top: 317.3rem;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    color: #FFFFFF;
+}
+
+.elena-reviews__data {
+    position: absolute;
+    width: 3rem;
+    height: 0.75rem;
+    left: 18.6rem;
+    top: 321.5rem;
+    font-weight: 300;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    color: #FFFFFF;
+}
+
+.boris-reviews__img {
+    position: relative;
+    width: 15.3rem;
+    height: 11.1rem;
+    left: -0.01rem;
+    top: 0.06rem;
+    border-radius: 0.62rem 0.62rem 0rem 0rem;
+}
+
+.boris-reviews__fone {
+    position: absolute;
+    width: 15.3rem;
+    height: 20.7rem;
+    left: 27.6rem;
+    top: 303.5rem;
+    background: #97B13C;
+    border-radius: 0.62rem;
+}
+
+.boris-reviews__name {
+    position: absolute;
+    width: 13.7rem;
+    height: 1.4rem;
+    left: 28.8rem;
+    top: 315.7rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    color: #FFFFFF;
+}
+
+.boris-reviews__text {
+    position: absolute;
+    width: 13.7rem;
+    height: 2.6rem;
+    left: 28.8rem;
+    top: 317.8rem;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    color: #FFFFFF;
+}
+
+.boris-reviews__data {
+    position: absolute;
+    width: 3rem;
+    height: 0.75rem;
+    left: 39rem;
+    top: 322.8rem;
+    font-weight: 300;
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+    color: #FFFFFF;
+}
+
+.leo-reviews__img {
+    position: relative;
+    width: 13rem;
+    height: 9.5rem;
+    top: 0.06rem;
+    border-radius: 0.53rem 0.53rem 0rem 0rem;
+}
+
+.leo-reviews__fone {
+    position: absolute;
+    width: 13.1rem;
+    height: 17.7rem;
+    left: 48.5rem;
+    top: 304.9rem;
+    opacity: 0.8;
+    background: #97B13C;
+}
+
+.leo-reviews__name {
+    position: absolute;
+    width: 10.6rem;
+    height: 1.2rem;
+    left: 49.5rem;
+    top: 315.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    color: #FFFFFF;
+}
+
+.leo-reviews__text {
+    position: absolute;
+    width: 10.6rem;
+    height: 3.2rem;
+    left: 49.5rem;
+    top: 317.5rem;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+    color: #FFFFFF;
+}
+
+.leo-reviews__data {
+    position: absolute;
+    width: 3rem;
+    height: 0.75rem;
+    left: 58.3rem;
+    top: 321.6rem;
+    font-weight: 300;
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    color: #FFFFFF;
+}

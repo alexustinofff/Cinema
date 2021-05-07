@@ -1,42 +1,45 @@
 .item-present__img_fone {
-    position: absolute;
-    width: 1129px;
-    height: 587px;
-    left: 0px;
-    top: 2219px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: right;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 43.4rem;
+    overflow: hidden;
     z-index: -1;
+    margin-top: 27.5rem;
 }
 
 .item__main_img::before {
     position: absolute;
-    width: 0;
-    top: 2219px;
-    left: 0px;
+    top: 129.6rem;
     content: "";
     display: block;
     border-left: 100vw solid #FFFFFF;
     border-bottom: 100px solid transparent;
     overflow: hidden;
+    height: 8.5rem;
 }
 
 .item__main_img::after {
     position: absolute;
-    top: 2706px;
-    left: 10px;
-    bottom: 0px;
+    top: 167.6rem;
     content: "";
     display: block;
     border-right: 100vw solid #fff;
     border-top: 100px solid transparent;
     overflow: hidden;
+    height: 10.5rem;
 }
 
 .item-present__img_box {
     position: absolute;
-    width: 276px;
-    height: 276px;
-    left: 139px;
-    top: 2186px;
+    width: 17.2rem;
+    height: 17.2rem;
+    left: 8.6rem;
+    top: 136.6rem;
     border-radius: 100%;
 }
 
@@ -55,32 +58,32 @@
 }
 
 .item-present__head_text {
-    width: 548px;
-    height: 62px;
-    left: 441px;
-    top: 2347px;
+    width: 34.2rem;
+    height: 3.8rem;
+    left: 27.5rem;
+    top: 146.6rem;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 62px;
+    font-size: 3rem;
+    line-height: 3.8rem;
 }
 
 .item-present__text {
-    width: 548px;
-    height: 173px;
-    left: 441px;
-    top: 2447px;
+    width: 34.2rem;
+    height: 10.8rem;
+    left: 27.5rem;
+    top: 152.9rem;
     font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
 }
 
 .item-present__button {
     position: absolute;
-    width: 190px;
-    height: 31px;
-    left: 797px;
-    top: 2646px;
-    border-radius: 6px;
+    width: 11.8rem;
+    height: 1.9rem;
+    left: 49.8rem;
+    top: 165.3rem;
+    border-radius: 0.3rem;
     background: #A3CC40;
     color: #FFFFFF;
     border: none;

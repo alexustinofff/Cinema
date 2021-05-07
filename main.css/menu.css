@@ -1,27 +1,39 @@
+html{
+    font-size: 16px;
+}
 /* Main img */
 .menu__main_img {
-    position: absolute;
-    margin: auto;
-    width: 1124px;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: right;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 43.4rem;
+    overflow: hidden;
+    z-index: -1;
 }
 
 .menu__main_img::after {
     position: absolute;
-    top: 535px;
-    left: 0px;
-    bottom: 0;
+    top: 33rem;
     content: "";
     display: block;
     border-right: 100vw solid #fff;
-    border-top: 106px solid transparent;
+    border-top: 100px solid transparent;
     overflow: hidden;
+    height: 6.2rem;
 }
+
+
 /* logo */
 .item-menu__logo {
     position: absolute;
-    left: 90px;
-    top: 54px;
+    left: 5.6rem;
+    top: 3.3rem;
 }
+
 /* Menu */
 .menu__item a {
     position: absolute;
@@ -31,68 +43,86 @@
     font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.7rem;
+    line-height: 1em;
     font-weight: bold;
+
+}
+
+.menu__item a:hover:before {
+    transform: scaleX(1);
+    transition: 0.2s;
+}
+
+.menu__item a::before {
+    content: "";
+    width: 100%;
+    height: 0.06rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    bottom: -0.3rem;
+    transform: scaleX(0);
+    transition: 0.2s;
 }
 
 .item-menu__tel {
-    width: 125px;
-    left: 290px;
-    top: 48px;
+    width: 6.7rem;
+    left: 18.1rem;
+    top: 3rem;
 }
 
 .item-menu__mail {
-    width: 98px;
-    left: 451px;
-    top: 45px;
+    width: 6.1rem;
+    left: 28.1rem;
+    top: 2.8rem;
 }
 
 .item-menu__adress {
-    width: 125px;
-    left: 604px;
-    top: 46px;
+    width: 6.5rem;
+    left: 37.7rem;
+    top: 2.8rem;
 }
 
 .item-menu__eventdetails {
-    width: 125px;
-    left: 297px;
-    top: 77px;
+    width: 5.4rem;
+    left: 18.5rem;
+    top: 4.8rem;
 }
 
 .item-menu__speakers {
-    width: 58px;
-    left: 453px;
-    top: 78px;
+    width: 3.6rem;
+    left: 28.7rem;
+    top: 4.8rem;
 }
 
 .item-menu__sponsors {
-    width: 62px;
-    left: 582px;
-    top: 78px;
+    width: 3.8rem;
+    left: 36.3rem;
+    top: 4.8rem;
 }
 
 .item-menu__pastevents {
-    width: 103px;
-    left: 723px;
-    top: 78px;
+    width: 4.6rem;
+    left: 45.1rem;
+    top: 4.8rem;
 }
 
 .item-menu__contact {
-    width: 52px;
-    left: 871px;
-    top: 78px;
+    width: 3.2rem;
+    left: 54.4rem;
+    top: 4.8rem;
 }
 
 /* button */
 .item-menu__button {
-    position: relative;
-    width: 130px;
-    height: 21px;
-    left: 761px;
-    top: 44px;
+    position: absolute;
+    width: 8.1rem;
+    height: 1.3rem;
+    left: 47.5rem;
+    top: 2.7rem;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     border: 0px;
 }
 
@@ -104,8 +134,8 @@
     bottom: 14.29%;
     font-family: "IBM Plex Sans";
     font-style: normal;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.7rem;
+    line-height: 1rem;
     font-weight: 700;
     text-align: center;
     text-decoration: none;
@@ -128,24 +158,24 @@
 /* choice language */
 .language__ico {
     position: absolute;
-    width: 8px;
-    height: 8px;
-    left: 20px;
-    top: 2px;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 1.25rem;
+    top: 0.1rem;
 }
 
 .menu__language {
     position: absolute;
-    width: 23px;
-    height: 16px;
-    left: 1010px;
-    top: 47px;
-    font-size: 12px;
+    width: 1.4rem;
+    height: 1rem;
+    left: 63.1rem;
+    top: 2.9rem;
+    font-size: 0.7rem;
     font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 100;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.7rem;
+    line-height: 1rem;
 }
 
 .menu__language ul li a {
@@ -168,13 +198,13 @@
 /* language list*/
 .menu__language li ul {
     position: absolute;
-    min-width: 23px;
-    left: -3px;
+    min-width: 1.4rem;
+    left: -0.1rem;
     display: none;
 }
 
 .menu__language li ul li {
-    padding: 5px;
+    padding: 0.3rem;
 }
 
 .menu__language li:hover ul {
@@ -191,35 +221,35 @@
 }
 
 .main-headline__chooseFilm {
-    width: 728px;
-    height: 88px;
-    left: 200px;
-    top: 224px;
+    width: 45.5rem;
+    height: 5.5rem;
+    left: 12.5rem;
+    top: 14rem;
     font-weight: 100;
-    font-size: 68px;
-    line-height: 88px;
+    font-size: 4.25rem;
+    line-height: 5.5rem;
 }
 
 .main-headline__present {
-    width: 592px;
-    height: 53px;
-    left: 264px;
-    top: 330px;
+    width: 37rem;
+    height: 3.3rem;
+    left: 16.5rem;
+    top: 20.6rem;
     font-weight: normal;
-    font-size: 41px;
-    line-height: 53px;
+    font-size: 2.5rem;
+    line-height: 3.3rem;
 }
 
 /* welcom text */
 .welcom__fone {
     position: absolute;
-    width: 426px;
-    height: 221px;
-    left: 563px;
-    top: 525px;
+    width: 26.6rem;
+    height: 13.8rem;
+    left: 35.1rem;
+    top: 32.8rem;
     background: #FFFFFF;
     box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
-    border-radius: 10px;
+    border-radius: 0.6rem;
 }
 
 .welcom__item .welcome__head,
@@ -230,20 +260,20 @@
 }
 
 .welcome__head {
-    left: 49px;
-    top: 30px;
-    font-size: 33px;
+    left: 3rem;
+    top: 1.8rem;
+    font-size: 2rem;
     font-weight: bolder;
-    line-height: 46px;
+    line-height: 2.8rem;
     letter-spacing: 1px;
 }
 
 .welcome__text {
-    width: 332px;
-    height: 69px;
-    left: 48px;
-    top: 94px;
+    width: 20.75rem;
+    height: 4.3rem;
+    left: 3rem;
+    top: 5.8rem;
     font-weight: normal;
-    font-size: 11px;
-    line-height: 14px;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
 }
