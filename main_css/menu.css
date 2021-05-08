@@ -1,20 +1,11 @@
 html{
     font-size: 16px;
 }
-/* Main img */
-.menu__main_img {
-    margin: 0 auto;
-    max-width: 100%;
-    text-align: right;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 43.4rem;
-    overflow: hidden;
-    z-index: -1;
+.header__block{
+    background: url("/images/main-img.png") no-repeat center/ cover;
+    height: 600px;
 }
-
+/* Main img */
 .menu__main_img::after {
     position: absolute;
     top: 33rem;
