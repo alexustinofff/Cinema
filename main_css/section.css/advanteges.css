@@ -6,14 +6,12 @@
 }
 
 .advanteges__block__tittle {
-    position: absolute;
     font-style: normal;
     font-weight: 600;
     font-size: 3rem;
     line-height: 1.29;
     color: #A3CC40;
-    left: -4.25rem;
-    top: -16rem;
+    margin-left: -4.25rem;
     word-spacing: 0.4rem;
 }
 

@@ -3,7 +3,7 @@
     max-width: 100%;
     text-align: right;
     display: flex;
-    position: relative;
+    /* position: relative; */
     flex-direction: column;
     justify-content: center;
     min-height: 43.4rem;
@@ -13,7 +13,7 @@
 }
 
 .item__main_img::before {
-    position: absolute;
+    /* position: absolute; */
     top: 129.6rem;
     content: "";
     display: block;
@@ -24,7 +24,7 @@
 }
 
 .item__main_img::after {
-    position: absolute;
+    /* position: absolute; */
     top: 167.6rem;
     content: "";
     display: block;
@@ -35,7 +35,7 @@
 }
 
 .item-present__img_box {
-    position: absolute;
+    /* position: absolute; */
     width: 17.2rem;
     height: 17.2rem;
     left: 8.6rem;
@@ -50,7 +50,7 @@
 /* font family */
 .item-present__head_text,
 .item-present__text {
-    position: absolute;
+    /* position: absolute; */
     font-family: "IBM Plex Sans";
     font-style: normal;
     text-align: right;
@@ -78,7 +78,7 @@
 }
 
 .item-present__button {
-    position: absolute;
+    /* position: absolute; */
     width: 11.8rem;
     height: 1.9rem;
     left: 49.8rem;

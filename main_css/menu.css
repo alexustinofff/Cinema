@@ -6,9 +6,9 @@ html{
     height: 600px;
 }
 /* Main img */
-.menu__main_img::after {
-    position: absolute;
-    top: 33rem;
+.header__block::after {
+    /* position: absolute; */
+    margin-top: 9rem;
     content: "";
     display: block;
     border-right: 100vw solid #fff;
@@ -20,14 +20,12 @@ html{
 
 /* logo */
 .item-menu__logo {
-    position: absolute;
-    left: 5.6rem;
-    top: 3.3rem;
+    margin-left: 5.6rem;
+    margin-top: 3.3rem;
 }
 
 /* Menu */
-.menu__item a {
-    position: absolute;
+.menu a {
     text-decoration: none;
     float: left;
     color: #FFFFFF;
@@ -40,12 +38,12 @@ html{
 
 }
 
-.menu__item a:hover:before {
+.menu a:hover:before {
     transform: scaleX(1);
     transition: 0.2s;
 }
 
-.menu__item a::before {
+.menu a::before {
     content: "";
     width: 100%;
     height: 0.06rem;
@@ -59,44 +57,40 @@ html{
 
 .item-menu__tel {
     width: 6.7rem;
-    left: 18.1rem;
-    top: 3rem;
+    margin-left: 18.1rem;
+    margin-top: -2.3rem;
 }
 
 .item-menu__mail {
     width: 6.1rem;
-    left: 28.1rem;
-    top: 2.8rem;
+    margin-left: 28.1rem;
+    margin-top: -2.3rem;
 }
 
 .item-menu__adress {
     width: 6.5rem;
-    left: 37.7rem;
-    top: 2.8rem;
+    margin-left: 37.7rem;
+    margin-top: -2.3rem;
 }
 
 .item-menu__eventdetails {
     width: 5.4rem;
-    left: 18.5rem;
-    top: 4.8rem;
+    margin-left: 18.5rem;
 }
 
 .item-menu__speakers {
     width: 3.6rem;
-    left: 28.7rem;
-    top: 4.8rem;
+    margin-left: 4.7rem;
 }
 
 .item-menu__sponsors {
     width: 3.8rem;
-    left: 36.3rem;
-    top: 4.8rem;
+    margin-left: 4.3rem;
 }
 
 .item-menu__pastevents {
     width: 4.6rem;
-    left: 45.1rem;
-    top: 4.8rem;
+    margin-left: 4.5rem;
 }
 
 .item-menu__contact {
@@ -107,18 +101,16 @@ html{
 
 /* button */
 .item-menu__button {
-    position: absolute;
     width: 8.1rem;
     height: 1.3rem;
-    left: 47.5rem;
-    top: 2.7rem;
+    margin-left: 46.5rem;
+    margin-top: -6rem;
     background-color: white;
     border-radius: 0.3rem;
     border: 0px;
 }
 
 .item-menu__bell {
-    position: absolute;
     left: 21%;
     right: 5.38%;
     top: 9.52%;
@@ -139,7 +131,6 @@ html{
 }
 
 .button-item__iconPhone {
-    position: absolute;
     left: 7%;
     right: 80%;
     top: 21%;
@@ -204,7 +195,6 @@ html{
 
 /* Заголовки */
 .headlines__main a {
-    position: absolute;
     font-family: "IBM Plex Sans";
     text-decoration: none;
     text-align: center;
@@ -214,8 +204,8 @@ html{
 .main-headline__chooseFilm {
     width: 45.5rem;
     height: 5.5rem;
-    left: 12.5rem;
-    top: 14rem;
+    margin-left: 12.5rem;
+    margin-top: 14rem;
     font-weight: 100;
     font-size: 4.25rem;
     line-height: 5.5rem;
@@ -224,8 +214,8 @@ html{
 .main-headline__present {
     width: 37rem;
     height: 3.3rem;
-    left: 16.5rem;
-    top: 20.6rem;
+    margin-left: 30.5rem;
+    margin-top: 20.6rem;
     font-weight: normal;
     font-size: 2.5rem;
     line-height: 3.3rem;
@@ -236,8 +226,8 @@ html{
     position: absolute;
     width: 26.6rem;
     height: 13.8rem;
-    left: 35.1rem;
-    top: 32.8rem;
+    margin-left: 35.1rem;
+    margin-top: 9rem;
     background: #FFFFFF;
     box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
     border-radius: 0.6rem;
