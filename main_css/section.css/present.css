@@ -1,91 +1,90 @@
-.item-present__img_fone {
+.present {
     margin: 0 auto;
     max-width: 100%;
     text-align: right;
     display: flex;
-    /* position: relative; */
+    position: relative;
     flex-direction: column;
     justify-content: center;
-    min-height: 43.4rem;
+    min-height: 695px;
+    background: url('/images/подарок\(фон\).PNG') no-repeat center / cover;
     overflow: hidden;
-    z-index: -1;
-    margin-top: 27.5rem;
+    margin-top: 30px;
 }
-
-.item__main_img::before {
-    /* position: absolute; */
-    top: 129.6rem;
-    content: "";
+.present::before{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
     display: block;
-    border-left: 100vw solid #FFFFFF;
     border-bottom: 100px solid transparent;
-    overflow: hidden;
-    height: 8.5rem;
+    border-left: 100vw solid #FFFFFF;
 }
-
-.item__main_img::after {
-    /* position: absolute; */
-    top: 167.6rem;
-    content: "";
+.present::after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
     display: block;
-    border-right: 100vw solid #fff;
     border-top: 100px solid transparent;
-    overflow: hidden;
-    height: 10.5rem;
+    border-right: 100vw solid #FFFFFF;
 }
-
-.item-present__img_box {
-    /* position: absolute; */
-    width: 17.2rem;
-    height: 17.2rem;
-    left: 8.6rem;
-    top: 136.6rem;
-    border-radius: 100%;
+.present__block {
+    width: 850px;
+    margin: 0 auto;
 }
-
-.item-present__img_box:hover {
-    cursor: help;
-}
-
-/* font family */
-.item-present__head_text,
-.item-present__text {
-    /* position: absolute; */
-    font-family: "IBM Plex Sans";
+.present-block__text {
+    padding-top: 50px;
+    width: 540px;
+    float: right;
     font-style: normal;
-    text-align: right;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 1.27;
     color: #FFFFFF;
+    font-family: "IBM Plex Sans";
 }
-
-.item-present__head_text {
-    width: 34.2rem;
-    height: 3.8rem;
-    left: 27.5rem;
-    top: 146.6rem;
+.present__button {
+    width: 850px;
+    margin: 0 auto;
+    float: right;
+    padding-top: 30px;
+}
+.present__btn {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.28;
+    color: #FFFFFF;
+    background: #A3CC40;
+    border-radius: 6px;
+    width: 190px;
+    Height: 31px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    transition: all 0.2s ease;
+  
+}
+.present__btn:hover {
+    color: white;
+    background: red;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.present__img {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -183px;
+}
+.present-block__tittle {
+    color: #FFFFFF;
+    width: 53.1rem;
+    margin: 0 auto;
+    font-style: normal;
     font-weight: 600;
     font-size: 3rem;
-    line-height: 3.8rem;
-}
-
-.item-present__text {
-    width: 34.2rem;
-    height: 10.8rem;
-    left: 27.5rem;
-    top: 152.9rem;
-    font-weight: normal;
-    font-size: 0.6rem;
-    line-height: 0.8rem;
-}
-
-.item-present__button {
-    /* position: absolute; */
-    width: 11.8rem;
-    height: 1.9rem;
-    left: 49.8rem;
-    top: 165.3rem;
-    border-radius: 0.3rem;
-    background: #A3CC40;
-    color: #FFFFFF;
-    border: none;
-
+    line-height: 1.29;
+    letter-spacing: 0.12rem;
+    font-family: "IBM plex sans";
 }

@@ -159,77 +159,48 @@
         </div>
         </section>
         <!-- Table -->
-        <section class="table__block">
-        <span id="table-block__tittle">Выберите фильм</span>
-        <div class="table__line">
-                <div class="line-table__header"></div>
-                <div class="line-table__first"></div>
-                <div class="line-table__second"></div>
-                <div class="line-table__third"></div>
-                <div class="line-table__fourth"></div>
-        </div>
-                <table class="table__text" cellspacing="0" cellpadding= "12px">
-                    <thead class="table__item">
-                    <tr class="item-table__head">
-                            <th class="text-table__time_films"> Начало сеанса</th>
-                            <th class="text-table__name_films">Название фильма</th>
-                            <th class="text-table__genre_films">Жанр</th>
+        <section class="table">
+        <h2 id="table-block__tittle">Выберите фильм</h2>
+        <div class="table__block">
+        <table class="block__shedule">
+                    <tr>
+                            <th><a href="#" class="shedule__head">Начало сеанса</a></th>
+                            <th><a href="#" class="shedule__head">Название фильма</a></th>
+                            <th><a href="#" class="shedule__head">Жанр</a></th>
                     </tr>
-                    </thead>  
-                <tbody class="films__description">
-                    <!-- SpiderMan film -->
-                        <tr class="description-films__spider_man">
-                            <td class="description-films-spider_man__time">10:00</td>
-                           <td><a class="description-films-spider_man__name" target="_blank" 
-                            href="https://www.kinopoisk.ru/film/838/">Человек-паук</a></td>
-                            <td class="description-films-spider_man__genre">Фантастика, боевик, приключения</td>
-                        </tr>
-                        <!-- DogLife2 film -->
-                        <tr class="description-films__dog_life2">
-                            <td class="description-films-dog_life2__time">12:00</td>
-                            <td><a class="description-films-dog_life2__name" target="_blank" 
-                                href="https://www.kinopoisk.ru/film/1122114/">Собачья жизнь 2</a></td>
-                            <td class="description-films-dog_life2__genre">Фэнтэзи, драма, комедия</td>
-                        </tr>
-                        <!-- HistoryToys4 film -->
-                        <tr class="description-films__history_toys4">
-                            <td class="description-films-history_toys4__time">14:00</td>
-                            <td><a class="description-films-history_toys4__name" target="_blank" 
-                                href="https://www.kinopoisk.ru/film/846824/">История игрушек 4</a></td>
-                            <td class="description-films-history_toys4__genre">Мультфильм, фэнтэзи, комедия</td>
-                        </tr>
-                        <!-- Man in Black film -->
-                        <tr class="description-films__men_in_black">
-                            <td class="description-films-men_in_black__time">16:00</td>
-                            <td><a class="description-films-men_in_black__name" target="_blank" 
-                                href="https://www.kinopoisk.ru/film/693730/">Люди в чёрном: Интэрнэшнл</a></td>
-                            <td class="description-films-men_in_black__genre">Фантастика, боевик, комедия</td>
-                        </tr>
-                    </tbody>
-                    <div class="line-table__arrow">
-                <img class="arrow-up__time" src="svg/стрелка(начало сеанса).svg" alt="">
-                <img class="arrow-down__name" src="svg/стрелка(название фильма).svg" alt="">
-                <img class="arrow__ten-oclock" src="svg/галка(10 00).svg" alt="">
-                <img class="arrow__twelwe-oclock" src="svg/галка(12 00).svg" alt="">
-                <img class="arrow__fourteen-oclock" src="svg/галка (14 00).svg" alt="">
-                <img class="arrow__sixteen-oclock" src="svg/галка(16 00).svg" alt="">
-            </div>
+                     <tr class="schedule__dark-line">
+                        <td>10:00</td>
+                        <td><a target="_blank" href="https://www.kinopoisk.ru/film/838/">Человек-паук</a></td>
+                        <td>Фантастика, боевик, приключения</td>
+                    </tr>
+                    <tr class="schedule__gray-line">
+                            <td>12:00</td>
+                            <td><a target="_blank" href="https://www.kinopoisk.ru/film/1122114/">Собачья жизнь 2</a></td>
+                            <td>Фэнтэзи, драма, комедия</td>
+                    </tr>
+                    <tr class="schedule__dark-line">
+                            <td>14:00</td>
+                            <td><a target="_blank" href="https://www.kinopoisk.ru/film/846824/">История игрушек 4</a></td>
+                            <td>Мультфильм, фэнтэзи, комедия</td>
+                    </tr>
+                    <tr class="schedule__gray-line">
+                            <td>16:00</td>
+                            <td><a target="_blank" href="https://www.kinopoisk.ru/film/693730/">Люди в чёрном: Интэрнэшнл</a></td>
+                            <td>Фантастика, боевик, комедия</td>
+                    </tr>
                 </table>
-                <div class="footer__table_text">
+            </div>
+                <div class="table-block__subtittle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore<br>
                     magna aliqua. Ut enim ad minim veniam.
                 </div>
             </section>
                 <!-- Present -->
-                <section class="present__block">
-                <div class="present__item">
-                        <div class="item__main_img">
-                            <img class="item-present__img_fone" src="images/подарок(фон).PNG" alt="Present Fone">
-                        </div>
-                <img class="item-present__img_box" src="images/Подарок.png" alt="Present">
-                <strong class="item-present__head_text" id="present">Подарок каждому!</strong>
-                <div class="item-present__text">
+                <section class="present">
+                    <div class="present__block">
+                <h2 class="present-block__tittle" id="present">Подарок каждому!</h2>
+                <div class="present-block__text">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore <br>
@@ -255,21 +226,26 @@
                         <br>
                     </p>
                 </div>
-                <button class="item-present__button">Получить подарок</button>
+                <div class="present__button">
+                <button class="present__btn">Получить подарок</button>
+            </div>
+            <div class="present__img">
+                <figure><img src="/images/Подарок.png" alt="present"></figure>
+            </div>
             </div>
         </section>
             <!-- Films -->
-            <section class="films__block">
-                <h2 class="choice-films__tittle" id="ChooseFilms">Фильмы</h2>
-                <p class="text-films__subtittle">
+            <section class="films">
+                <h2 class="films__tittle" id="ChooseFilms">Фильмы</h2>
+                <p class="films__subtittle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore <br>
                     magna aliqua. Nibh mauris cursus mattis molestie a iaculis at.
                     Vel quam elementum pulvinar etiam non quam. <br>
                 </p>
-            <div class="choiсe__films">
-                <div class="films__wrapper">
-                <div class="poster-films__fones">
+            <div class="films__block">
+                <div class="films-block__item">
+                <div class="item__wrapper">
               <a href="https://www.kinopoisk.ru/film/522941/" target="_blank">
                 <span class="films-wrapper__tittle">Выживший</span>
                 <p class="films-wrapper__subtittle">
@@ -280,12 +256,13 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/Выживший.png" alt="Survivor">
                 </figure>
             </a>
             </div>
-                <div class="poster-films__fones">
+                <div class="item__wrapper">
                    <a href="https://www.kinopoisk.ru/film/522941/" target="_blank">
                 <span class="films-wrapper__tittle">Лёд</span>
                 <p class="films-wrapper__subtittle">
@@ -296,12 +273,13 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/Лёд.png" alt="Ice">
                  </figure>
             </a> 
             </div>
-            <div class="poster-films__fones">
+            <div class="item__wrapper">
                 <a href="https://www.kinopoisk.ru/film/522941/" target="_blank">
                 <span class="films-wrapper__tittle">Марсианин</span>
                 <p class="films-wrapper__subtittle">
@@ -312,12 +290,13 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/Марсианин.png" alt="Mars">
             </figure>
             </a>
             </div>
-            <div class="poster-films__fones">
+            <div class="item__wrapper">
                <a href="https://www.kinopoisk.ru/film/522941/" target="_blank">
                 <span class="films-wrapper__tittle">Спутник</span>
                 <p class="films-wrapper__subtittle">
@@ -328,12 +307,13 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/Спутник.png" alt="Satellite">
                 </figure>
             </a> 
             </div>
-            <div class="poster-films__fones">
+            <div class="item__wrapper">
                 <a href="https://www.kinopoisk.ru/film/522941/">
                 <span class="films-wrapper__tittle">Калашников</span>
                 <p class="films-wrapper__subtittle">
@@ -344,12 +324,13 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/Калашников.png" alt="Ak47">
                 </figure>
             </a>
             </div>
-            <div class="poster-films__fones">
+            <div class="item__wrapper">
                 <a href="https://www.kinopoisk.ru/film/522941/">
                 <span class="films-wrapper__tittle">Территория</span>
                 <p class="films-wrapper__subtittle">
@@ -360,12 +341,13 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/Территория.png" alt="territory">
                 </figure>
             </a>
             </div>
-            <div class="poster-films__fones">
+            <div class="item__wrapper">
                 <a href="https://www.kinopoisk.ru/film/522941/">
                 <span class="films-wrapper__tittle">Мечта реальна</span>
                 <p class="films-wrapper__subtittle">
@@ -376,12 +358,13 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/Мечта реальна.png" alt="Dreamisreal">
                 </figure>
             </a>
             </div>
-            <div class="poster-films__fones">
+            <div class="item__wrapper">
                 <a href="https://www.kinopoisk.ru/film/522941/">
                 <span class="films-wrapper__tittle">Неизвестно</span>
                 <p class="films-wrapper__subtittle">
@@ -392,12 +375,13 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/unknown.png" alt="unknown">
                 </figure>
             </a>
             </div>
-            <div class="poster-films__fones">
+            <div class="item__wrapper">
                 <a href="https://www.kinopoisk.ru/film/522941/">
                 <span class="films-wrapper__tittle">Живое</span>
                 <p class="films-wrapper__subtittle">
@@ -408,6 +392,7 @@
                     Vel quam elementum pulvinar etiam non quam. <br>
                     Ut pharetra sit amet aliquam id diam maecenas. <br>
                 </p>
+                <p class="wrapper__fones"></p>
                 <figure>
                     <img src="images/Живое.png" alt="alive">
                 </figure>
@@ -417,20 +402,19 @@
     </div>
     </section>
             <!-- Products -->
-        <section class="products__block">
-                <strong class="choice-products__tittle">Товары</strong>
-                <p class="choice-products__subtittle">
+        <section class="products">
+                <h2 class="products__tittle">Товары</h2>
+                <p class="products__subtittle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua.
                     Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam. <br>
                 </p>
-                <!-- Карточка продуктов -->
-                <div class="products__container">
-                    <div class="choice__products">
+                <div class="products__block">
+                <div class="products-block__wrapper">
                 <div class="products__item">
                     <a href="#" class="products__buy"  target="_blank">
-                        <div class="item__fone"></div>
-                        <strong class="products__tittle">Coca-cola</strong><br>
+                        <span class="item__fone"></span>
+                        <span class="item__tittle">Coca-cola</span><br>
                         <figure>
                 <img src="images/кока-кола.png" alt="#ProductsCinema"><br>
                         </figure>
@@ -438,9 +422,9 @@
                 </div>
                 <div class="products__item">
                     <a href="#" class="products__buy" target="_blank">
-                        <div class="item__fone"></div>
-                        <strong class="products__tittle">Брелок <br>
-                            “Железный человек”</strong><br>
+                        <span class="item__fone"></span>
+                        <span class="item__tittle">Брелок <br>
+                            “Железный человек”</span><br>
                           <figure>
                 <img src="images/Брелоки.png" alt="#ProductsCinema"><br> 
             </figure>
@@ -448,8 +432,8 @@
             </div>
             <div class="products__item">
                 <a href="#" class="products__buy" target="_blank">
-                    <div class="item__fone"></div>
-                    <strong class="products__tittle">Постер “Мстители”</strong><br>
+                    <span class="item__fone"></span>
+                    <span class="item__tittle">Постер “Мстители”</span><br>
                     <figure>
                 <img src="images/Постер мстители.png" alt="#ProductsCinema"> <br>
             </figure>

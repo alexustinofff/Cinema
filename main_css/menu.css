@@ -1,5 +1,6 @@
-html{
+* {
     font-size: 16px;
+    font-family: "IBM Plex Sans";
 }
 .header__block{
     background: url("/images/main-img.png") no-repeat center/ cover;
