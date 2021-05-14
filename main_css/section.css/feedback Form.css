@@ -1,90 +1,67 @@
-/* font family */
-.item-feed_back__form,
-.feed_back-form__agree {
-    font-family: "IBM Plex Sans";
+.feedback {
+    width: 780px;
+    min-height: 527px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    background: url('/images/imgFeedBack.jpg') 0 0/auto 100% no-repeat;    
+    border-radius: 5px;
+    overflow: hidden;
+}
+.feedback__wrapper {
+    margin-left: 424px;
+}
+.feedback__tittle {
+    margin-top: 45px;
     font-style: normal;
-}
-
-.item-feed_back__img {
-    position: absolute;
-    width: 41.8rem;
-    height: 32.9rem;
-    left: 11.1rem;
-    top: 335.6rem;
-}
-
-
-.feed_back__tittle {
-    position: absolute;
-    width: 15.7rem;
-    height: 2.06rem;
-    left: 39rem;
-    top: 337.8rem;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.28;
     color: #A3CC40;
-    letter-spacing: 0.06rem;
 }
-
-.form-feed_back__name {
-    position: absolute;
-    width: 21.5rem;
-    height: 2.5rem;
-    left: 34.9rem;
-    top: 340.8rem;
-    border-radius: 0.3rem;
-}
-
-.form-feed_back__seat_number {
-    position: absolute;
-    width: 21.5rem;
-    height: 2.5rem;
-    left: 34.9rem;
-    top: 345.4rem;
-    border-radius: 0.31rem;
-}
-
-.form-feed_back__reviews {
-    position: absolute;
-    width: 21.5rem;
-    height: 7.5rem;
-    left: 34.9rem;
-    top: 349.8rem;
-    border-radius: 0.31rem;
-}
-
-.feed_back-form__check_mark {
-    position: absolute;
-    width: 1.1rem;
-    height: 1.06rem;
-    left: 34.6rem;
-    top: 359.2rem;
-    border: 0.06rem solid #A3CC40;
-    box-sizing: border-box;
-    border-radius: 0.31rem;
-}
-
-.feed_back-form__agree {
-    position: absolute;
-    width: 17.1rem;
-    height: 0.8rem;
-    left: 36.6rem;
-    top: 359.3rem;
+.feedback__name input,
+.feedback__seatnumber input,
+.feedback__reviews textarea{
+    font-style: normal;
     font-weight: normal;
-    font-size: 0.6rem;
-    line-height: 0.81rem;
-    color: #333333;
+    font-size: 15px;
+    line-height: 1.27;
+    color: #A1A1A1;
+    width: 344px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
 }
-
-.feed_back-form__button {
-    position: absolute;
-    width: 21.5rem;
-    height: 3.5rem;
-    left: 34.9rem;
-    top: 362.9rem;
+.feedback__checkbox {         
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 1.3;
+    padding-left: 0.5em;
+}
+.feedback__agree{
+margin-top: 10px;
+}
+.feedback__button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.3;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
     background: #A3CC40;
-    border-radius: 0.3rem;
-    border: none;
-    color: #fff;
+    border-radius: 6px;
+    width: 344px;
+    Height: 57px;
+    margin-top: 46px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.feedback__button:hover {
+    color: #A3CC40;
+    background: #FFFFFF;
+    border: 1px solid rgba(163, 204, 64, 0.62);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 9px rgba(144, 210, 61, 0.3);
+    border-radius: 6px;
 }

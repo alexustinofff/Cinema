@@ -443,90 +443,102 @@
         </div>
         </section>
             <!-- Reviews -->
-            <section class="reviews__block">
-            <div class="reviews__item">
-            <div class="reviews-item__head">
-                <strong class="item-reviews__tittle">Отзывы</strong>
-                <div class="reviews__fone"><img src="images/FeedBack_Fone.PNG" alt="FeedBackFone"></div>
-                <blockquote class="item-reviews__subtittle">
+            <section class="reviews">
+            <div class="reviews__block">
+                <h2 class="reviews__tittle">Отзывы</h2>
+                <p class="reviews__subtittle">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore <br>
                     magna aliqua. Nibh mauris cursus mattis molestie a iaculis at.
                     Vel quam elementum pulvinar etiam non quam. <br>
-                </blockquote>
-            </div>
-            <div class="reviews__people">
+                </p>
+          <div class="reviews__wrapper">
                 <div class="reviews__elena">
-                    <div class="elena-reviews__fone">
-                <img class="elena-reviews__img" src="images/Елена Еленова.png" alt="ElenaReviews"></div>
-                <strong class="elena-reviews__name">Елена Еленова</strong>
-                <blockquote class="elena-reviews__text">
+                    <figure>
+                <img src="images/Елена Еленова.png" alt="ElenaReviews">
+                    </figure>
+                <strong>Елена Еленова</strong>
+                <q>
                     Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit, sed do eiusmod tempor <br>
                     incididunt ut labore et dolore magna <br>
                     aliqua.
-                </blockquote>
-                <div class="elena-reviews__data">13.12.2020</div>
+                </q>
+                <p>13.12.2020</p>
                 </div>
             <div class="reviews__boris">
-                <div class="boris-reviews__fone">
-                <img class="boris-reviews__img" src="images/Борис Борисов.png" alt="BorisReviews"></div>
-                <div class="boris-reviews__data">13.12.2020</div>
-                <span class="boris-reviews__name">Борис Борисов</span>
-                <blockquote class="boris-reviews__text">
+                <figure>
+                <img src="images/Борис Борисов.png" alt="BorisReviews">
+                </figure>
+                <strong>Борис Борисов</strong>
+                <q>
                     Lorem ipsum dolor sit amet, consectetur <br>
                     adipiscing elit, sed do eiusmod tempor <br>
                     incididunt ut labore et dolore magna aliqua. <br>
-                </blockquote>
+                </q>
+                <p>13.12.2020</p>
             </div>
             <div class="reviews__leo">
-                <div class="leo-reviews__fone">
-                <img class="leo-reviews__img" src="images/Ди каприо.png" alt="LeoReviews"></div>
-            <div class="leo-reviews__data">13.12.2020</div>
-                <span class="leo-reviews__name">Леонардо ДиКаприо</span>
-                <blockquote class="leo-reviews__text">
+                <figure>
+                <img src="images/Ди каприо.png" alt="LeoReviews">
+            </figure>
+                <strong>Леонардо ДиКаприо</strong>
+                <q>
                     Lorem ipsum dolor sit amet, <br>
                     consectetur adipiscing elit, sed do <br>
                     eiusmod tempor incididunt ut labore <br>
                     et dolore magna aliqua. <br>
-                </blockquote>
+                </q>
+                <p>13.12.2020</p>
             </div>
             </div>
         </div>
     </section>
     <!-- Feedback -->
-    <section class="feed_back__block">
-        <div class="feed_back__item">
-            <img class="item-feed_back__img" src="images/imgFeedBack.jpg" alt="imgCinemaHoll">
-            <span class="feed_back__tittle">Обратная связь</span>
+    <section class="feedback">
+        <div class="feedback__block">
+            <div class="feedback__wrapper">
+            <strong class="feedback__tittle">Обратная связь</strong>
             <form action="#">
-                <input class="form-feed_back__name" type="text" name="Name" placeholder="Полное имя">
-                <input class="form-feed_back__seat_number" type="text" name="SeatNumber" placeholder="Номер места">
-                <input class="form-feed_back__reviews" type="text" name="FeedBack" placeholder="Напишите свой отзыв">
+                <div class="feedback__name">
+                <input type="text" name="UserName" placeholder="Полное имя" required>
+            </div>
+            <div class="feedback__seatnumber">
+                <input type="text" name="SeatNumber" placeholder="Номер места">
+            </div>
+            <div class="feedback__reviews">
+                    <textarea name="FeedBack" cols="40" rows="7">Напишите свой отзыв</textarea>
+            </div>
+                <label class="feedback__checkbox">
+                    <input type="checkbox" class="feedback__agree">
+                    <span class="checkbox__button"></span>
+                    Я согласен на обработку персональных данных
+                </label>
+                <div>
+                    <button class="feedback__button">Послать</button>
+                </div>
             </form>
-            <div class="feed_back-form__check_mark"></div>
-            <span class="feed_back-form__agree">Я согласен на обработку персональных данных</span>
-            <form action="#">
-                <input class="feed_back-form__button" type="submit" name="submit" placeholder="Послать">
-            </form>
+        </div>
         </div>
     </section>
         <!-- Map -->
-        <section class="map__block">
-        <img class="map__img" src="images/Карта.jpg" alt="Map">
-        <a class="map__adress" target="_blank" href="https://yandex.ru/maps/121642/innopolis/house/universitetskaya_ulitsa_1/YEEYcQNjS0AFQFtvfXt0cnprZQ==/?ll=48.743632%2C55.753467&utm_source=main_stripe_big&z=17.65">
-            Университетская, 1</a>
-            <span class="adress-map__innopolis_university">Университет Иннополис</span>
+        <section class="map">
+            <div class="map__block">
+                <figure>
+        <img src="images/Карта.jpg" alt="Map">
+                </figure>
+        </div>
         </section>
         <!-- Footer -->
-            <footer class="footer__block">
-                <div class="footer__item">
-                <div class="item-footer__fone"></div>
-               <a target="_blank" href="https://innopolis.university/"><img class="item-footer__logo" src="svg/logo.svg" alt="LogoUniversity"></a>
-            <span class="item-footer__text">Lorem ipsum dolor sit amet consectetur <br>
+            <footer class="footer">
+                <div class="footer__block">
+                <div class="footer-item__logo">
+               <a target="_blank" href="https://innopolis.university/"><img src="svg/logo.svg" alt="LogoUniversity"></a>
+            <p>Lorem ipsum dolor sit amet consectetur <br>
                  adipisicing elit, sed do eiusmod tempor <br>
                  incididunt ut labore et dolore magna <br>
-                aliqua. Ut enim ad minim veniam</span>
+                aliqua. Ut enim ad minim veniam</p>
+            </div>
                 <div class="footer__ico">
             <a target="_blank" href="https://www.instagram.com/innopolis/"><img src="svg/ico_instagram.svg" alt="Instagram"></a>
             <a target="_blank" href="https://www.linkedin.cn/login"><img src="svg/ico_linkedin.svg" alt="linkedin"></a>
@@ -534,7 +546,6 @@
             <a target="_blank" href="https://www.youtube.com/channel/UCPzZyyzdemUh4Bbo7d75r0g"><img src="svg/ico_YouTube.svg" alt="YouTube"></a>
             <a target="_blank" href="https://ru-ru.facebook.com/innopolis.ru"><img src="svg/ico_facebook.svg" alt="facebook"></a>
         </div>
-            <span class="item-footer__copyright">Copyright @ 2020 Innopolis University . All Rights Reserved.</span>
             <div class="footer_menu__item">
             <a class="footer_menu_item__site" href="#">SITE</a>
             <a class="footer_menu_item__event_details" href="#">EVENT DETAILS</a>
@@ -548,6 +559,10 @@
             <a class="footer_menu_item__map" href="#">Как добраться</a>
             <a class="footer_menu_item__all_Contacts" href="#">Все контакты</a>
         </div>
-            </div>
+        <div>
+        <span class="item-footer__copyright">Copyright @ 2020 Innopolis University . All Rights Reserved.</span>
+    </div>
+        </div>
     </footer>
 </html>
+ <!-- <div class="item-footer__fone"></div> -->
