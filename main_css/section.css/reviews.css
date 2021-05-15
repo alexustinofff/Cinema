@@ -52,7 +52,7 @@
     line-height: 1.27;
     color: #FFFFFF;
 }
-.reviews__wrapper {
+.owl-carousel .owl-theme {
     width: 53.12rem;
     margin-right: auto;
     margin-left: auto;
