@@ -1,6 +1,11 @@
-* {
-    font-size: 16px;
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body{
     font-family: "IBM Plex Sans";
+}
+.header{
+    display: grid;
 }
 .header__block{
     background: url("/images/main-img.png") no-repeat center/ cover;
@@ -8,14 +13,13 @@
 }
 /* Main img */
 .header__block::after {
-    /* position: absolute; */
     margin-top: 9rem;
     content: "";
     display: block;
     border-right: 100vw solid #fff;
     border-top: 100px solid transparent;
     overflow: hidden;
-    height: 6.2rem;
+    height: 12.2rem;
 }
 
 
@@ -26,7 +30,7 @@
 }
 
 /* Menu */
-.menu a {
+.menu a{
     text-decoration: none;
     float: left;
     color: #FFFFFF;
@@ -36,7 +40,6 @@
     font-size: 0.7rem;
     line-height: 1em;
     font-weight: bold;
-
 }
 
 .menu a:hover:before {
@@ -56,7 +59,7 @@
     transition: 0.2s;
 }
 
-.item-menu__tel {
+/* .item-menu__tel {
     width: 6.7rem;
     margin-left: 18.1rem;
     margin-top: -2.3rem;
@@ -98,7 +101,7 @@
     width: 3.2rem;
     left: 54.4rem;
     top: 4.8rem;
-}
+} */
 
 /* button */
 .item-menu__button {

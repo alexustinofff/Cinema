@@ -16,7 +16,15 @@
    <link rel="stylesheet" href="main_css/footer.css">
    <link rel="stylesheet" href="reset.css">
    <link rel="stylesheet" href="main_css/button.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="librarys/owl/owl.carousel.min.css">
+<link rel="stylesheet" href="librarys/owl/owl.theme.default.css">
+
+<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script defer src="librarys/owl/owl.carousel.min.js"></script>
+<script defer src="js/main.js"></script>
+
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap" rel="stylesheet">
@@ -29,14 +37,14 @@
     <a target="_blank" href="https://innopolis.university/"><img class="item-menu__logo" src="svg/logo.svg" alt="logo"></a>
         <!--Main menu -->
             <div class="menu">
-                <a class="item-menu__tel" target="_blank" href="#">+7 (800) 355 12-56</a> 
-                <a class="item-menu__mail" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a>
-                <a class="item-menu__adress" target="_blank" href="#">ул.Спортивная д.1</a>
-                <a class="item-menu__eventdetails" target="_blank" href="#">EVENT DETAILS</a>
-                <a class="item-menu__speakers" target="_blank" href="#">SPEAKERS</a>
-                <a class="item-menu__sponsors" target="_blank" href="#">SPONSORS</a>
-                <a class="item-menu__pastevents" target="_blank" href="#">PAST EVENTS</a>
-                <a class="item-menu__contact" target="_blank" href="#">CONTACT</a>
+                <a class="item-menu" target="_blank" href="#">+7 (800) 355 12-56</a> 
+                <a class="item-menu" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a>
+                <a class="item-menu" target="_blank" href="#">ул.Спортивная д.1</a>
+                <a class="item-menu" target="_blank" href="#">EVENT DETAILS</a>
+                <a class="item-menu" target="_blank" href="#">SPEAKERS</a>
+                <a class="item-menu" target="_blank" href="#">SPONSORS</a>
+                <a class="item-menu" target="_blank" href="#">PAST EVENTS</a>
+                <a class="item-menu" target="_blank" href="#">CONTACT</a>
             </div>
             <!-- button -->
     <button class="item-menu__button"><img class="button-item__iconPhone" src="svg/Button_Icon_Tel.svg"alt="icon phone">
@@ -452,7 +460,20 @@
                     magna aliqua. Nibh mauris cursus mattis molestie a iaculis at.
                     Vel quam elementum pulvinar etiam non quam. <br>
                 </p>
-          <div class="reviews__wrapper">
+          <div class="owl-carousel owl-theme">
+                <div class="reviews__elena">
+                    <figure>
+                <img src="images/Елена Еленова.png" alt="ElenaReviews">
+                    </figure>
+                <strong>Елена Еленова</strong>
+                <q>
+                    Lorem ipsum dolor sit amet, consectetur <br>
+                    adipiscing elit, sed do eiusmod tempor <br>
+                    incididunt ut labore et dolore magna <br>
+                    aliqua.
+                </q>
+                <p>13.12.2020</p>
+                </div>
                 <div class="reviews__elena">
                     <figure>
                 <img src="images/Елена Еленова.png" alt="ElenaReviews">
@@ -546,23 +567,28 @@
             <a target="_blank" href="https://www.youtube.com/channel/UCPzZyyzdemUh4Bbo7d75r0g"><img src="svg/ico_YouTube.svg" alt="YouTube"></a>
             <a target="_blank" href="https://ru-ru.facebook.com/innopolis.ru"><img src="svg/ico_facebook.svg" alt="facebook"></a>
         </div>
-            <div class="footer_menu__item">
-            <a class="footer_menu_item__site" href="#">SITE</a>
-            <a class="footer_menu_item__event_details" href="#">EVENT DETAILS</a>
-            <a class="footer_menu_item__speakers" href="#">SPEAKERS</a>
-            <a class="footer_menu_item__sponsors" href="#">SPONSORS</a>
-            <a class="footer_menu_item__past_events" href="#">PAST EVENTS</a>
-            <a class="footer_menu_item__contact" href="#">CONTACT</a>
-            <a class="footer_menu_item__number" href="#">+7 (800) 355 12-56</a>
-            <a class="footer_menu_item__kinopoisk" href="#">kino@innopolis.ru</a>
-            <a class="footer_menu_item__adress" href="#">420500, г. Иннополис ул.Университетская, д.1</a>
-            <a class="footer_menu_item__map" href="#">Как добраться</a>
-            <a class="footer_menu_item__all_Contacts" href="#">Все контакты</a>
-        </div>
+            <nav class="item__site">
+                <span><a class="footer-item__tittle" href="#">SITE</a></span>
+                <ul>
+            <li><a href="#">EVENT DETAILS</a></li>
+            <li><a href="#">SPEAKERS</a></li>
+            <li><a href="#">SPONSORS</a></li>
+            <li><a href="#">PAST EVENTS</a></li>
+        </ul>
+        </nav>
+            <nav class="item__contact">
+            <span><a class="footer-item__tittle" href="#">CONTACT</a></span>
+            <ul>
+            <li><a href="#">+7 (800) 355 12-56</a></li>
+            <li><a href="#">kino@innopolis.ru</a></li>
+            <li><a href="#">420500, г. Иннополис ул.Университетская, д.1</a></li>
+            <li><a href="#">Как добраться</a></li>
+            <li><a href="#">Все контакты</a></li>
+        </ul>
+        </nav>
         <div>
         <span class="item-footer__copyright">Copyright @ 2020 Innopolis University . All Rights Reserved.</span>
     </div>
         </div>
     </footer>
 </html>
- <!-- <div class="item-footer__fone"></div> -->

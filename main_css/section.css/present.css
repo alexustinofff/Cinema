@@ -6,10 +6,10 @@
     position: relative;
     flex-direction: column;
     justify-content: center;
-    min-height: 695px;
+    min-height: 43.43rem;
     background: url('/images/подарок\(фон\).PNG') no-repeat center / cover;
     overflow: hidden;
-    margin-top: 30px;
+    margin-top: 1.87rem;
 }
 .present::before{
     position: absolute;
@@ -17,7 +17,7 @@
     right: 0;
     content: '';
     display: block;
-    border-bottom: 100px solid transparent;
+    border-bottom: 6.25rem solid transparent;
     border-left: 100vw solid #FFFFFF;
 }
 .present::after{
@@ -26,29 +26,29 @@
     left: 0;
     content: '';
     display: block;
-    border-top: 100px solid transparent;
+    border-top: 6.25rem solid transparent;
     border-right: 100vw solid #FFFFFF;
 }
 .present__block {
-    width: 850px;
+    width: 53.12rem;
     margin: 0 auto;
 }
 .present-block__text {
-    padding-top: 50px;
-    width: 540px;
+    padding-top: 3.12rem;
+    width: 33.75rem;
     float: right;
     font-style: normal;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 0.68rem;
     line-height: 1.27;
     color: #FFFFFF;
     font-family: "IBM Plex Sans";
 }
 .present__button {
-    width: 850px;
+    width: 53.12rem;
     margin: 0 auto;
     float: right;
-    padding-top: 30px;
+    padding-top: 1.87rem;
 }
 .present__btn {
     font-style: normal;
@@ -56,10 +56,10 @@
     line-height: 1.28;
     color: #FFFFFF;
     background: #A3CC40;
-    border-radius: 6px;
-    width: 190px;
-    Height: 31px;
-    font-size: 14px;
+    border-radius: 0.37rem;
+    width: 11.87rem;
+    Height: 1.93rem;
+    font-size: 0.87rem;
     font-family: 'IBM Plex Sans', sans-serif;
     transition: all 0.2s ease;
   
@@ -69,13 +69,13 @@
     background: red;
     border: 1px solid black;
     box-sizing: border-box;
-    border-radius: 6px;
+    border-radius: 0.37rem;
 }
 .present__img {
     position: absolute;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: -183px;
+    margin-top: -11.43rem;
 }
 .present-block__tittle {
     color: #FFFFFF;

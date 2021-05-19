@@ -25,6 +25,9 @@
 .advanteges__wrapper {
     overflow: hidden;
     padding: 0.3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
 
 .wrapper__item {
