@@ -7,15 +7,149 @@ html{
 body{
     font-family: "IBM Plex Sans";
 }
-.header{
+/* .header{
     display: grid;
-}
-.header__block{
+} */
+.page1{
     background: url("/images/main-img.png") no-repeat center/ cover;
     height: 600px;
 }
-/* Main img */
-.header__block::after {
+.page1::after {
+    content: "";
+    display: block;
+    border-right: 100vw solid #fff;
+    border-top: 150px solid transparent;
+    overflow: hidden;
+    height: 10.2rem;
+    margin-top: 100px;
+}
+.logo__item {
+    margin-left: 5.6rem;
+    margin-top: 3.3rem;
+    display: inline-block;
+}
+.block__menu{
+        display: flex;
+        margin-top: -44px;
+        margin-left: 290px;
+        max-width: 820px;
+        flex-wrap: wrap;
+}
+.menu-item a{
+   color: white;
+   text-decoration: none;
+   padding: 36px;
+   line-height: 25px; 
+}
+.item-menu__button{
+    border-radius: 10px;
+    background-color: white;
+    border: 0px;
+    height: 21px;
+}
+.item-menu__button a{
+    text-decoration: none
+}
+.language__ico {
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 1.25rem;
+    top: 0.1rem;
+}
+.lang__item ul li a{
+color: white;
+text-decoration: none;
+display: block;
+transition: 0.3s;
+}
+.block__lang{
+    position: absolute;
+    width: 1.4rem;
+    height: 1rem;
+    left: 72.1rem;
+    top: 2.9rem;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.lang__item ul li{
+    position: relative;
+}
+.lang__item li a:hover{
+    background: gray;
+    box-shadow: 1px 5px 10px -5px gray;
+    transition: 0.3s;
+}
+.lang__item li ul {
+    position: absolute;
+    min-width: 1.4rem;
+    left: -0.1rem;
+    display: none;
+}
+.lang__item li ul li {
+    padding: 0.3rem;
+}
+
+.lang__item li:hover ul {
+    display: block;
+} 
+.block__tittle a{
+color: white;
+text-decoration: none;
+display: block;
+font-family: "IBM Plex Sans";
+font-style: normal;
+text-align: center;
+}
+.tittle__choosefilm{
+font-weight: 100;
+font-size: 68px;
+line-height: 88px;
+margin-top: 112px;
+}
+.tittle__present{
+font-weight: normal;
+font-size: 41px;
+line-height: 53px;
+}
+.welcom__fone{
+    width: 426px;
+    height: 221px;
+    margin-left: 680px;
+    background: #FFFFFF;
+    box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
+    border-radius: 10px;
+    margin-top: -175px;
+}
+.block__welcom .welcome__head,
+.welcome__text {
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+}
+.welcome__head {
+    margin-left: 2.94rem;
+    margin-top: 2.56rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 2.8rem;
+    letter-spacing: 1px;
+}
+.welcome__text {
+    margin-left: 2.94rem;
+    margin-top: 1.81rem;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
+}
+/* .page1{
+    background: url("/images/main-img.png") no-repeat center/ cover;
+    height: 600px;
+}
+
+.page1::after {
     margin-top: 9rem;
     content: "";
     display: block;
@@ -26,14 +160,15 @@ body{
 }
 
 
-/* logo */
-.item-menu__logo {
+
+.logo {
     margin-left: 5.6rem;
     margin-top: 3.3rem;
+    display: inline-block;
 }
 
-/* Menu */
-.menu a{
+
+.item-menu{
     text-decoration: none;
     float: left;
     color: #FFFFFF;
@@ -43,14 +178,16 @@ body{
     font-size: 0.7rem;
     line-height: 1em;
     font-weight: bold;
+    margin-top: -33px;
+    margin-left: 326px;
 }
 
-.menu a:hover:before {
+.item-menu:hover:before {
     transform: scaleX(1);
     transition: 0.2s;
 }
 
-.menu a::before {
+.item-menu::before {
     content: "";
     width: 100%;
     height: 0.06rem;
@@ -62,51 +199,7 @@ body{
     transition: 0.2s;
 }
 
-/* .item-menu__tel {
-    width: 6.7rem;
-    margin-left: 18.1rem;
-    margin-top: -2.3rem;
-}
 
-.item-menu__mail {
-    width: 6.1rem;
-    margin-left: 28.1rem;
-    margin-top: -2.3rem;
-}
-
-.item-menu__adress {
-    width: 6.5rem;
-    margin-left: 37.7rem;
-    margin-top: -2.3rem;
-}
-
-.item-menu__eventdetails {
-    width: 5.4rem;
-    margin-left: 18.5rem;
-}
-
-.item-menu__speakers {
-    width: 3.6rem;
-    margin-left: 4.7rem;
-}
-
-.item-menu__sponsors {
-    width: 3.8rem;
-    margin-left: 4.3rem;
-}
-
-.item-menu__pastevents {
-    width: 4.6rem;
-    margin-left: 4.5rem;
-}
-
-.item-menu__contact {
-    width: 3.2rem;
-    left: 54.4rem;
-    top: 4.8rem;
-} */
-
-/* button */
 .item-menu__button {
     width: 8.1rem;
     height: 1.3rem;
@@ -117,7 +210,7 @@ body{
     border: 0px;
 }
 
-.item-menu__bell {
+.bell {
     left: 21%;
     right: 5.38%;
     top: 9.52%;
@@ -137,14 +230,13 @@ body{
     transition: 0.3s;
 }
 
-.button-item__iconPhone {
+.icon-phone {
     left: 7%;
     right: 80%;
     top: 21%;
     bottom: 19%;
 }
 
-/* choice language */
 .language__ico {
     position: absolute;
     width: 0.5rem;
@@ -153,7 +245,7 @@ body{
     top: 0.1rem;
 }
 
-.menu__language {
+.lang {
     position: absolute;
     width: 1.4rem;
     height: 1rem;
@@ -167,48 +259,48 @@ body{
     line-height: 1rem;
 }
 
-.menu__language ul li a {
+.lang ul li a {
     display: block;
     text-decoration: none;
     color: #FFFFFF;
     transition: 0.3s;
 }
 
-.menu__language ul li {
+.lang ul li {
     position: relative;
 }
 
-.menu__language li a:hover {
+.lang li a:hover {
     background: gray;
     box-shadow: 1px 5px 10px -5px gray;
     transition: 0.3s;
 }
 
-/* language list*/
-.menu__language li ul {
+
+.lang li ul {
     position: absolute;
     min-width: 1.4rem;
     left: -0.1rem;
     display: none;
 }
 
-.menu__language li ul li {
+.lang li ul li {
     padding: 0.3rem;
 }
 
-.menu__language li:hover ul {
+.lang li:hover ul {
     display: block;
 }
 
-/* Заголовки */
-.headlines__main a {
+
+.page1__body a {
     font-family: "IBM Plex Sans";
     text-decoration: none;
     text-align: center;
     color: #FFFFFF;
 }
 
-.main-headline__chooseFilm {
+.page1__body_chooseFilm {
     width: 45.5rem;
     height: 5.5rem;
     margin-left: 12.5rem;
@@ -218,7 +310,7 @@ body{
     line-height: 5.5rem;
 }
 
-.main-headline__present {
+.page1__body_present {
     width: 37rem;
     height: 3.3rem;
     margin-left: 30.5rem;
@@ -228,7 +320,6 @@ body{
     line-height: 3.3rem;
 }
 
-/* welcom text */
 .welcom__fone {
     position: absolute;
     width: 26.6rem;
@@ -264,4 +355,4 @@ body{
     font-weight: normal;
     font-size: 0.6rem;
     line-height: 0.8rem;
-}
+} */
