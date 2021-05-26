@@ -24,6 +24,7 @@
 <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script defer src="librarys/owl/owl.carousel.min.js"></script>
 <script defer src="js/main.js"></script>
+<script defer src="js/films-table.js"></script>
 
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
@@ -32,47 +33,26 @@
 </head>
 <body>
     <header class="page1">
-        <div class="page1__header">
-            <div class="page1__block">
-                <div class="block__logo">
-                    <div class="logo__item">
+                <div class="page1__header">
+                    <div class="logo">
                         <a target="_blank" href="https://innopolis.university/">
                             <img src="svg/logo.svg" alt="logo">
                         </a>
                     </div>
-                </div>
-                <div class="block__menu">
-                    <div class="menu-item">
-                        <a target="_blank" href="#">+7 (800) 355 12-56</a> 
-                    </div>
-                    <div class="menu-item">
-                        <a target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a> 
-                    </div>
-                    <div class="menu-item">
-                        <a target="_blank" href="#">ул.Спортивная д.1</a>
-                    </div>
-                        <button class="item-menu item-menu__button">
+                <div class="menu">
+                        <a class="menu__item" target="_blank" href="#">+7 (800) 355 12-56</a> 
+                        <a class="menu__item" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a>                                     
+                        <a class="menu__item" target="_blank" href="#">ул.Спортивная д.1</a>                  
+                        <button class="menu__item menu__item-button">
                             <img class="icon-phone" src="svg/Button_Icon_Tel.svg" alt="icon phone">
                             <a class="bell" target="_blank" href="#">Заказать звонок</a>
-                        </button>
-                    <div class="menu-item">
-                        <a target="_blank" href="#">EVENT DETAILS</a>
-                    </div>
-                    <div class="menu-item">
-                        <a target="_blank" href="#">SPEAKERS</a> 
-                    </div>
-                    <div class="menu-item">
-                        <a target="_blank" href="#">SPONSORS</a>
-                    </div>
-                    <div class="menu-item">
-                        <a target="_blank" href="#">PAST EVENTS</a>
-                    </div>
-                    <div class="menu-item">
-                        <a target="_blank" href="#">CONTACT</a>
-                    </div>
-                </div>
-                <div class="block__lang">
-                    <div class="lang__item">
+                        </button>              
+                        <a class="menu__item menu__item-uppercase" target="_blank" href="#">event details</a>                  
+                        <a class="menu__item menu__item-uppercase" target="_blank" href="#">speakers</a>                  
+                        <a class="menu__item menu__item-uppercase" target="_blank" href="#">sponsors</a>                                    
+                        <a class="menu__item menu__item-uppercase" target="_blank" href="#">past events</a>
+                        <a class="menu__item menu__item-uppercase" target="_blank" href="#">contact</a>
+                    <div class="lang">
                         <ul>
                             <li>
                                 <a href="#">RU</a>
@@ -85,32 +65,13 @@
                             </ul>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="block__tittle"> 
-                    <a class="tittle__choosefilm" href="#ChooseFilms">Закажите билет в кино</a>
+                    </div>               
+            </div>
+            </div>
+                <div class="page1__body"> 
+                    <a class="tittle__tickets" href="#ChooseFilms">Закажите билет в кино</a>
                     <a class="tittle__present" href="#present">Всем покупателям подарок!</a>
                 </div>
-                <!-- <div class="welcom__block">
-                    <div class="welcom__fone">
-                       <div class="welcome__head">
-                           <b>Добро пожаловать!</b>
-                       </div>
-               <div class="welcome__text">
-                       <p>
-                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
-                           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-                           enim ad minim veniam.
-                       </p>
-                       <p>
-                           <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br>
-                           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
-                           non proident, sunt.
-                       </p>
-               </div>
-               </div>
-            </div> -->
-        </div>
     </header>
     <div class="welcom__block">
         <div class="welcom__fone">
@@ -131,71 +92,6 @@
    </div>
    </div>
 </div>
-    <!-- <header class="page1">
-        <div class="page1__header">
-       
-       <div class="logo">
-    <a target="_blank" href="https://innopolis.university/">
-        <img src="svg/logo.svg" alt="logo">
-    </a>
-</div>   
-    
-            <div class="menu">
-                <a class="item-menu" target="_blank" href="#">+7 (800) 355 12-56</a> 
-                <a class="item-menu" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a>
-                <a class="item-menu" target="_blank" href="#">ул.Спортивная д.1</a>
-                <button class="item-menu item-menu__button">
-                    <img class="icon-phone" src="svg/Button_Icon_Tel.svg" alt="icon phone">
-                    <a class="bell" target="_blank" href="#">Заказать звонок</a>
-                </button>
-                <a class="item-menu" target="_blank" href="#">EVENT DETAILS</a>
-                <a class="item-menu" target="_blank" href="#">SPEAKERS</a>
-                <a class="item-menu" target="_blank" href="#">SPONSORS</a>
-                <a class="item-menu" target="_blank" href="#">PAST EVENTS</a>
-                <a class="item-menu" target="_blank" href="#">CONTACT</a>
-            </div>
-    
-    <nav class="lang">
-        <ul>
-            <li>
-                <a href="#">RU</a>
-                <img class="language__ico" 
-                src="svg/ChooseLanguages.svg" alt="language">
-            <ul>
-                <li><a href="#">EN</a></li>
-                <li><a href="#">SPA</a></li>
-                <li><a href="#">CHI</a></li>
-            </ul>
-            </li>
-        </ul>
-    </nav>
-        
-    <div class="page1__body"> 
-            <a class="page1__body_chooseFilm" href="#ChooseFilms">Закажите билет в кино</a>
-            <a class="page1__body_present" href="#present">Всем покупателям подарок!</a>
-        </div>
-</div>
- 
-        <div class="welcom__item">
-             <div class="welcom__fone">
-                <div class="welcome__head">
-                    <b>Добро пожаловать!</b>
-                </div>
-        <div class="welcome__text">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <br>
-                    enim ad minim veniam.
-                </p>
-                <p>
-                    <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum<br>
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat<br>
-                    non proident, sunt.
-                </p>
-        </div>
-        </div>
-    </div>
-    </header> -->
         <!-- Main Advanteges -->
         <section class="advanteges__block">
         <b class="advanteges__block__tittle">Почему мы?</b>
@@ -280,31 +176,68 @@
         <h2 id="table-block__tittle">Выберите фильм</h2>
         <div class="table__block">
         <table class="block__shedule">
-                    <tr>
-                            <th><a href="#" class="shedule__head">Начало сеанса</a></th>
-                            <th><a href="#" class="shedule__head">Название фильма</a></th>
-                            <th><a href="#" class="shedule__head">Жанр</a></th>
-                    </tr>
+                     <thead id="head__table">       
+                      <tr>
+                          <th></th>
+                        <th><a href="#" class="shedule__head">Начало сеанса</a></th>
+                        <th><a href="#" class="shedule__head">Название фильма</a></th>
+                        <th><a href="#" class="shedule__head">Жанр</a></th>
+                      </tr>
+                     </thead>
+                     <tbody id="body__table">
                      <tr class="schedule__dark-line">
+                        <td>
+                            <input type="checkbox" class="table__block">
+                            <label>
+                                <svg width=".75rem" height=".75rem" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.60581 8.79378L1.46056 5.93033L0.787354 6.66979L4.70255 10.2342L10.8223 2.94099L10.0562 2.2982L4.60581 8.79378Z" fill="white"/>
+                                    </svg>
+                            </label>
+                        </td>
                         <td>10:00</td>
                         <td><a target="_blank" href="https://www.kinopoisk.ru/film/838/">Человек-паук</a></td>
                         <td>Фантастика, боевик, приключения</td>
                     </tr>
                     <tr class="schedule__gray-line">
+                        <td>
+                            <input type="checkbox" class="table__block">
+                            <label>
+                                <svg width=".75rem" height=".75rem" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.60581 8.79378L1.46056 5.93033L0.787354 6.66979L4.70255 10.2342L10.8223 2.94099L10.0562 2.2982L4.60581 8.79378Z" fill="white"/>
+                                    </svg>
+                            </label>
+                        </td>
                             <td>12:00</td>
                             <td><a target="_blank" href="https://www.kinopoisk.ru/film/1122114/">Собачья жизнь 2</a></td>
                             <td>Фэнтэзи, драма, комедия</td>
                     </tr>
                     <tr class="schedule__dark-line">
+                        <td>
+                            <input type="checkbox" class="table__block">
+                            <label>
+                                <svg width=".75rem" height=".75rem" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.60581 8.79378L1.46056 5.93033L0.787354 6.66979L4.70255 10.2342L10.8223 2.94099L10.0562 2.2982L4.60581 8.79378Z" fill="white"/>
+                                    </svg>
+                            </label>
+                        </td>
                             <td>14:00</td>
                             <td><a target="_blank" href="https://www.kinopoisk.ru/film/846824/">История игрушек 4</a></td>
                             <td>Мультфильм, фэнтэзи, комедия</td>
                     </tr>
                     <tr class="schedule__gray-line">
+                        <td>
+                            <input type="checkbox" class="table__block">
+                            <label>
+                                <svg width=".75rem" height=".75rem" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.60581 8.79378L1.46056 5.93033L0.787354 6.66979L4.70255 10.2342L10.8223 2.94099L10.0562 2.2982L4.60581 8.79378Z" fill="white"/>
+                                    </svg>
+                            </label>
+                        </td>
                             <td>16:00</td>
                             <td><a target="_blank" href="https://www.kinopoisk.ru/film/693730/">Люди в чёрном: Интэрнэшнл</a></td>
                             <td>Фантастика, боевик, комедия</td>
                     </tr>
+                     </tbody> 
                 </table>
             </div>
                 <div class="table-block__subtittle">
