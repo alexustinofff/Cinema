@@ -60,6 +60,7 @@
     position: relative;
 }
 .reviews__elena,
+.reviews__elena2,
 .reviews__leo {
     width: 13.12rem;
     height: 17.75rem;
@@ -70,6 +71,7 @@
 
 }
 .reviews__elena img,
+.reviews__elena2 img,
 .reviews__leo img {
     width: 13.12rem;
     height: 9.5rem;
@@ -93,7 +95,8 @@
     border-top-left-radius: 0.62rem;
     border-top-right-radius: 0.62rem;
 }
-.reviews__elena {
+.reviews__elena,
+.reviews__elena2 {
     margin-left: 0;    
 }
 .reviews__leo {
@@ -107,13 +110,17 @@
 .reviews__boris p,
 .reviews__elena strong,
 .reviews__elena q,
-.reviews__elena p {
+.reviews__elena p,
+.reviews__elena2 strong,
+.reviews__elena2 q,
+.reviews__elena2 p {
     position: absolute;
     color: #FFFFFF;
     z-index: 2;
 }
 .reviews__leo strong,
-.reviews__elena strong {
+.reviews__elena strong,
+.reviews__elena2 strong {
     font-style: normal;
     font-weight: 600;
     font-size: 0.93rem;
@@ -122,7 +129,8 @@
     margin-left: 1.25rem;
 }
 .reviews__leo q,
-.reviews__elena q {
+.reviews__elena q,
+.reviews__elena2 q {
     width: 10.68rem;
     height: 3.25rem;
     font-style: normal;
@@ -134,7 +142,8 @@
     margin-left: 1.25rem;
 }
 .reviews__leo p,
-.reviews__elena p {
+.reviews__elena p,
+.reviews__elena2 p {
     font-style: normal;
     font-weight: 300;
     font-size: 0.5rem;
