@@ -72,28 +72,44 @@ genre: [
     },
 ];
 
+const filmHelper = {
+    getId() {
+        return this.id || this.tittle.replaceAll('', '-');
+    },
+    getTittle() {
+        return this.tittle;
+    },
+    getStart() {
+        return this.start;
+    },
+    getGenre() {
+return this.genre.map(g => g.name).join(', ');
+    },
+}
+// Логика по отрисовке
+// <tr 93строка>class="schedule__dark-line"
 function renderFilmTableItem (film) {
     return `
-    <tr class="schedule__dark-line">
+    <tr>
     <td>
-    <input type="checkbox" class="table__block" id="${film.tittle.replaceAll(' ', '-')}">
-    <label for="${film.tittle.replaceAll(' ', '-')}">
+    <input type="checkbox" class="table__block" id="${filmHelper.getId.apply(film)}">
+    <label for="${filmHelper.getId.apply(film)}">
         <svg width=".75rem" height=".75rem" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.60581 8.79378L1.46056 5.93033L0.787354 6.66979L4.70255 10.2342L10.8223 2.94099L10.0562 2.2982L4.60581 8.79378Z" fill="white"/>
             </svg>
     </label>
 </td>
-    <td>${film.start}</td>
-    <td><a target="_blank" href="https://www.kinopoisk.ru/film/838/">${film.tittle}</a></td>
-    <td>${film.genre.map(g=>g.name)}</td>
+    <td>${filmHelper.getStart.apply(film)}</td>
+    <td><a target="_blank" href="https://www.kinopoisk.ru/film/838/">${filmHelper.getTittle.apply(film)}</a></td>
+    <td>${filmHelper.getGenre.apply(film)}</td>
     </tr>
     `
 }
-const tableBody= document.getElementById('body__table');
-tableBody.innerHTML = "";
-
+// Логика по сбору массива
+const tableBody = document.getElementById('body__table');
+tableBody.innerHTML = '';
 for (let index = 0; index < films.length; index++) {
     if (!films[index].adult) {
-tableBody.innerHTML += renderFilmTableItem (films[index]);
-}
+tableBody.innerHTML +=renderFilmTableItem(films[index]);
+    }
 }

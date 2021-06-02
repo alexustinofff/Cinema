@@ -89,3 +89,27 @@
     letter-spacing: 0.12rem;
     font-family: "IBM plex sans";
 }
+.hidden{
+    display: none;
+}
+.popup{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(51, 51, 51, 0.24);
+}
+.close{
+    position: absolute;
+    right: 22px;
+    top: 22px;
+}
+.form__wrapper{
+position: relative;
+background-color: #FFFFFF;
+max-width: 500px;
+min-height: 300px;
+margin: 120px auto;
+border-radius: 40px;
+}

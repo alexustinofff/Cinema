@@ -23,6 +23,7 @@
     <script defer src="librarys/owl/owl.carousel.min.js"></script>
     <script defer src="js/main.js"></script>
     <script defer src="js/films-table.js"></script>
+    <script defer src="js/prize.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap" rel="stylesheet">
@@ -275,7 +276,7 @@
                     </p>
                 </div>
                 <div class="present__button">
-                    <button class="present__btn">Получить подарок</button>
+                    <button class="present__btn" id="btn-prize-open">Получить подарок</button>
                 </div>
                 <div class="present__img">
                     <figure><img src="/images/Подарок.png" alt="present"></figure>
@@ -633,5 +634,18 @@
             </div>
         </div>
     </footer>
+    <div class="popup hidden" id="prize-popup">
+        <div class="form__wrapper">
+        <button class="close" id="prize-popup__close">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="17.5" cy="17.5" r="17.5" fill="#A3CC40"/>
+                <path d="M25.5363 11.8271L23.9176 10.2084L17.5 16.626L11.0824 10.2084L9.46362 11.8271L15.8812 18.2447L9.46362 24.6623L11.0824 26.2811L17.5 19.8635L23.9176 26.2811L25.5363 24.6623L19.1187 18.2447L25.5363 11.8271Z" fill="white"/>
+                </svg>
+        </button>
+        <form>
+            
+        </form>
+        </div>
+    </div>
     </body>
 </html>
