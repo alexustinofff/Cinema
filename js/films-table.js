@@ -92,8 +92,13 @@ function renderFilmTableItem (film) {
     return `
     <tr>
     <td>
+<<<<<<< HEAD
     <input type="checkbox" class="table__block" id="${filmHelper.getId.apply(film)}">
     <label for="${filmHelper.getId.apply(film)}">
+=======
+    <input type="checkbox" class="table__block" id="${film.tittle.replaceAll(' ', '-')}">
+    <label for="${film.tittle.replaceAll(' ', '-')}" (oneclick)>
+>>>>>>> ed74010ada640151c20b1c12287397d4efce5776
         <svg width=".75rem" height=".75rem" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M4.60581 8.79378L1.46056 5.93033L0.787354 6.66979L4.70255 10.2342L10.8223 2.94099L10.0562 2.2982L4.60581 8.79378Z" fill="white"/>
             </svg>

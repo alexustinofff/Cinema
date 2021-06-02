@@ -30,17 +30,17 @@ body{
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 140px;
 }
 .logo{
-margin-left: 90px;
 margin-top: 58px;
 }
 .menu{
     display: flex;
     flex-wrap: wrap;
     max-width: 738px;
-    justify-content: center;
 }
 .menu__item{
     color: white;
@@ -49,7 +49,7 @@ margin-top: 58px;
     margin-left: 44px;
 }
 .menu__item-uppercase{
-    margin-left: 62px;
+    margin-right: 23px;
     margin-top: 22px;
     text-transform: uppercase;
 }
@@ -57,6 +57,8 @@ margin-top: 58px;
     text-decoration: underline;
 }
 .menu__item-button{
+    height: 20px;
+    width: 130px;
     border-radius: 6px;
     background-color: white;
     border: 0px;
@@ -70,12 +72,8 @@ text-decoration: none !important;
     color: black;
 }
 .lang{
-    margin-left: 72px;
-    margin-top: -16px; 
+    margin-top: 40px;
     width: 1.4rem;
-    height: 1rem;
-    left: 72.1rem;
-    top: 2.9rem;
     font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 100;
