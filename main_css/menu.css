@@ -36,11 +36,13 @@ body{
 }
 .logo{
 margin-top: 58px;
+margin-left: 90px;
 }
 .menu{
     display: flex;
     flex-wrap: wrap;
-    max-width: 738px;
+    max-width: 753px;
+    justify-content: center;
 }
 .menu__item{
     color: white;
@@ -49,6 +51,7 @@ margin-top: 58px;
     margin-left: 44px;
 }
 .menu__item-uppercase{
+    margin-left: 62px;
     margin-right: 23px;
     margin-top: 22px;
     text-transform: uppercase;
