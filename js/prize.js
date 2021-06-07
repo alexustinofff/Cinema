@@ -24,7 +24,6 @@ closeBtn.onclick = popupToggle;
 
 //Занятие 23
 
-if(/^[!\w\.]{2,16}@[\w]{2,6}\.[a-z]{2,3}$/i.test(emailValue)) { 
+if(/^[!\w\.]{2,16}@[\w]{2,6}\.[a-z]{2,3}$/i.test(emailField)) { 
     emailFieldUtils.addError('не валидный Email');
-    return
 }

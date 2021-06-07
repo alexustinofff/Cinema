@@ -111,7 +111,7 @@ tableBody.innerHTML = '';
 
 for (let index = 0; index < filmsData.length; index++) {
         const film = new Film(filmsData[index]);
-        if (!film.isNotForAdult()) {
-tableBody.innerHTML += renderFilmTableItem(films[index]);
+        if (film.isNotForAdult()) {
+tableBody.innerHTML += renderFilmTableItem(film.data);
     }
 }

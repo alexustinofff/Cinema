@@ -13,12 +13,11 @@ fetch('https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_AWAIT_FIL
 })
 .then(data => data.json())
 .then(data => {
-for (let index = 0; index < data.films.length; index++) {
-    const film = data.films[i];
-
-}
-const id = `blocks-films-desc-${film.filmId}`;
+// for (let index = 0; index < data.films.length; index++) {
+//     const film = data.films[i];
+// }
 data.films.forEach((film) =>{
+    const id = `blocks-films-desc-${film.filmId}`;
      blockFilmsWrapper.innerHTML += `
      <div class="item__wrapper">
      <a href="https://www.kinopoisk.ru/film/522941/" target="_blank">
