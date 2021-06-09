@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
     <link rel="stylesheet" href="main_css/menu.css">
-    <link rel="stylesheet" href="main_css/section.css/advanteges.css">
-    <link rel="stylesheet" href="main_css/section.css/choice Films.css">
-    <link rel="stylesheet" href="main_css/section.css/feedback Form.css">
-    <link rel="stylesheet" href="main_css/section.css/present.css">
-    <link rel="stylesheet" href="main_css/section.css/products.css">
-    <link rel="stylesheet" href="main_css/section.css/reviews.css">
-    <link rel="stylesheet" href="main_css/section.css/table.css">
-    <link rel="stylesheet" href="main_css/section.css/map.css">
+    <link rel="stylesheet" href="main_css/section/advanteges.css">
+    <link rel="stylesheet" href="main_css/section/choiceFilms.css">
+    <link rel="stylesheet" href="main_css/section/feedbackForm.css">
+    <link rel="stylesheet" href="main_css/section/present.css">
+    <link rel="stylesheet" href="main_css/section/products.css">
+    <link rel="stylesheet" href="main_css/section/reviews.css">
+    <link rel="stylesheet" href="main_css/section/table.css">
+    <link rel="stylesheet" href="main_css/section/map.css">
     <link rel="stylesheet" href="main_css/footer.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main_css/button.css">
@@ -21,9 +22,11 @@
     <link rel="stylesheet" href="librarys/owl/owl.theme.default.css">
     <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script defer src="librarys/owl/owl.carousel.min.js"></script>
+    <script defer src="js/film.js"></script>
     <script defer src="js/main.js"></script>
     <script defer src="js/films-table.js"></script>
     <script defer src="js/prize.js"></script>
+    <link rel="stylesheet" href="main_css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap" rel="stylesheet">
@@ -38,6 +41,13 @@
                 </a>
             </div>
             <div class="menu">
+                <div class="menu__button">
+                    <svg width="2.5rem" height="1rem" viewBox="0 0 47 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.0400391" width="46" height="3" fill="white"/>
+                        <rect x="0.0400391" y="19" width="46" height="3" fill="white"/>
+                        <rect x="0.0400391" y="9" width="46" height="3" fill="white"/>
+                        </svg>  
+                </div>
                 <a class="menu__item" target="_blank" href="#">+7 (800) 355 12-56</a> 
                 <a class="menu__item" target="_blank" href="https://hd.kinopoisk.ru">kino@innopolis.ru</a>                                     
                 <a class="menu__item" target="_blank" href="#">ул.Спортивная д.1</a>                  
@@ -638,12 +648,33 @@
         <div class="form__wrapper">
         <button class="close" id="prize-popup__close">
             <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="17.5" cy="17.5" r="17.5" fill="#A3CC40"/>
+                <circle cx="17.5" cy="17.5" r="16.2" fill="#A3CC40"/>
                 <path d="M25.5363 11.8271L23.9176 10.2084L17.5 16.626L11.0824 10.2084L9.46362 11.8271L15.8812 18.2447L9.46362 24.6623L11.0824 26.2811L17.5 19.8635L23.9176 26.2811L25.5363 24.6623L19.1187 18.2447L25.5363 11.8271Z" fill="white"/>
                 </svg>
         </button>
         <form>
-            
+            <div class="wrapper__name"> 
+                <input type="text" name="UserName" placeholder="Введите имя" required>
+            </div>
+            <div class="wrapper__adress"> 
+                <input type="text" name="SeatNumber" placeholder="Введите адрес">
+            </div>
+            <div class="gift__wrapper"> 
+                <select name="" id="" class="gift__selection">
+                    <option value="1">Выберете подарок</option>
+                    <option value="2">Попкорн</option>
+                    <option value="3">Брелок</option>
+                    <option value="4">Постер</option>
+                </select>
+            </div>
+            <label class="prize__checkbox">
+            <input type="checkbox" class="prize__agree">
+            <span class="checkbox__prize"></span>
+                Я согласен на обработку персональных данных
+            </label>
+            <div>
+                <button class="prize__button">Послать</button>
+            </div> 
         </form>
         </div>
     </div>

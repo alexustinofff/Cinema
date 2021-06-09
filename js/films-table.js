@@ -1,4 +1,4 @@
-const films = [
+const filmsData = [
     {
         id: 22,
         start:"01:00",
@@ -108,8 +108,10 @@ function renderFilmTableItem (film) {
 // Логика по сбору массива
 const tableBody = document.getElementById('body__table');
 tableBody.innerHTML = '';
-for (let index = 0; index < films.length; index++) {
-    if (!films[index].adult) {
-tableBody.innerHTML +=renderFilmTableItem(films[index]);
+
+for (let index = 0; index < filmsData.length; index++) {
+        const film = new Film(filmsData[index]);
+        if (!film.isNotForAdult()) {
+tableBody.innerHTML += renderFilmTableItem(films[index]);
     }
 }

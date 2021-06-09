@@ -12,59 +12,58 @@ body{
 }
 .page1{
     background: url("/images/main-img.png") no-repeat center/ cover;
-    height: 568px;
+    height: 35.5rem;
 }
 .page1::after {
     content: "";
     display: block;
     border-right: 100vw solid #fff;
-    border-top: 150px solid transparent;
+    border-top: 9.37rem solid transparent;
     overflow: hidden;
     height: 10.2rem;
-    margin-top: 59px;
+    margin-top: 3.68rem;
 }
 .page1__header{
     display: flex;
     font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 0.75rem;
+    line-height: 1rem;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 140px;
+    padding: 0rem 8.75rem;
 }
 .logo{
-margin-top: 58px;
-margin-left: 90px;
+margin-top: 3.62rem;
 }
 .menu{
     display: flex;
     flex-wrap: wrap;
-    max-width: 753px;
     justify-content: center;
+    margin-right: 3.25rem;
 }
 .menu__item{
     color: white;
     text-decoration: none;
-    margin-top: 58px;
-    margin-left: 44px;
+    margin-top: 3.62rem;
+    margin-left: 2.75rem;
 }
 .menu__item-uppercase{
-    margin-left: 62px;
-    margin-right: 23px;
-    margin-top: 22px;
+    margin-left: 3.87rem;
+    margin-right: 1.43rem;
+    margin-top: 1.37rem;
     text-transform: uppercase;
 }
 .menu__item:hover{
     text-decoration: underline;
 }
 .menu__item-button{
-    height: 20px;
-    width: 130px;
-    border-radius: 6px;
+    height: 1.25rem;
+    width: 8.12rem;
+    border-radius: 0.37rem;
     background-color: white;
-    border: 0px;
+    border: 0rem;
 }
 .menu__item-button:hover{
 background-color: red;
@@ -75,7 +74,7 @@ text-decoration: none !important;
     color: black;
 }
 .lang{
-    margin-top: 40px;
+    margin-top: 2.5rem;
     width: 1.4rem;
     font-family: "IBM Plex Sans";
     font-style: normal;
@@ -84,8 +83,8 @@ text-decoration: none !important;
     line-height: 1rem;
 }
 .language__ico {
-    margin-left: 20px;
-    margin-top: -31px;
+    margin-left: 1.25rem;
+    margin-top: -1.93rem;
 }
 .lang li a{
     color: white;
@@ -118,7 +117,7 @@ text-decoration: none !important;
 .page1__body{
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 4.37rem;
     text-align: center;
 }
 .page1__body a{
@@ -128,21 +127,21 @@ align-items: center;
 font-family: "IBM Plex Sans";
 font-style: normal;
 font-weight: 100;
-font-size: 68px;
-line-height: 88px;
+font-size: 4.25rem;
+line-height: 5.5rem;
 }
 .welcom__block{
     display: flex;
     justify-content: center;
 } 
 .welcom__fone{
-    width: 426px;
-    height: 221px;
-    margin-left: 680px;
+    width: 26.6rem;
+    height: 13.81rem;
+    margin-left: 42.5rem;
     background: #FFFFFF;
     box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
-    border-radius: 10px;
-    margin-top: -165px;
+    border-radius: 0.62rem;
+    margin-top: -10.31rem;
 }
 .block__welcom .welcome__head,
 .welcome__text {
@@ -163,4 +162,7 @@ line-height: 88px;
     font-weight: normal;
     font-size: 0.6rem;
     line-height: 0.8rem;
+}
+.menu__button{
+    display: none;
 }
