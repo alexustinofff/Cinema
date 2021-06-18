@@ -19,3 +19,12 @@ initializeField(emailField);
 
 openBtn.onclick = popupToggle;
 closeBtn.onclick = popupToggle;
+
+
+
+//Занятие 23
+
+if(/^[!\w\.]{2,16}@[\w]{2,6}\.[a-z]{2,3}$/i.test(emailValue)) { 
+    emailFieldUtils.addError('не валидный Email');
+    return
+}

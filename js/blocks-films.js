@@ -13,10 +13,10 @@ fetch('https://kinopoiskapiunofficial.tech/api/v2.2/films/top?type=TOP_AWAIT_FIL
 })
 .then(data => data.json())
 .then(data => {
-// for (let index = 0; index < data.films.length; index++) {
-//     const film = data.films[i];
+for (let index = 0; index < data.films.length; index++) {
+    const film = data.films[i];
 
-// }
+}
 const id = `blocks-films-desc-${film.filmId}`;
 data.films.forEach((film) =>{
      blockFilmsWrapper.innerHTML += `
