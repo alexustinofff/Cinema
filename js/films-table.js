@@ -111,6 +111,7 @@ tableBody.innerHTML = '';
 
 for (let index = 0; index < filmsData.length; index++) {
         const film = new Film(filmsData[index]);
+        console.log(film)
         if (film.isNotForAdult()) {
 tableBody.innerHTML += renderFilmTableItem(film.data);
     }
