@@ -21,8 +21,8 @@ fetch('https://kinopoiskapiunofficial.tech/api/v2.1/films/top?type=TOP_AWAIT_FIL
   const FILMS_LIMIT = 9;
   for (let index = 0; index < FILMS_LIMIT; index++) {
       const film = data.films[index];
-  }
-  data.films.forEach(function (film) {
+
+  // data.films.forEach(function (film) {
     var id = "blocks-films-desc-".concat(film.filmId);
     blockFilmsWrapper.innerHTML += "\n     <div class=\"item__wrapper\">\n     <a href=\"https://www.kinopoisk.ru/film/522941/\" target=\"_blank\">\n     <span class=\"films-wrapper__tittle\">".concat(film.nameRu, "</span>\n     <p id=\"").concat(id, "\" class=\"films-wrapper__subtittle\">\n         ...loading\n     </p>\n     <p class=\"wrapper__fones\"></p>\n     <figure>\n         <img src=\"").concat(film.posterUrlPreview, "\" alt=\"Survivor\">\n     </figure>\n     </a>\n </div>\n     ");
     fetch("https://kinopoiskapiunofficial.tech/api/v2.1/films/".concat(film.filmId), {
@@ -40,5 +40,6 @@ fetch('https://kinopoiskapiunofficial.tech/api/v2.1/films/top?type=TOP_AWAIT_FIL
         blockFilmsWrapper.removeChild(root);
       }
     });
-  });
+  // });
+}
 });

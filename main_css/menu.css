@@ -6,6 +6,7 @@ html{
 }
 body{
     font-family: "IBM Plex Sans";
+    overflow-x: hidden;
 }
 .header{
     display: grid;
@@ -43,16 +44,22 @@ margin-top: 3.62rem;
     justify-content: center;
     margin-right: 3.25rem;
 }
+.menu .row1{
+    margin-top: 3.62rem;
+}
+.menu .row2{
+    margin-top: 1.37rem;
+}
 .menu__item{
     color: white;
     text-decoration: none;
-    margin-top: 3.62rem;
+    /* margin-top: 3.62rem; */
     margin-left: 2.75rem;
 }
 .menu__item-uppercase{
     margin-left: 3.87rem;
-    margin-right: 1.43rem;
-    margin-top: 1.37rem;
+    /* margin-right: 1.43rem;
+    margin-top: 1.37rem; */
     text-transform: uppercase;
 }
 .menu__item:hover{

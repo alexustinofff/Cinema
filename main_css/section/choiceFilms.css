@@ -85,3 +85,7 @@
 .wrapper__fones:hover {
     background: none;
 }
+.item__wrapper img{
+    height: 283px;
+    width: 280px;
+}

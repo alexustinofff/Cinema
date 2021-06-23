@@ -17,8 +17,8 @@ fetch('https://kinopoiskapiunofficial.tech/api/v2.1/films/top?type=TOP_AWAIT_FIL
     const FILMS_LIMIT = 9;
 for (let index = 0; index < FILMS_LIMIT; index++) {
     const film = data.films[index];
-}
-data.films.forEach((film) =>{
+
+// data.films.forEach((film) =>{
     const id = `blocks-films-desc-${film.filmId}`;
      blockFilmsWrapper.innerHTML += `
      <div class="item__wrapper">
@@ -51,5 +51,6 @@ const root = desc.parentNode.parentNode;
 blockFilmsWrapper.removeChild(root);
 }
 })
-})
+// })
+}
 })
