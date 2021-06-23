@@ -649,7 +649,8 @@
         <div class="form__wrapper">
         <button class="close" id="prize-popup__close">
         </button>
-        <form class="popup-form">
+
+        <form id="prize-form" class="popup-form">
             <div class="wrapper__name"> 
                 <input type="text" name="name" placeholder="Введите имя" required>
             </div>
@@ -657,14 +658,14 @@
                 <input type="text" name="email" placeholder="Введите адрес">
             </div>
             <div class="gift__wrapper"> 
-                <select name="" id="" class="gift__selection">
-                    <option value="none">Выберете подарок</option>
+                <select name="prize" id="choose-prize" class="gift__selection">
+                    <option value="none" disabled selected>Выберете подарок</option>
                     <option value="FreePop">Удвоим попкорн</option>
                     <option value="tiket4Free">Четвёртый билет в подарок</option>
                 </select>
             </div>
             <label class="prize__checkbox">
-            <input type="checkbox" class="prize__agree">
+            <input type="checkbox" name="input-checkbox" class="prize__agree">
             <span class="checkbox__prize"></span>
                 Я согласен на обработку персональных данных
             </label>
