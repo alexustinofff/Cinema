@@ -26,20 +26,20 @@
     line-height: 1.27;
     font-family: "IBM Plex Sans";
 }
-.films-block__item a {
+.item__wrapper a {
     display: inline-block; 
     float: left; 
     position: relative;
     width: 17.6rem;
     height: 17.6rem;
 }
-.films-block__item a:hover span{
+.item__wrapper a:hover span{
     opacity: 1;
 }
-.films-block__item a:hover p{
+.item__wrapper a:hover p{
     opacity: 1;
 }
-.films-block__item a:hover .wrapper__fones {
+.item__wrapper a:hover .wrapper__fones {
     background: rgba(50, 51, 50, 0.4);
 }
 .films-wrapper__tittle {
