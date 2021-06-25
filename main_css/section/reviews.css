@@ -61,7 +61,8 @@
 }
 .reviews__elena,
 .reviews__elena2,
-.reviews__leo {
+.reviews__leo,
+.reviews__boris {
     width: 13.12rem;
     height: 17.75rem;
     position: absolute;
@@ -72,35 +73,13 @@
 }
 .reviews__elena img,
 .reviews__elena2 img,
-.reviews__leo img {
+.reviews__leo img,
+.reviews__boris img {
     width: 13.12rem;
     height: 9.5rem;
     position: absolute; 
     border-top-left-radius: 0.56rem;
     border-top-right-radius: 0.56rem; 
-}
-.reviews__boris {    
-    width: 15.31rem;
-    height: 20.75rem;
-    position: absolute;
-    background: #97B13C;
-    border-radius: 0.62rem;
-    margin-left: 18.87rem; 
-}
-.reviews__boris img {
-    width: 15.31rem;
-    height: 11.12rem;
-    position: absolute;
-    background: #97B13C;
-    border-top-left-radius: 0.62rem;
-    border-top-right-radius: 0.62rem;
-}
-.reviews__elena,
-.reviews__elena2 {
-    margin-left: 0;    
-}
-.reviews__leo {
-    margin-left: 40rem;
 }
 .reviews__leo strong,
 .reviews__leo q,
@@ -120,7 +99,8 @@
 }
 .reviews__leo strong,
 .reviews__elena strong,
-.reviews__elena2 strong {
+.reviews__elena2 strong,
+.reviews__boris strong {
     font-style: normal;
     font-weight: 600;
     font-size: 0.93rem;
@@ -130,7 +110,8 @@
 }
 .reviews__leo q,
 .reviews__elena q,
-.reviews__elena2 q {
+.reviews__elena2 q,
+.reviews__boris q {
     width: 10.68rem;
     height: 3.25rem;
     font-style: normal;
@@ -143,40 +124,12 @@
 }
 .reviews__leo p,
 .reviews__elena p,
-.reviews__elena2 p {
+.reviews__elena2 p,
+.reviews__boris p {
     font-style: normal;
     font-weight: 300;
     font-size: 0.5rem;
     line-height: 1.25;
     margin-top: 16.56rem;
     margin-left: 9.87rem;
-}
-.reviews__boris strong {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.12rem;
-    line-height: 1.27;
-    margin-top: 12.75rem;
-    margin-left: 1.25rem;
-}
-
-.reviews__boris q {
-    width: 13.75rem;
-    height: 2.62rem;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.62rem;
-    line-height: 1.27;
-    text-align: left;
-    margin-top: 15rem;
-    margin-left: 1.25rem;
-}
-
-.reviews__boris p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 0.56rem;
-    line-height: 1.33;
-    margin-top: 19.37rem;
-    margin-left: 11.5rem;
 }

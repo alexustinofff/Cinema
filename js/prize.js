@@ -41,8 +41,17 @@ closeBtn.onclick = popupToggle;
 function handleSubmit(event) {
 event.preventDefault();
 const data = {
-    name: nameFieldUtils.getValue(),
-    email: emailFieldUtils.getValue(),
+//     const nameValue = nameFieldUtils.getValue();
+//     const emailValue = emailFieldUtils.getValue();
+
+//     if(!nameValue) {
+//         nameFieldUtils.addError('Необходимо указать имя');
+//         return
+//     }
+//    if(!emailValue) {
+//         nameFieldUtils.addError('Укажите email');
+//         return
+//     }
 }
 
 const url = new URL('http://inno-ijl.ru/multystub/stc-21-03/feedback');
@@ -55,5 +64,6 @@ form.addEventListener('submit', handleSubmit)
 //Занятие 23
 
 if(/^[!\w\.]{2,16}@[\w]{2,6}\.[a-z]{2,3}$/i.test(emailField)) { 
-    emailFieldUtils.addError('не валидный Email');
+    emailFieldUtils.addError('Невалидный Email');
+    return;
 }
